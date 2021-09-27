@@ -11,7 +11,7 @@
   \new Staff \with { instrumentName = "Upright Bass" } {
     \relative c{ 
     \key ees \major
-    \tempo "Med. Swing Feel"
+    \tempo 4= 130
      \clef "bass"
     { ees4^"pizz." \mf f fis g | aes c bes g | aes ces bes ges | f b,\< des d | ees1\!\ff\fermata \bar "|."
     }
