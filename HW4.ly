@@ -14,8 +14,8 @@
     \key c \major
     %idea: alternating bars of 7/8 and 3/8 (felt 2,2,3,3
     \time 7/8 
-    <d, g>\tenuto \ff g'4 d8 ([e f]) | \time 3/8 c8 (d e) | \time 7/8 a,4\staccato d\staccato b8\> ([c d]) | \time 3/8 a (b c) |
-    \time 7/8 g4\staccato\!\p b\staccato c8 ([b a]) | \time 3/8 d (c b) | \time 7/8 g4\tenuto d\tenuto b'8\< ([a g]) | \time 3/8 c8 (b a)\! |
+    <d, g>\tenuto \ff^\markup \italic "Spritely" g'4 d8 ([e f]) | \time 3/8 c8 (d e) | \time 7/8 a,4\staccato d\staccato b8\> ([c d]) | \time 3/8 a (b c) |
+    \time 7/8 g4\staccato\!\p^\markup \italic "Like tiptoe-ing on a wood floor" b\staccato c8 ([b a]) | \time 3/8 d (c b) | \time 7/8 g4\tenuto d\tenuto b'8\< ([a g]) | \time 3/8 c8 (b a)\! |
     <d, g>4.\fermata\f \bar "|."
   }
 
