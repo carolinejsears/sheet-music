@@ -10,10 +10,13 @@
  \new Staff \with {instrumentName = "Cello" } 
   \relative c' {
     \clef "bass"
-    \tempo 4 = 100
-    \key c \lydian
+    \tempo 8 = 180
+    \key c \major
+    %idea: alternating bars of 7/8 and 3/8 (felt 2,2,3,3
     \time 7/8 
-    c4
+    <d, g> g'4 d8 ([e f]) | \time 3/8 c8 (d e) | \time 7/8 a,4 d b8 ([c d]) | \time 3/8 a (b c) |
+    \time 7/8 g4 b c8 ([b a]) | \time 3/8 d (c b) | \time 7/8 g4 d b'8 ([a g]) | \time 3/8 c8 (b a) |
+    <d, g>4. \bar "|."
   }
 
   \layout {}
