@@ -22,8 +22,9 @@
       \time 6/8
       \key f \major
       \tempo 4. = 40 
-      %bars1-5
-       r4. bes4.~| bes4. bes4.~| bes4. bes~| bes bes |
+      %bars1-8
+       r4. bes4.~| bes4. bes4.~| bes4. bes~| bes bes~|
+       bes4. bes4.~| bes4. bes~| bes bes~| bes bes |
       }
     
 
@@ -36,8 +37,9 @@
       \time 6/8
       \key f \major
       \tempo 4. = 40
-      %bars 1-5
-      f4.~f |f4.~f |f4.~f |f4.~f |
+      %bars 1-8
+      f2. |f |f |f4.~f4 d8 |
+      f4.~f4 d8 |f4.~f4 d8 |f4.~f4 d8 |f4.~f4 d8 |
       }
   >>
   \layout { }
