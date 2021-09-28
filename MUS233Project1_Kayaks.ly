@@ -23,7 +23,7 @@
       \key f \major
       \tempo 4. = 50 
       %bars1-8
-       r4. bes4.~\p| bes4. bes4.~| bes4. bes~| bes bes~\<|
+       r4.^\markup "very little/no vibrato" bes4.~\p| bes4. bes4.~| bes4. bes~| bes bes~\<^\markup "Gradually add vibrato"|
        bes4. bes4.~| bes4. bes~| bes4. bes4.~| bes bes~\!\mf |
        %bars 9-16
        bes4 d8 bes4.~|bes4 d8 bes4.~|bes4 d8 bes4.~ |bes4 d8 bes4.|
