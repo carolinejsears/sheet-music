@@ -17,12 +17,13 @@
 % violin code
   \new StaffGroup <<
     \new Staff \with { instrumentName = "Violin" }
-      \relative c' {
-      \time 4/4
+      \relative c'' {
+      %A section
+      \time 6/8
       \key f \major
-      \tempo 4 = 80
-      %bars 1-5
-       c4 g a b |
+      \tempo 4. = 40 
+      %bars1-5
+       r4. bes4.~| bes4. bes4.~| bes4. bes~| bes bes |
       }
     
 
@@ -30,12 +31,13 @@
 %cello code
     \new Staff \with { instrumentName = "Cello" }
       \relative c' { 
-      \time 4/4
-      \key f \major
       \clef "bass"
-      \tempo 4 = 80
+      %A section
+      \time 6/8
+      \key f \major
+      \tempo 4. = 40
       %bars 1-5
-      c4 c c c |
+      f4.~f |f4.~f |f4.~f |f4.~f |
       }
   >>
   \layout { }
