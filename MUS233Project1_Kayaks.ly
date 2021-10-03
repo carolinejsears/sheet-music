@@ -12,7 +12,7 @@
       % The following fields are centered at the bottom
     tagline = ##f
 
-}
+} %make this composition in rondo form, make it feel like a journey
 \score {
 % violin code
   \new StaffGroup <<
