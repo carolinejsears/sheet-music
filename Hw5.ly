@@ -1,8 +1,9 @@
 \header {
   title = "Duo Mix & Match Part 2"
-  subtitle = "with violin line by Julia Kardos"
+  subtitle = "with violin part by Julia Kardos"
   composer = "Caroline Sears"
-
+    arranger = "10/6/21"
+  tagline = ##f
 }
 
 \score {
