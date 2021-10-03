@@ -27,8 +27,20 @@
        bes4. bes4.~| bes4. bes~| bes4. bes4.~| bes bes~\!\mf |
        %bars 9-16
        bes4 d8 bes4.~|bes4 d8 bes4.~|bes4 d8 bes4.~ |bes4 d8 bes4.|
-       c8 (bes a) g (bes a) | f4.~f4 c'8| d8. f16 ees d d8. c16 bes8 | c8. bes16 a8 <bes f>4. |
+       c8 (bes a) g (bes a) | f4.~f4 c'8| d8. f16 ees d d8. c16 bes8 | c8. bes16 a8 <bes f>4.\fermata |
+      %B Section
+      \tempo 4 = 140
+      \time 5/4
+      %bars 17-20
+      \tuplet 3/2 {f8\f (ees d)} \tuplet 3/2 {f (ees d)}  \tuplet 3/2 {f (ees d)} r2 |
+      \tuplet 3/2 {f8 (ees d)} \tuplet 3/2 {f (ees d)}  \tuplet 3/2 {f (ees d)} r2 |
+      \tuplet 3/2 {f'8 (ees d)} \tuplet 3/2 {f (ees d)}  \tuplet 3/2 {f (ees d)} r2 |
+      \tuplet 3/2 {f8 (ees d)} \tuplet 3/2 {f (ees d)}  \tuplet 3/2 {f (ees d)} r2 |
+      % bars 21- 24
+      \override Glissando.style = #'zigzag
+      \tuplet 3/2 {f,8 a bes} d4\glissando \tuplet 3/2 {f,8 a bes} d4\glissando f,4\trill |
 
+                
       }
     
 
@@ -46,8 +58,14 @@
       f2.|f4.~f4 d8 |f2.|f4.~f4 d8\!\mf |
       %bars 9-16
       f4.~f4 d8 |f4.~f4 d8 |f4.~f4 d8 |f4.~f4 d8 |
-      f4.~f4 d8 | c8. d16 ees16 f d4 c8 |f,4.~f4 d8 | f4 c8 bes4. |
+      f4.~f4 d8 | c8. d16 ees16 f d4 c8 |f,4.~f4 d8 | f4 c8 bes4.\fermata|
       %B section
+      \tempo 4 = 140
+      \time 5/4
+      %bars 17-20
+      r2. f4\tenuto\f f4\tenuto |r2. f4\tenuto f4\tenuto |
+      r2. f4\tenuto f4\tenuto |r2. f4\tenuto f4\tenuto |
+      r2 r c'4 |
       }
   >>
   \layout { }
