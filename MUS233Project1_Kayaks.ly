@@ -1,7 +1,7 @@
 \header {
       % The following fields are centered
     title = "Kayaks"
-    subtitle = "Draft 1"
+    subtitle = "Draft 1 - WiP"
       % The following fields are evenly spread on one line
       % the field "instrument" also appears on following pages
     instrument =  "For Violin and Cello Duo"
@@ -12,7 +12,7 @@
       % The following fields are centered at the bottom
     tagline = ##f
 
-} %make this composition in rondo form, make it feel like a journey
+} %make this composition feel like a journey
 \score {
 % violin code
   \new StaffGroup <<
@@ -64,7 +64,8 @@
       %bars 49-52
       c4\staccato c\staccato r |f4\staccato f\staccato r |c4\staccato c\staccato r |f4\staccato f\staccato r |
       %bars 57-60
-      g8 a bes c d4\staccato |g,8 a bes c d4\staccato |g,8 a bes c d4\staccato |
+      g8 a bes c d4\staccato |g,8 a bes c d4\staccato |g,8 a bes c d4\staccato | e4\staccato r8 d c4 |
+      
       }
     
 
@@ -113,7 +114,9 @@
       %bars 53-56
       c4\staccato r8 d8 ees f|c4\staccato r8 d ees4 | c4\staccato r8 d8 ees f|c4\staccato r8 d c4 |   
       %bars 57-60
-      f8 g a bes d4\staccato | a8 bes c d e4\staccato |b8 c d e f4\staccato |
+      f8 g a bes c4\staccato | a8 bes c d e4\staccato |b8 c d e f4\staccato | g4\staccato r8 f e4 |
+
+
       }
   >>
   \layout { }
