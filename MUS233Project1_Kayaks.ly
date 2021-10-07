@@ -1,16 +1,14 @@
 \header {
-      % The following fields are centered
     title = "Kayaks"
     subtitle = "Draft 1 - WiP"
-      % The following fields are evenly spread on one line
       % the field "instrument" also appears on following pages
     instrument =  "For Violin and Cello Duo"
     composer = "Caroline Sears"
-      % The following fields are placed at opposite ends of the same line
-
     arranger = "October 18, 2021"
+
       % The following fields are centered at the bottom
     tagline = ##f
+
 
 } %make this composition feel like a journey
 \score {
@@ -23,13 +21,13 @@
       \key bes \major
       \tempo 4. = 50 
       %bars1-8
-       r4.^\markup "very little/no vibrato" bes4.\downbow~\p| bes4. bes4.~| bes4. bes~| bes bes~\<^\markup "Gradually add vibrato"|
+       r4.^\markup "no vibrato" bes4.\downbow~\p| bes4. bes4.~| bes4. bes~| bes bes~\<^\markup "Gradually add vibrato"|
        bes4. bes4.~| bes4. bes~| bes4. bes4.~| bes bes~\!\mf |
        %bars 9-16
        bes4 d8\upbow bes4.\downbow~|bes4 d8 bes4.~|bes4 d8 bes4.~ |bes4 d8 bes4.|
        c8\downbow (bes a) g (bes a) | f4.~f4 bes8| c8. (bes16 a g) bes8. (a16 g8) | f4.~f4 bes8|
        %bars 17-20
-       d8 (c b) f'8.\accent ees16 d8 | g4. a4. | bes8. (a16 g8) bes4 (ees8) | d2.\fermata
+       d8 (c b) f'8.\accent ees16 d8 | g4. a4. | bes8. (a16 g8) bes4 (f8) | d'2.\fermata
       %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
       %B Section
       \tempo 4 = 150
@@ -65,7 +63,10 @@
       c4\staccato c\staccato r |f4\staccato f\staccato r |c4\staccato c\staccato r |f4\staccato f\staccato r |
       %bars 57-60
       g8 a bes c d4\staccato |g,8 a bes c d4\staccato |g,8 a bes c d4\staccato | e4\staccato r8 d c4 |
-      
+      %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+      %D Section
+
+
       }
     
 
@@ -91,11 +92,11 @@
       \tempo 4 = 150
       \time 5/4
       %bars 21-24
-      r2. f,4\tenuto\downbow\f f4\downbow\tenuto |r2. f4\tenuto f4\tenuto |
-      r2. f4\tenuto f4\tenuto |r2. f4\tenuto f4\tenuto |
+      r2. bes,4\tenuto\downbow\f bes4\downbow\tenuto |r2. bes4\tenuto bes4\tenuto |
+      r2. bes4\tenuto bes4\tenuto |r2. bes4\tenuto bes4\tenuto |
       %bars 25-28
       \numericTimeSignature \time 4/4
-      r1|c'1|r1|c1
+      r1|c1|r1|c1
       %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
       %C Section
       \time 3/4
@@ -115,7 +116,8 @@
       c4\staccato r8 d8 ees f|c4\staccato r8 d ees4 | c4\staccato r8 d8 ees f|c4\staccato r8 d c4 |   
       %bars 57-60
       f8 g a bes c4\staccato | a8 bes c d e4\staccato |b8 c d e f4\staccato | g4\staccato r8 f e4 |
-
+      %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+      %D Section (tense)
 
       }
   >>
