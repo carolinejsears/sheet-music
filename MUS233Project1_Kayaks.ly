@@ -62,9 +62,21 @@
       %bars 49-52
       c4\staccato c\staccato r |f4\staccato f\staccato r |c4\staccato c\staccato r |f4\staccato f\staccato r |
       %bars 57-60
-      g8 a bes c d4\staccato |g,8 a bes c d4\staccato |g,8 a bes c d4\staccato | e4\staccato r8 d c4 |
+      e8 f g a b4\staccato |f8 g a b c4\staccato |g8 a b c d4\staccato | e4\staccato r8 d c4 |
       %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
       %D Section
+      \time 12/8
+      \key a \minor
+      \tempo 4. = 80
+      %bars 61- 64
+      a8^"arco, sul tasto"\downbow\f [(f)] a\downbow [(b a f)] a2.\upbow |a8 [(f)] a [(b a f)] a2. | 
+      a8 [(f)] a [(b a f)] a2. |a8 [(f)] a [(b a f)] a2. |
+      %bars 65-68
+       c1.\glissando^\markup "Play slide with tremolo"\> | c,\!\mp | r2. a'8\staccato a\staccato a\staccato r4. |
+      r2. c8\staccato\mf c\staccato c\staccato r4. |
+      %bars 69-72
+      d8 (c b) a (c b) g2.|
+
 
 
       }
@@ -115,9 +127,20 @@
       %bars 53-56
       c4\staccato r8 d8 ees f|c4\staccato r8 d ees4 | c4\staccato r8 d8 ees f|c4\staccato r8 d c4 |   
       %bars 57-60
-      f8 g a bes c4\staccato | a8 bes c d e4\staccato |b8 c d e f4\staccato | g4\staccato r8 f e4 |
+       c4\staccato r8 d8 e f| d4\staccato r8 e f g|  e4\staccato r8 f8 g a | b4\tenuto r4 a
       %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
       %D Section (tense)
+      \time 12/8
+      \key a \minor
+      \tempo 4. = 80
+      %bars 61-64
+      e2.^"arco, sul tasto"\f e2. | f2. f2. | gis2. gis2. | a a |
+      %bars 65-68
+      \override Glissando.style = #'zigzag
+      c1.\glissando^\markup "Play slide with tremolo"\> | c,\!\mp | a'8\staccato a8\staccato a8\staccato r4. r2. |
+       c8\staccato\mf c8\staccato c8\staccato r4. r2. |
+       %bars 69-72
+       e2. e8 f16 g f8 e4 d8
 
       }
   >>
