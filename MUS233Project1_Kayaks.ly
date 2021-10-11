@@ -72,10 +72,10 @@
       a8^"arco, sul tasto"\downbow\f [(f)] a\downbow [(b a f)] a2.\upbow |a8 [(f)] a [(b a f)] a2. | 
       a8 [(f)] a [(b a f)] a2. |a8 [(f)] a [(b a f)] a2. |
       %bars 65-68
-       c1.\glissando^\markup "Play slide with tremolo"\> | c,\!\mp | r2. a'8\staccato a\staccato a\staccato r4. |
+       c1.\glissando^\markup "Play slide with tremolo"\> | c,\!\mp | r2. a'8\staccato^\markup "End sul tasto" a\staccato a\staccato r4. |
       r2. c8\staccato\mf c\staccato c\staccato r4. |
       %bars 69-72
-      d8 (c b) a (c b) g2.|
+      d8 (c b) a (c b) g2.| d'8. c16 b a c8. b16 a8 g2. | e8 d c g'8. f16 e8 e4. f |g
 
 
 
@@ -137,10 +137,10 @@
       e2.^"arco, sul tasto"\f e2. | f2. f2. | gis2. gis2. | a a |
       %bars 65-68
       \override Glissando.style = #'zigzag
-      c1.\glissando^\markup "Play slide with tremolo"\> | c,\!\mp | a'8\staccato a8\staccato a8\staccato r4. r2. |
+      c1.\glissando^\markup "Play slide with tremolo"\> | c,\!\mp | a'8\staccato^\markup "End sul tasto" a8\staccato a8\staccato r4. r2. |
        c8\staccato\mf c8\staccato c8\staccato r4. r2. |
        %bars 69-72
-       e2. e8 f16 g f8 e4 d8
+       g2. d'8. e16 f g e4 d8 | c2. d8. e16 f a f4 d8 | g8 f e e f g b4. d | c
 
       }
   >>
