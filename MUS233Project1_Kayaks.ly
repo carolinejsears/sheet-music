@@ -75,7 +75,7 @@
        c1.\glissando^\markup "Play slide with tremolo"\> | c,\!\mp | r2. a'8\staccato^\markup "End sul tasto" a\staccato a\staccato r4. |
       r2. c8\staccato\mf c\staccato c\staccato r4. |
       %bars 69-72
-      d8 (c b) a (c b) g2.| d'8. c16 b a c8. b16 a8 g2. | e8 d c g'8. f16 e8 e4. f |g8. f16 e8 d4 g8 c2. |
+      d8 (c b) a (c b) g2.| d'8. c16 b a c8. b16 a8 g2. | e8 d c g'8. f16 e8 e4. f |g8. f16 e8 d4 g8 c,2. |
 
 
 
