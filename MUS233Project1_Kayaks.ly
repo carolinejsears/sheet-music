@@ -75,10 +75,18 @@
        c1.\glissando^\markup "Play slide with tremolo"\> | c,\!\mp | r2. a'8\staccato^\markup "End sul tasto" a\staccato a\staccato r4. |
       r2. c8\staccato\mf c\staccato c\staccato r4. |
       %bars 69-72
-      d8 (c b) a (c b) g2.| d'8. c16 b a c8. b16 a8 g2. | e8 d c g'8. f16 e8 e4. f |g8. f16 e8 d4 g8 c,2. |
-
-
-
+      d8 (c b) a (c b) g2.| d'8.\downbow c16 (b a) c8. b16 (a8) g2. | e8\downbow (d c) g'8. f16 (e8) e4. f |g8.\downbow f16 (e8) d4 g8 c,2.\fermata |
+     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+      %B' Section 
+      %bars 73-76
+       \key f \major
+       \time 5/4
+       \tempo 4 =150
+      r2. f4\tenuto\downbow\f f4\downbow\tenuto |r2. f4\tenuto f4\tenuto |
+      r2. g4\tenuto g4\tenuto |r2. a4\tenuto a4\tenuto |
+      %bars 77-80
+      \time 4/4
+      d1\startTrillSpan\mp | d1
       }
     
 
@@ -140,8 +148,20 @@
       c1.\glissando^\markup "Play slide with tremolo"\> | c,\!\mp | a'8\staccato^\markup "End sul tasto" a8\staccato a8\staccato r4. r2. |
        c8\staccato\mf c8\staccato c8\staccato r4. r2. |
        %bars 69-72
-       g2. d'8. e16 f g e4 d8 | c2. d8. e16 f a f4 d8 | g8 f e e f g b4. d | c8. b16 a8 f4 b8 c2. |
-
+       g2. d'8.\downbow e16 (f g) e4 d8 | c2. d8.\downbow e16 (f a) f4 d8 | g8 (f e) e (f g) b4. d | c8. b16 (a8) f4 b8 c2.\fermata |
+       %%%%%%%%%%%%%%%%%%%%
+       %B' Section 
+       %bars 73-76
+       \key f \major
+       \time 5/4
+       \tempo 4 =150
+       \tuplet 3/2 {c,8\downbow\f (bes a)} \tuplet 3/2 {c\downbow (bes a)}  \tuplet 3/2 {c\downbow (bes a)} r2 |
+       \tuplet 3/2 {c8\downbow (bes a)} \tuplet 3/2 {c\downbow (bes a)}  \tuplet 3/2 {c\downbow (bes a)} r2 |
+       \tuplet 3/2 {c,8\downbow (e f)} \tuplet 3/2 {c\downbow (e f)}  \tuplet 3/2 {c\downbow (e f)} r2 |
+       \tuplet 3/2 {c8\downbow (e f)} \tuplet 3/2 {c\downbow (e f)}  \tuplet 3/2 {c\downbow (e f)} r2 |
+      %bars 77-80
+      \time 4/4
+       f4.\ff g8 g2 | f4. g8 f2 |
       }
   >>
   \layout { }
