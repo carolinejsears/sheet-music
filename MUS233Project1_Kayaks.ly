@@ -89,11 +89,16 @@
       d1\startTrillSpan\mp | d1 | c1 | c1 |
       %bars 81-84
       \time 5/4
-      \tuplet 3/2 {bes8(c d)} \tuplet 3/2 {bes (c d)}  \tuplet 3/2 {bes (c d)} r2 |
+      \tuplet 3/2 {bes8\stopTrillSpan\downbow\f(c d)} \tuplet 3/2 {bes\downbow (c d)}  \tuplet 3/2 {bes\downbow (c d)} r2 |
       \tuplet 3/2 {bes8(c d)} \tuplet 3/2 {bes (c d)}  \tuplet 3/2 {bes (c d)} r2 |
       \tuplet 3/2 {bes8(a g)} \tuplet 3/2 {bes (a g)}  \tuplet 3/2 {bes (a g)} r2 |
       \tuplet 3/2 {bes8(a g)} \tuplet 3/2 {bes (a g)}  \tuplet 3/2 {bes (a g)} r2 |
-
+      %bars 85-88
+      \time 4/4
+      \tuplet 3/2 {g8\upbow (c d)} e4\downbow\glissando \tuplet 3/2 {g,8\upbow (c d)} e4\downbow\glissando 
+      f,1\downbow\startTrillSpan|
+      \tuplet 3/2 {g8\upbow (c d)} e4\downbow\glissando \tuplet 3/2 {g,8\upbow (c d)} e4\downbow\glissando 
+      f,1\downbow\startTrillSpan|
 
       }
     
@@ -169,10 +174,13 @@
        \tuplet 3/2 {c8 (d e)} \tuplet 3/2 {c (d e)}  \tuplet 3/2 {c(d e)} r2 |
       %bars 77-80
       \time 4/4
-       f4.\ff g8 g2 | f4. g8 f2 | f4. g8 f2 | f4. g8 f2 |
+       f4.\downbow\ff g8\upbow g2\downbow | f4. g8 f2 | f4. g8 g2 | f4. g8 f2 |
        %bars 81-84
       \time 5/4
-      r2. f4. g8 | r2. f4. g8 |r2. f4. g8 |r2. f4. f8 |
+      r2.\f f4. g8 | r2. f4. f8 |r2. f4. g8 |r2. f4. f8 |
+      %bars 85-88
+      \time 4/4
+      r1|c1|r1|c1
       }
   >>
   \layout { }
