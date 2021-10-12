@@ -218,7 +218,7 @@
       %bars 113-116
       f4\staccato r8 g8 a bes|f4\staccato r8 d c4 | f4\staccato r8 g8 a bes|f4\staccato r8 d c4 |  
       %bars 117-120
-       c4\staccato^"arco" r8 d8 e f| d4\staccato r8 e f g|  e4\staccato r8 f8 g a | b4\tenuto r4 a
+       c4\staccato^"arco"\mp\< r8 d8 (e f)| d4\staccato r8 e (f g)|  e4\staccato r8 f8 (g a) | b4\tenuto r4 a\!\ff
       }
   >>
   \layout { }
