@@ -110,12 +110,14 @@
       f\staccato r8 e d4\staccato | c\staccato r8 e d4\staccato |c4\staccato c\staccato r |c4\staccato c\staccato r |
       %bars 101-104
       f\staccato r8 e d4\staccato | c\staccato r8 e d4\staccato |c4\staccato c\staccato r |c4\staccato c\staccato r |
+      %bars 105-108
+      f'\staccato r8 e d4\staccato | c\staccato r8 e d4\staccato |c4\staccato c\staccato r |c4\staccato c\staccato r |
       %bars 109-112
-      f4\staccato f\staccato r |c4\staccato c\staccato r |f4\staccato f\staccato r |c4\staccato c\staccato r |
+      f,4\staccato f\staccato r |c4\staccato c\staccato r |f4\staccato f\staccato r |c4\staccato c\staccato r |
       %bars 113-116
       f4\staccato f\staccato r |c4\staccato c\staccato r |f4\staccato f\staccato r |c4\staccato c\staccato r |
       %bars 117-120
-      e8 f g a b4\staccato |f8 g a b c4\staccato |g8 a b c d4\staccato | e4\staccato r8 d c4 |
+      e8^"arco" f g a b4\staccato |f8 g a b c4\staccato |g8 a b c d4\staccato | e4\staccato r8 d c4 |
 
       }
     
@@ -209,12 +211,14 @@
       c4\staccato r8 d c4 |c4\staccato r8 d c4 |c4\staccato r8 d c4 |c4\staccato r8 d c4 |
       %bars 101-104
       c4\staccato r8 d c4 |c4\staccato r8 d c4 |c4\staccato r8 d c4 |c4\staccato r8 d c4 |
+      %bars 105-108
+      c4\staccato r8 d c4 |c4\staccato r8 d c4 |c4\staccato r8 d c4 |c4\staccato r8 d c4 |
       %bars 109-112
       f4\staccato r8 g8 a bes|f4\staccato r8 d c4 | f4\staccato r8 g8 a bes|f4\staccato r8 d c4 |
       %bars 113-116
       f4\staccato r8 g8 a bes|f4\staccato r8 d c4 | f4\staccato r8 g8 a bes|f4\staccato r8 d c4 |  
       %bars 117-120
-       c4\staccato r8 d8 e f| d4\staccato r8 e f g|  e4\staccato r8 f8 g a | b4\tenuto r4 a |
+       c4\staccato^"arco" r8 d8 e f| d4\staccato r8 e f g|  e4\staccato r8 f8 g a | b4\tenuto r4 a
       }
   >>
   \layout { }
