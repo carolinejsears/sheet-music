@@ -133,11 +133,16 @@
       %bars 129-132
       r1. |r |r |r |
       %bars 132-135
-      r1 a8^"end sul tasto" [fis] a [(cis |
+      r1 a8 [fis] a [(cis |
       a fis)] a2. a8 [fis] a [(cis |
        a fis)] a2. r4 b8 cis |
-       d2. 
+       \key d \major
+       \time 6/8
+       d4. a' |
        %bars 136-139
+       e8 (d cis) b (d cis) |a4.~a4 c8 | e8. (d16 cis b) d8. (cis16 b8) | cis4.~cis4 d8 |
+       %bars 140-143
+       fis8 (e d) a'8.\accent g16 fis8 | b4. cis4. | d8. (cis16 b8) d4 (a8) | fis'2.\fermata
       }
     
 
@@ -256,7 +261,13 @@
       a8 [fis] a [(cis a fis)] a2.\!\ff | 
       a8 [fis] a [(cis a fis)] a2. | 
       a8 [fis] a [(cis a fis)] a2. | 
-      <d a>2.
+      \key d \major
+      \time 6/8
+      <d a>4. fis |
+      %bars 136-139
+      d4.~d4 fis8 | e8. (fis16 g16 a) fis4 (e8) |a,4.~a4 fis'8 |e8. (fis16 g16 b) a4 (e8) |
+      %bars 140-143
+      d8 (cis b) d4. | dis4. e4. | fis8. (e16 d8) b4 (cis8) |d2.\fermata|
       }
   >>
   \layout { }
