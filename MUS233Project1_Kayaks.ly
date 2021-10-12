@@ -99,6 +99,23 @@
       f,1\downbow\startTrillSpan|
       \tuplet 3/2 {g8\stopTrillSpan\upbow (c d)} e4\downbow\glissando \tuplet 3/2 {g,8\upbow (c d)} e4\downbow\glissando 
       f,1\downbow\startTrillSpan|
+      %%%%%%%%%%%%%%%%%%%%%%%%
+      %C' Section
+      \time 3/4
+      %Bars 89-92
+      r2.\stopTrillSpan | r | c4^"pizz."\staccato\mf c\staccato r |c4\staccato c\staccato r |
+      %bars 93-96
+      c'\staccato c\staccato r| c\staccato c\staccato r| c,4\staccato c\staccato r |c4\staccato c\staccato r |
+      %bars 97-100
+      f\staccato r8 e d4\staccato | c\staccato r8 e d4\staccato |c4\staccato c\staccato r |c4\staccato c\staccato r |
+      %bars 101-104
+      f\staccato r8 e d4\staccato | c\staccato r8 e d4\staccato |c4\staccato c\staccato r |c4\staccato c\staccato r |
+      %bars 109-112
+      f4\staccato f\staccato r |c4\staccato c\staccato r |f4\staccato f\staccato r |c4\staccato c\staccato r |
+      %bars 113-116
+      f4\staccato f\staccato r |c4\staccato c\staccato r |f4\staccato f\staccato r |c4\staccato c\staccato r |
+      %bars 117-120
+      e8 f g a b4\staccato |f8 g a b c4\staccato |g8 a b c d4\staccato | e4\staccato r8 d c4 |
 
       }
     
@@ -181,6 +198,23 @@
       %bars 85-88
       \time 4/4
       r1|c1|r1|c1
+      %%%%%%%%%%%%%%%%%%%%%%%%
+      %C' Section
+      \time 3/4
+      %Bars 89-92
+      c4\staccato^"pizz."\mf r8 d c4 |c4\staccato r8 d c4 |c4\staccato r8 d c4 |c4\staccato r8 d c4 |
+      %bars 93-96
+      c4\staccato r8 d c4 |c4\staccato r8 d c4 |c4\staccato r8 d c4 |c4\staccato r8 d c4 |
+      %bars 97-100
+      c4\staccato r8 d c4 |c4\staccato r8 d c4 |c4\staccato r8 d c4 |c4\staccato r8 d c4 |
+      %bars 101-104
+      c4\staccato r8 d c4 |c4\staccato r8 d c4 |c4\staccato r8 d c4 |c4\staccato r8 d c4 |
+      %bars 109-112
+      f4\staccato r8 g8 a bes|f4\staccato r8 d c4 | f4\staccato r8 g8 a bes|f4\staccato r8 d c4 |
+      %bars 113-116
+      f4\staccato r8 g8 a bes|f4\staccato r8 d c4 | f4\staccato r8 g8 a bes|f4\staccato r8 d c4 |  
+      %bars 117-120
+       c4\staccato r8 d8 e f| d4\staccato r8 e f g|  e4\staccato r8 f8 g a | b4\tenuto r4 a |
       }
   >>
   \layout { }
