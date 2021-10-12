@@ -133,7 +133,7 @@
       %bars 129-132
       r1. |r |r |r |
       %bars 132-135
-      r1 a8 [fis] a [(cis |
+      r1 a8^"end sul tasto" [fis] a [(cis |
       a fis)] a2. a8 [fis] a [(cis |
        a fis)] a2. r4 b8 cis |
        d2. 
