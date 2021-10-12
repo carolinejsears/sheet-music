@@ -118,7 +118,26 @@
       f4\staccato f\staccato r |c4\staccato c\staccato r |f4\staccato f\staccato r |c4\staccato c\staccato r |
       %bars 117-120
       e8^"arco"\p\< (f g a) b4\staccato |f8 (g a b) c4\staccato |g8 (a b c) d4\staccato | e4\staccato r8 d c4\!\ff |
-
+      %%%%%%%%%%%%%%%%%%%%%%%%%%
+      %D' Section (climax)
+      \time 12/8
+      \key a \minor
+      \tempo 4. = 80
+      %bars 121-124
+      a8^"arco, sul tasto"\downbow [(f)] a\downbow [(b a f)] a2.\upbow |
+      a8\staccato [f\staccato] a [(b a f)] a2. | 
+      a8\staccato [f\staccato] r [b (a f)] a2. |
+      a8\staccato [f\staccato] r4  a8 (f) a2. |
+      %bars 125-128
+       c1.\glissando^\markup "Play slide with tremolo"\> | c,\!\mp | 
+      %bars 129-132
+      r1. |r |r |r |
+      %bars 132-135
+      r1 a8 [fis] a [(cis |
+      a fis)] a2. a8 [fis] a [(cis |
+       a fis)] a2. r4 b8 cis |
+       d2. 
+       %bars 136-139
       }
     
 
@@ -219,6 +238,25 @@
       f4\staccato r8 g8 a bes|f4\staccato r8 d c4 | f4\staccato r8 g8 a bes|f4\staccato r8 d c4 |  
       %bars 117-120
        c4\staccato^"arco"\p\< r8 d8 (e f)| d4\staccato r8 e (f g)|  e4\staccato r8 f8 (g a) | b4\tenuto r4 a\!\ff
+       %%%%%%%%%%%%%%%%%%%%%%%%
+      %D' Section (climax)
+      \time 12/8
+      \key a \minor
+      \tempo 4. = 80
+      %bars 121-124
+      d8^"arco, sul tasto" (c) d4. c8 d2. | f2. f2. |d8(c) d4. c8 d2. | a a |
+      %bars 125-128
+      c1.\glissando^\markup "Play slide with tremolo"\> | c,\!\mp | 
+      %bars 129-131
+      e8^"end sul tasto"\downbow\pp [(c)] e\downbow [(fis e c)] e2.\upbow |
+      e8\< [(c)] e[(fis e c)] e2. |
+      a8 [f] a [(b a f)] a2. | 
+      a8 [fis] a [(b a fis)] a2. | 
+      %bars 132-135
+      a8 [fis] a [(cis a fis)] a2.\!\ff | 
+      a8 [fis] a [(cis a fis)] a2. | 
+      a8 [fis] a [(cis a fis)] a2. | 
+      <d a>2.
       }
   >>
   \layout { }
