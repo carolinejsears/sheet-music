@@ -117,7 +117,7 @@
       %bars 113-116
       f4\staccato f\staccato r |c4\staccato c\staccato r |f4\staccato f\staccato r |c4\staccato c\staccato r |
       %bars 117-120
-      e8^"arco" f g a b4\staccato |f8 g a b c4\staccato |g8 a b c d4\staccato | e4\staccato r8 d c4 |
+      e8^"arco"\p\< (f g a) b4\staccato |f8 (g a b) c4\staccato |g8 (a b c) d4\staccato | e4\staccato r8 d c4\!\ff |
 
       }
     
@@ -167,7 +167,7 @@
       %bars 53-56
       c4\staccato r8 d8 ees f|c4\staccato r8 d ees4 | c4\staccato r8 d8 ees f|c4\staccato r8 d c4 |   
       %bars 57-60
-       c4\staccato r8 d8 e f| d4\staccato r8 e f g|  e4\staccato r8 f8 g a | b4\tenuto r4 a
+       c4\staccato r8 d8 e f| d4\staccato r8 e f g|  e4\staccato r8 f8 g a | b4\tenuto r4 a |
       %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
       %D Section (tense)
       \time 12/8
@@ -218,7 +218,7 @@
       %bars 113-116
       f4\staccato r8 g8 a bes|f4\staccato r8 d c4 | f4\staccato r8 g8 a bes|f4\staccato r8 d c4 |  
       %bars 117-120
-       c4\staccato^"arco"\mp\< r8 d8 (e f)| d4\staccato r8 e (f g)|  e4\staccato r8 f8 (g a) | b4\tenuto r4 a\!\ff
+       c4\staccato^"arco"\p\< r8 d8 (e f)| d4\staccato r8 e (f g)|  e4\staccato r8 f8 (g a) | b4\tenuto r4 a\!\ff
       }
   >>
   \layout { }
