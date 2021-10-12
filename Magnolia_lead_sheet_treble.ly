@@ -1,5 +1,5 @@
 \header {
-  title = "Magnolia Crown"
+  title = "Magnolia Branch"
   composer = "Caroline Sears"
   tagline = ##f
 
@@ -42,5 +42,5 @@
     \new Staff \melody
   >>
   \layout{}
-  \midi { \tempo 4 = 80}
+  \midi { \tempo 4 = 120}
 }
