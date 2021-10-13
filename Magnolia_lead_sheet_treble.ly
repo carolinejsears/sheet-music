@@ -10,16 +10,17 @@
   c:m7 f:7 d2:m7 des:7 c:m7 f:7 bes1:maj7 c2:m7 f:7}
 
 
-  melody =  \relative c'' {
+  melody =  \relative c {
+  \clef "bass"
   \numericTimeSignature \time 4/4
   \key bes \major
   \tempo "Swing Ballad"
   \repeat volta 2 {
     d1 | r8 d ees f g f d4 | ees1 | r8 ees f g aes f d4|
     \break
-    g2 f2 | c4 d ees g | f2. r4 |}
+    g2 f2 | c4. d8 ees4. g8 | f1~|}
   \alternative {
-        {r1}
+        {f1}
         {r1 } 
      } 
      \break
@@ -29,7 +30,7 @@
     \break
      d1 | r8 d ees f g f d4 | ees1 |r8 ees f g aes f d4 |
      \break
-      g2 f | c4 d ees e | f g gis a | bes1 \bar "|."
+      bes'2 aes | c,4. d8 ees4 f4 | f g gis a | bes1 \bar "|."
 
   }
 
