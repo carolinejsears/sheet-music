@@ -124,7 +124,7 @@
       %D' Section (climax)
       \time 6/4
       \key a \minor
-      \tempo 4. = 100
+      \tempo 4 = 100
       %bars 121-124
       a8^"arco, sul tasto"\downbow [(f)] a\downbow [(b a f)] a2.\upbow |
       a8\staccato [f\staccato] a [(b a f)] a2. | 
@@ -261,7 +261,7 @@
       %D' Section (climax)
       \time 6/4
       \key a \minor
-      \tempo 4. = 100
+      \tempo 4 = 100
       %bars 121-124
       d8^"arco, sul tasto" (c) d4. c8 d2. | f2. f2. |d8(c) d4. c8 d2. | a a |
       %bars 125-128
