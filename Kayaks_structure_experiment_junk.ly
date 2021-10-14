@@ -1,6 +1,14 @@
 \header {
-  title = "Untitled"
-  composer = "Composer"
+    title = "Kayaks"
+    subtitle = "Draft 1 - WiP"
+      % the field "instrument" also appears on following pages
+    instrument =  "For Violin and Cello Duo"
+    composer = "Caroline Sears"
+    arranger = "October 18, 2021"
+
+      % The following fields are centered at the bottom
+    tagline = ##f
+
 }
 
 violin = \relative c'' {
