@@ -286,11 +286,11 @@
       %%%%%%%%%%%%%%%%%
       %Outro
       %bars 144-147
-      a4.\mf~a4 fis8 | a4.~a4 fis8 |a4.~a4 fis8 |a4.~a4 fis8 |
+      a4.\downbow\mf~a4 fis8 | a4.~a4 fis8 |a4.~a4 fis8 |a4.~a4 fis8 |
       %bars 148-151
       |a4.\>~a4 fis8| a4.~a4 fis8| a4.~a4 fis8| a4.~a4 fis8 |
       %bars 152-155
-      a2.\downbow |a |a\!\pp |<d a'>\mf\downbow\fermata \bar "|."
+      a2. |a |a\!\pp |<d a'>\mf\downbow\fermata \bar "|."
       }
   >>
   \layout { }
