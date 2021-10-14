@@ -135,7 +135,7 @@
       %bars 129-132
       r1. |r |r |r |
       %bars 132-135
-      r1 a8 [fis] a [(cis |
+      r1 a8\mf [fis] a [(cis |
       a fis)] a2. a8 [fis] a [(cis |
        a fis)] a2. r4 b8 cis |
        \key d \major
@@ -145,7 +145,7 @@
        %bars 136-139
        e8 (d cis) b (d cis) |a4.~a4 cis8 | e8. (d16 cis b) d8. (cis16 b8) | cis4.~cis4 d8 |
        %bars 140-143
-       fis8 (e d) a'8.\accent g16 fis8 | b4. cis4. | d8. (cis16 b8) d4 (a8) | fis'2.\fermata
+       fis8\< (e d) a'8.\accent g16 fis8 | b4. cis4. | d8. (cis16 b8) d4 (a8) | fis'2.\!\ff\fermata
       %%%%%%%%%%%%%%%%%
       %Outro
       %bars 144-147
@@ -272,7 +272,7 @@
       a8 [f] a [(b a f)] a2. | 
       a8 [fis] a [(b a fis)] a2. | 
       %bars 132-135
-      a8 [fis] a [(cis a fis)] a2.\!\ff | 
+      a8 [fis] a [(cis a fis)] a2.\!\mf | 
       a8 [fis] a [(cis a fis)] a2. | 
       a8 [fis] a [(cis a fis)] a2. | 
       \key d \major
@@ -282,7 +282,7 @@
       %bars 136-139
       d4.~d4 fis8 | e8. (fis16 g16 a) fis4 (e8) |a,4.~a4 fis'8 |e8. (fis16 g16 b) a4 (e8) |
       %bars 140-143
-      d8 (cis b) d4. | dis4. e4. | fis8. (e16 d8) b4 (cis8) |d2.\fermata|
+      d8\< (cis b) d4. | dis4. e4. | fis8. (e16 d8) b4 (cis8) |d2.\!\ff\fermata|
       %%%%%%%%%%%%%%%%%
       %Outro
       %bars 144-147
