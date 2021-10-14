@@ -73,7 +73,7 @@
       %bars 65-68
        c1.\glissando^\markup "Play slide with tremolo"\> | c,\!\mp |
        \time 6/8
-       \tempo 4. = 60
+       \tempo 4. = 50
         r2.| a'8\staccato^\markup "ord." a\staccato a\staccato r4. |
         r2. |c8\staccato\mf c\staccato c\staccato r4. |
       %bars 69-72
@@ -122,7 +122,7 @@
       e8^"arco"\p\< (f g a) b4\staccato |f8 (g a b) c4\staccato |g8 (a b c) d4\staccato | e4\staccato r8 d c4\!\ff |
       %%%%%%%%%%%%%%%%%%%%%%%%%%
       %D' Section (climax)
-      \time 12/8
+      \time 6/8
       \key a \minor
       \tempo 4. = 80
       %bars 121-124
@@ -213,7 +213,7 @@
       \override Glissando.style = #'zigzag
       c1.\glissando^\markup "Play slide with tremolo"\> | c,\!\mp |
       \time 6/8
-      \tempo 4. = 60
+      \tempo 4. = 50
        a'8\staccato^\markup "ord." a8\staccato a8\staccato r4.| r2. |
        c8\staccato\mf c8\staccato c8\staccato r4.| r2. |
        %bars 69-72
@@ -258,7 +258,7 @@
        c4\staccato^"arco"\p\< r8 d8 (e f)| d4\staccato r8 e (f g)|  e4\staccato r8 f8 (g a) | b4\tenuto r4 a\!\ff
        %%%%%%%%%%%%%%%%%%%%%%%%
       %D' Section (climax)
-      \time 12/8
+      \time 6/8
       \key a \minor
       \tempo 4. = 80
       %bars 121-124
