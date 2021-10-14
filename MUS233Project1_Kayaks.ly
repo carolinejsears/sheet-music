@@ -149,11 +149,11 @@
       %%%%%%%%%%%%%%%%%
       %Outro
       %bars 144-147
-      r4 fis8\upbow d4.\downbow~|d4 fis8 d4.~ |d4 fis8 d4.~ |d4 fis8 d4.~ |
+      r4 fis,8\upbow d4.\downbow~|d4 fis8 d4.~ |d4 fis8 d4.~ |d4 fis8 d4.~ |
       %bars 148-151
       d4.\< d4.~| d4. d~|d4. d4.~| d4. d~|
       %bars 152-155
-      d4. d4.~| d4. d~|d4. d4.~|d2.\!\pp\fermata \bar "|."
+      d4. d4.~| d4. d~|d4.\!\pp r4.|d2.\mf\fermata \bar "|."
       }
     
 
@@ -290,7 +290,7 @@
       %bars 148-151
       |a4.\>~a4 fis8| a4.~a4 fis8| a4.~a4 fis8| a4.~a4 fis8 |
       %bars 152-155
-      a2.\downbow\p |a |a\!\pp |a\mf\downbow\fermata \bar "|."
+      a2.\downbow\p |a |<d a>\!\pp |a\mf\downbow\fermata \bar "|."
       }
   >>
   \layout { }
