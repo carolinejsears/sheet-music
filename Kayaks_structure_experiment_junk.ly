@@ -265,6 +265,13 @@ cello = \relative c' {
       d4.~d4 fis8 | e8. (fis16 g16 a) fis4 (e8) |a,4.~a4 fis'8 |e8. (fis16 g16 b) a4 (e8) |
       %bars 140-143
       d8 (cis b) d4. | dis4. e4. | fis8. (e16 d8) b4 (cis8) |d2.\fermata|
+      %%%%%%%%%%%%%%%%%
+      %Outro
+      %bars 144-147
+      a4.~a4 fis8 | a4.~a4 fis8 |a4.~a4 fis8 |a4.~a4 fis8 |a4.~a4 fis8 |
+      %bars 148-151
+      |a4.~a4 fis8| a4.~a4 fis8| a4.~a4 fis8| a4.~a4 fis8
+
       }
 
 \score {
