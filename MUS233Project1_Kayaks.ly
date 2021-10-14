@@ -45,7 +45,7 @@
       \tuplet 3/2 {f8\stopTrillSpan\upbow (a bes)} d4\downbow\glissando \tuplet 3/2 {f,8\upbow (a bes)} d4\downbow\glissando 
       f,1\downbow\startTrillSpan|
       %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-      % C Section
+        % C Section
       %bars 29-32
       \time 3/4
       r2.\stopTrillSpan | r | f4^"pizz."\staccato\mf f\staccato r |f4\staccato f\staccato r |
@@ -67,14 +67,15 @@
       %D Section
       \time 6/4
       \key a \minor
-      \tempo 4 = 75
+      \tempo 4 = 80
       %bars 61- 64
       a8^"arco, sul tasto"\downbow\f [(f)] a\downbow [(b a f)] a2.\upbow |a8 [(f)] a [(b a f)] a2. | 
       a8 [(f)] a [(b a f)] a2. |a8 [(f)] a [(b a f)] a2. |
       %bars 65-68
        c1.\glissando^\markup "Play slide with tremolo"\> | c,\!\mp |
        \time 12/8
-      r2. a'8\staccato^\markup "End sul tasto" a\staccato a\staccato r4. |
+       \tempo 4. = 60
+        r2. a'8\staccato^\markup "ord." a\staccato a\staccato r4. |
       r2. c8\staccato\mf c\staccato c\staccato r4. |
       %bars 69-72
       d8 (c b) a (c b) g2.| d'8.\downbow c16 (b a) c8. b16 (a8) g2. | e8\downbow (d c) g'8. f16 (e8) e4. f |g8.\downbow f16 (e8) d4 g8 c,2.\fermata |
@@ -142,9 +143,17 @@
        \time 6/8
        d4. a' |
        %bars 136-139
-       e8 (d cis) b (d cis) |a4.~a4 c8 | e8. (d16 cis b) d8. (cis16 b8) | cis4.~cis4 d8 |
+       e8 (d cis) b (d cis) |a4.~a4 cis8 | e8. (d16 cis b) d8. (cis16 b8) | cis4.~cis4 d8 |
        %bars 140-143
        fis8 (e d) a'8.\accent g16 fis8 | b4. cis4. | d8. (cis16 b8) d4 (a8) | fis'2.\fermata
+      %%%%%%%%%%%%%%%%%
+      %Outro
+      %bars 144-147
+      r4 fis8\upbow d4.\downbow~|d4 fis8 d4.~ |d4 fis8 d4.~ |d4 fis8 d4.~ |
+      %bars 148-151
+      d4. d4.~| d4. d~|d4. d4.~| d4. d~|
+      %bars 152-155
+      d4. d4.~| d4. d~|d4. d4.~|d2.\fermata |
       }
     
 
@@ -198,14 +207,15 @@
       %D Section (tense)
       \time 6/4
       \key a \minor
-      \tempo 4 = 75
+      \tempo 4 = 80
       %bars 61-64
       e2.^"arco, sul tasto"\f e2. | f2. f2. | gis2. gis2. | a a |
       %bars 65-68
       \override Glissando.style = #'zigzag
       c1.\glissando^\markup "Play slide with tremolo"\> | c,\!\mp |
       \time 12/8
-       a'8\staccato^\markup "End sul tasto" a8\staccato a8\staccato r4. r2. |
+      \tempo 4. = 60
+       a'8\staccato^\markup "ord." a8\staccato a8\staccato r4. r2. |
        c8\staccato\mf c8\staccato c8\staccato r4. r2. |
        %bars 69-72
        g2. d'8.\downbow e16 (f g) e4 d8 | c2. d8.\downbow e16 (f a) f4 d8 | g8 (f e) e (f g) b4. d | c8. b16 (a8) f4 b8 c2.\fermata |
@@ -257,7 +267,7 @@
       %bars 125-128
       c1.\glissando^\markup "Play slide with tremolo"\> | c,\!\mp | 
       %bars 129-131
-      e8^"end sul tasto"\downbow\pp [(c)] e\downbow [(fis e c)] e2.\upbow |
+      e8^"ord."\downbow\pp [(c)] e\downbow [(fis e c)] e2.\upbow |
       e8\< [(c)] e[(fis e c)] e2. |
       a8 [f] a [(b a f)] a2. | 
       a8 [fis] a [(b a fis)] a2. | 
@@ -272,6 +282,14 @@
       d4.~d4 fis8 | e8. (fis16 g16 a) fis4 (e8) |a,4.~a4 fis'8 |e8. (fis16 g16 b) a4 (e8) |
       %bars 140-143
       d8 (cis b) d4. | dis4. e4. | fis8. (e16 d8) b4 (cis8) |d2.\fermata|
+      %%%%%%%%%%%%%%%%%
+      %Outro
+      %bars 144-147
+      a4.~a4 fis8 | a4.~a4 fis8 |a4.~a4 fis8 |a4.~a4 fis8 |
+      %bars 148-151
+      |a4.~a4 fis8| a4.~a4 fis8| a4.~a4 fis8| a4.~a4 fis8 |
+      %bars 152-155
+      a2.\downbow\p |a |a |a\downbow\fermata |
       }
   >>
   \layout { }
