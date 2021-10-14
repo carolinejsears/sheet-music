@@ -269,12 +269,12 @@
       %bars 129-131
       e8^"ord."\downbow\pp [(c)] e\downbow [(fis e c)] e2.\upbow |
       e8\< [(c)] e[(fis e c)] e2. |
-      a8 [f] a [(b a f)] a2. | 
-      a8 [fis] a [(b a fis)] a2. | 
+      a8 [(f)] a [(b a f)] a2. | 
+      a8 [(fis)] a [(b a fis)] a2. | 
       %bars 132-135
-      a8 [fis] a [(cis a fis)] a2.\!\mf | 
-      a8 [fis] a [(cis a fis)] a2. | 
-      a8 [fis] a [(cis a fis)] a2. | 
+      a8 [(fis)] a [(cis a fis)] a2.\!\mf | 
+      a8 [(fis)] a [(cis a fis)] a2. | 
+      a8 [(fis)] a [(cis a fis)] a2. | 
       \key d \major
       \time 6/8
       \tempo 4. = 50
