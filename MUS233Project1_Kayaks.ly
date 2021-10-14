@@ -1,8 +1,7 @@
 \header {
     title = "Kayaks"
-    subtitle = "Draft 1 - WiP"
-      % the field "instrument" also appears on following pages
-    instrument =  "For Violin and Cello Duo"
+    subtitle = "For Violin and Cello Duo"
+    dedication = "MUS 233"
     composer = "Caroline Sears"
     arranger = "October 18, 2021"
 
