@@ -122,7 +122,7 @@
       e8^"arco"\p\< (f g a) b4\staccato |f8 (g a b) c4\staccato |g8 (a b c) d4\staccato | e4\staccato r8 d c4\!\ff |
       %%%%%%%%%%%%%%%%%%%%%%%%%%
       %D' Section (climax)
-      \time 6/8
+      \time 6/4
       \key a \minor
       \tempo 4. = 80
       %bars 121-124
@@ -258,7 +258,7 @@
        c4\staccato^"arco"\p\< r8 d8 (e f)| d4\staccato r8 e (f g)|  e4\staccato r8 f8 (g a) | b4\tenuto r4 a\!\ff
        %%%%%%%%%%%%%%%%%%%%%%%%
       %D' Section (climax)
-      \time 6/8
+      \time 6/4
       \key a \minor
       \tempo 4. = 80
       %bars 121-124
