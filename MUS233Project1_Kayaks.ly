@@ -20,7 +20,7 @@
       \key bes \major
       \tempo 4. = 50 
       %bars1-8
-       r4.^\markup "no vibrato" bes4.\downbow~\p| bes4. bes4.~| bes4. bes~| bes bes~\<^\markup "Gradually add vibrato"|
+       r4.^\markup "no vibrato" bes4.\downbow~\pp| bes4. bes4.~| bes4. bes~| bes bes~\<^\markup "Gradually add vibrato"|
        bes4. bes4.~| bes4. bes~| bes4. bes4.~| bes bes~\!\mf |
        %bars 9-16
        bes4 d8\upbow bes4.\downbow~|bes4 d8 bes4.~|bes4 d8 bes4.~ |bes4 d8 bes4.|
@@ -66,18 +66,18 @@
       %D Section
       \time 6/4
       \key a \minor
-      \tempo 4 = 80
+      \tempo 4 = 100
       %bars 61- 64
       a8^"arco, sul tasto"\downbow\f [(f)] a\downbow [(b a f)] a2.\upbow |a8 [(f)] a [(b a f)] a2. | 
       a8 [(f)] a [(b a f)] a2. |a8 [(f)] a [(b a f)] a2. |
       %bars 65-68
        c1.\glissando^\markup "Play slide with tremolo"\> | c,\!\mp |
-       \time 12/8
+       \time 6/8
        \tempo 4. = 60
-        r2. a'8\staccato^\markup "ord." a\staccato a\staccato r4. |
-      r2. c8\staccato\mf c\staccato c\staccato r4. |
+        r2.| a'8\staccato^\markup "ord." a\staccato a\staccato r4. |
+        r2. |c8\staccato\mf c\staccato c\staccato r4. |
       %bars 69-72
-      d8 (c b) a (c b) g2.| d'8.\downbow c16 (b a) c8. b16 (a8) g2. | e8\downbow (d c) g'8. f16 (e8) e4. f |g8.\downbow f16 (e8) d4 g8 c,2.\fermata |
+      d8 (c b) a (c b)| g2.| d'8.\downbow c16 (b a) c8. b16 (a8)| g2. | e8\downbow (d c) g'8. f16 (e8)| e4. f |g8.\downbow f16 (e8) d4 g8 |c,2.\fermata |
      %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
       %B' Section 
       %bars 73-76
@@ -166,7 +166,7 @@
       \key bes \major
       \tempo 4. = 50
       %bars 1-8
-      f2.\downbow\p |f |f |f4.\downbow~f4 d8\upbow\< |
+      f2.\downbow\pp |f |f |f4.\downbow~f4 d8\upbow\< |
       f2.\downbow|f4.\downbow~f4 d8\upbow |f2.\downbow|f4.~f4 d8\!\mf |
       %bars 9-16
       f4.~f4 d8 |f4.~f4 d8 |f4.~f4 d8 |f4.~f4 d8 |
@@ -206,18 +206,18 @@
       %D Section (tense)
       \time 6/4
       \key a \minor
-      \tempo 4 = 80
+      \tempo 4 = 100
       %bars 61-64
       e2.^"arco, sul tasto"\f e2. | f2. f2. | gis2. gis2. | a a |
       %bars 65-68
       \override Glissando.style = #'zigzag
       c1.\glissando^\markup "Play slide with tremolo"\> | c,\!\mp |
-      \time 12/8
+      \time 6/8
       \tempo 4. = 60
-       a'8\staccato^\markup "ord." a8\staccato a8\staccato r4. r2. |
-       c8\staccato\mf c8\staccato c8\staccato r4. r2. |
+       a'8\staccato^\markup "ord." a8\staccato a8\staccato r4.| r2. |
+       c8\staccato\mf c8\staccato c8\staccato r4.| r2. |
        %bars 69-72
-       g2. d'8.\downbow e16 (f g) e4 d8 | c2. d8.\downbow e16 (f a) f4 d8 | g8 (f e) e (f g) b4. d | c8. b16 (a8) f4 b8 c2.\fermata |
+       g2. | d'8.\downbow e16 (f g) e4 d8 | c2. | d8.\downbow e16 (f a) f4 d8 | g8 (f e) e (f g)| b4. d | c8. b16 (a8) f4 b8 |c2.\fermata |
        %%%%%%%%%%%%%%%%%%%%
        %B' Section 
        %bars 73-76
