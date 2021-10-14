@@ -124,7 +124,7 @@
       %D' Section (climax)
       \time 6/4
       \key a \minor
-      \tempo 4. = 80
+      \tempo 4. = 100
       %bars 121-124
       a8^"arco, sul tasto"\downbow [(f)] a\downbow [(b a f)] a2.\upbow |
       a8\staccato [f\staccato] a [(b a f)] a2. | 
@@ -140,6 +140,7 @@
        a fis)] a2. r4 b8 cis |
        \key d \major
        \time 6/8
+       \tempo 4. = 50
        d4. a' |
        %bars 136-139
        e8 (d cis) b (d cis) |a4.~a4 cis8 | e8. (d16 cis b) d8. (cis16 b8) | cis4.~cis4 d8 |
@@ -152,7 +153,7 @@
       %bars 148-151
       d4. d4.~| d4. d~|d4. d4.~| d4. d~|
       %bars 152-155
-      d4. d4.~| d4. d~|d4. d4.~|d2.\fermata |
+      d4. d4.~| d4. d~|d4. d4.~|d2.\fermata \bar "|."
       }
     
 
@@ -260,7 +261,7 @@
       %D' Section (climax)
       \time 6/4
       \key a \minor
-      \tempo 4. = 80
+      \tempo 4. = 100
       %bars 121-124
       d8^"arco, sul tasto" (c) d4. c8 d2. | f2. f2. |d8(c) d4. c8 d2. | a a |
       %bars 125-128
@@ -276,6 +277,7 @@
       a8 [fis] a [(cis a fis)] a2. | 
       \key d \major
       \time 6/8
+      \tempo 4. = 50
       <d a>4. fis |
       %bars 136-139
       d4.~d4 fis8 | e8. (fis16 g16 a) fis4 (e8) |a,4.~a4 fis'8 |e8. (fis16 g16 b) a4 (e8) |
@@ -288,7 +290,7 @@
       %bars 148-151
       |a4.~a4 fis8| a4.~a4 fis8| a4.~a4 fis8| a4.~a4 fis8 |
       %bars 152-155
-      a2.\downbow\p |a |a |a\downbow\fermata |
+      a2.\downbow\p |a |a |a\downbow\fermata \bar "|."
       }
   >>
   \layout { }
