@@ -290,7 +290,7 @@
       %bars 148-151
       |a4.\>~a4 fis8| a4.~a4 fis8| a4.~a4 fis8| a4.~a4 fis8 |
       %bars 152-155
-      a2.\downbow\p |a |<d a>\!\pp |a\mf\downbow\fermata \bar "|."
+      a2.\downbow\p |a |a\!\pp |<d a'>\mf\downbow\fermata \bar "|."
       }
   >>
   \layout { }
