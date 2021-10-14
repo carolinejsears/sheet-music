@@ -135,8 +135,8 @@
       %bars 129-132
       r1. |r |r |r |
       %bars 132-135
-      r1 a8\mf [fis] a [(cis |
-      a fis)] a2. a8 [fis] a [(cis |
+      r1 a8\mf ([fis]) a [(cis |
+      a fis)] a2. a8 ([fis]) a [(cis |
        a fis)] a2. r4 b8 cis |
        \key d \major
        \time 6/8
@@ -151,7 +151,7 @@
       %bars 144-147
       r4 fis,8\upbow d4.\downbow~|d4 fis8 d4.~ |d4 fis8 d4.~ |d4 fis8 d4.~ |
       %bars 148-151
-      d4.\< d4.~| d4. d~|d4. d4.~| d4. d~|
+      d4.\> d4.~| d4. d~|d4. d4.~| d4. d~|
       %bars 152-155
       d4. d4.~| d4. d~|d4.\!\pp r4.|d2.\mf\fermata \bar "|."
       }
