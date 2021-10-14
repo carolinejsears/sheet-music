@@ -6,12 +6,12 @@
 }
 
   harmonies = \chordmode { bes1:maj7 b1:dim7 c:m7 f:7 d2:m7 des:7 c:m7 f:7 bes1:maj7
-  c2:m7 f:7 f:m7 bes:7  ees1 ees:aug aes aes:m7 ees1 ees1:maj7 c:m7 f:7  bes:maj7 b:dim7
+  c2:m7 f:7 f:m7 bes:7  ees1 ees:aug aes aes:m7 ees1 ees2:maj7 g2:7 c1:m7 f:7  bes:maj7 b:dim7
   c:m7 f:7 d2:m7 des:7 c:m7 f:7 bes1:maj7 c2:m7 f:7}
 
 
-  melody =  \relative c {
-  \clef "bass"
+  melody =  \relative c'' {
+  \clef "treble"
   \numericTimeSignature \time 4/4
   \key bes \major
   \tempo "Swing Ballad"
@@ -26,11 +26,11 @@
      \break
     g2. ees4 | b c d8 ees~ees4 | c2. b8 c | b2 des | 
     \break
-    ees1 | d4 f ees8 d~d4 | bes2~bes8 bes c d | ees f ees d ees4 c |
+    bes1 | d4 f ees8 d~d4 | c2~c8 bes c d | ees f ees d ees4 c |
     \break
      d1 | r8 d ees f g f d4 | ees1 |r8 ees f g aes f d4 |
      \break
-      bes'2 aes | c,4. d8 ees4 f4 | f g gis a | bes1 \bar "|."
+      bes'2 aes | g4. d8 c4 d4 | bes1 | bes1 \bar "|."
 
   }
 
