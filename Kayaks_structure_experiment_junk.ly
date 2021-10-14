@@ -142,7 +142,18 @@ violin = \relative c'' {
        e8 (d cis) b (d cis) |a4.~a4 cis8 | e8. (d16 cis b) d8. (cis16 b8) | cis4.~cis4 d8 |
        %bars 140-143
        fis8 (e d) a'8.\accent g16 fis8 | b4. cis4. | d8. (cis16 b8) d4 (a8) | fis'2.\fermata
+      %%%%%%%%%%%%%%%%%
+      %Outro
+      %bars 144-147
+      r4 fis8\upbow d4.\downbow~|d4 fis8 d4.~ |d4 fis8 d4.~ |d4 fis8 d4.~ |
+      %bars 148-151
+      d4. d4.~| d4. d~|d4. d4.~| d4. d~|
+      %bars 152-155
+      d4. d4.~| d4. d~|d4. d4.~|d2.\fermata |
       }
+
+
+
 cello = \relative c' { 
       \clef "bass"
       %A section
@@ -268,9 +279,11 @@ cello = \relative c' {
       %%%%%%%%%%%%%%%%%
       %Outro
       %bars 144-147
-      a4.~a4 fis8 | a4.~a4 fis8 |a4.~a4 fis8 |a4.~a4 fis8 |a4.~a4 fis8 |
+      a4.~a4 fis8 | a4.~a4 fis8 |a4.~a4 fis8 |a4.~a4 fis8 |
       %bars 148-151
-      |a4.~a4 fis8| a4.~a4 fis8| a4.~a4 fis8| a4.~a4 fis8
+      |a4.~a4 fis8| a4.~a4 fis8| a4.~a4 fis8| a4.~a4 fis8 |
+      %bars 152-155
+      a2.\downbow\p |a |a |a\downbow\fermata |
 
       }
 
