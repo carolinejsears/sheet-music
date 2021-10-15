@@ -72,8 +72,8 @@
       a8 [(f)] a [(b a f)] a2. |a8 [(f)] a [(b a f)] a2. |
       %bars 65-68
        c1.\glissando^\markup "Play slide with tremolo"\> | c,\!\mp |
-        r2. a'8\staccato^\markup "ord." a\staccato a\staccato r4. |
-        r2. c8\staccato\mf c\staccato c\staccato r4. |
+        r2. a'8\staccato^\markup "ord." [a\staccato] a\staccato r8 r4 |
+        r2. c8\staccato\mf [c\staccato] c\staccato r8 r4 |
       %bars 69-72
       \time 6/8
        \tempo 4. = 50
