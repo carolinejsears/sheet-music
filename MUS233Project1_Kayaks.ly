@@ -26,7 +26,7 @@
        bes4 d8\upbow bes4.\downbow~|bes4 d8 bes4.~|bes4 d8 bes4.~ |bes4 d8 bes4.|
        c8\downbow (bes a) g (bes a) | f4.~f4 bes8| c8. (bes16 a g) bes8. (a16 g8) | f4.~f4 bes8|
        %bars 17-20
-       d8 (c b) f'8.\accent ees16 d8 | g4. a4. | bes8. (a16 g8) bes4 (f8) | d'2.\fermata
+       d8 (c b) f'8.\accent ees16 d8 | g4. a4. | bes8. (a16 g8) bes4 (f8) | bes2.\fermata
       %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
       %B Section
       \tempo 4 = 150
@@ -145,7 +145,7 @@
        %bars 136-139
        e8 (d cis) b (d cis) |a4.~a4 cis8 | e8. (d16 cis b) d8. (cis16 b8) | cis4.~cis4 d8 |
        %bars 140-143
-       fis8\< (e d) a'8.\accent g16 fis8 | b4. cis4. | d8. (cis16 b8) d4 (a8) | fis'2.\!\ff\fermata
+       fis8\< (e d) a'8.\accent g16 fis8 | b4. cis4. | d8. (cis16 b8) d4 (a8) | d2.\!\ff\fermata
       %%%%%%%%%%%%%%%%%
       %Outro
       %bars 144-147
