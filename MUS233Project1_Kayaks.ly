@@ -213,8 +213,8 @@
       %bars 65-68
       \override Glissando.style = #'zigzag
       c1.\glissando^\markup "Play slide with tremolo"\> | c,\!\mp |
-       a'8\staccato^\markup "ord." a8\staccato a8\staccato r4. r2. |
-       c8\staccato\mf c8\staccato c8\staccato r4. r2. |
+       a'8\staccato^\markup "ord." [a8\staccato] a8\staccato r8 r4 r2. |
+       c8\staccato\mf [c8\staccato] c8\staccato r8 r4 r2. |
        %bars 69-72
       \time 6/8
       \tempo 4. = 50
