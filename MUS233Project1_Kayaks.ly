@@ -32,7 +32,7 @@
       \tempo 4 = 150
       \time 5/4
       %bars 21-24
-      \tuplet 3/2 {f,8\downbow\f (ees d)} \tuplet 3/2 {f\downbow (ees d)}  \tuplet 3/2 {f\downbow (ees d)} r2 |
+      \tuplet 3/2 {f8\downbow\f (ees d)} \tuplet 3/2 {f\downbow (ees d)}  \tuplet 3/2 {f\downbow (ees d)} r2 |
       \tuplet 3/2 {f8 (ees d)} \tuplet 3/2 {f (ees d)}  \tuplet 3/2 {f (ees d)} r2 |
       \tuplet 3/2 {f'8 (ees d)} \tuplet 3/2 {f (ees d)}  \tuplet 3/2 {f (ees d)} r2 |
       \tuplet 3/2 {f8 (ees d)} \tuplet 3/2 {f (ees d)}  \tuplet 3/2 {f (ees d)} r2 |
