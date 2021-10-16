@@ -10,8 +10,8 @@
   c:m7 f:7 d2:m7 des:7 c:m7 f:7 bes1:maj7 c2:m7 f:7}
 
 
-  melody =  \relative c {
-  \clef "bass"
+  melody =  \relative c'' {
+  \clef "treble"
   \numericTimeSignature \time 4/4
   \key bes \major
   \tempo "Swing Ballad"
@@ -30,7 +30,7 @@
     \break
      d1 | r8 d ees f g f d4 | ees1 |r8 ees f g aes f d4 |
      \break
-      bes'2 aes | c4. g8 f4 d4 | bes2~bes4 \tuplet 3/2 {f'8 g bes} | bes4 bes4~bes2 \bar "|."
+      bes'2 aes | c4. g8 f4 d4 | bes2~bes4 \tuplet 3/2 {f'8 g bes} | bes4 f4~f2 \bar "|."
 
   }
 
