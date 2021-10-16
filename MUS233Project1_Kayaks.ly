@@ -145,7 +145,7 @@
        %bars 136-139
        e8 (d cis) b (d cis) |a4.~a4 cis8 | e8. (d16 cis b) d8. (cis16 b8) | cis4.~cis4 d8 |
        %bars 140-143
-       fis8\< (e d) a'8.\accent g16 fis8 | b4. cis4. | d8. (cis16 b8) d4 (a8) | d2.\!\ff\fermata
+       fis8\< (e d) a'8.\accent g16 fis8 | b4. cis4. | d8. (cis16 b8) d4 (a8) | fis'2.\!\ff\fermata
       %%%%%%%%%%%%%%%%%
       %Outro
       %bars 144-147
