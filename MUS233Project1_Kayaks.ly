@@ -280,7 +280,7 @@
       \tempo 4. = 50
       <d a>4. fis |
       %bars 136-139
-      d4.~d4 fis8 | e8. (fis16 g16 a) fis4 (e8) |a,4.~a4 fis'8 |e8. (fis16 g16 b) a4 (e8) |
+      d4.~d4 e8 | a8. (fis16 g16 a) e4 (d8) |a,4.~a4 fis'8 |e8. (fis16 g16 b) a4 (e8) |
       %bars 140-143
       d8\< (cis b) d4. | dis4. e4. | fis8. (e16 d8) b4 (cis8) |d2.\!\ff\fermata|
       %%%%%%%%%%%%%%%%%
