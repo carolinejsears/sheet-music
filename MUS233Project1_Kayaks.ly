@@ -93,8 +93,8 @@
       \time 5/4
       \tuplet 3/2 {bes8\stopTrillSpan\downbow\f(a g)} \tuplet 3/2 {bes\downbow (a g)}  \tuplet 3/2 {bes\downbow (a g)} r2 |
       \tuplet 3/2 {bes8(a g)} \tuplet 3/2 {bes8(a g)}  \tuplet 3/2 {bes8(a g)} r2 |
-      \tuplet 3/2 {bes8(c des)} \tuplet 3/2 {bes8(c des)}  \tuplet 3/2 {bes8(c des)} r2 |
-      \tuplet 3/2 {bes8(c des)} \tuplet 3/2 {bes8(c des)}  \tuplet 3/2 {bes8(c des)} r2 |
+      \tuplet 3/2 {bes8(c d)} \tuplet 3/2 {bes8(c d)}  \tuplet 3/2 {bes8(c d)} r2 |
+      \tuplet 3/2 {bes8(c d)} \tuplet 3/2 {bes8(c d)}  \tuplet 3/2 {bes8(c d)} r2 |
       %bars 85-88
       \time 4/4
       \tuplet 3/2 {g8\upbow (c d)} e4\downbow\glissando \tuplet 3/2 {g,8\upbow (c d)} e4\downbow\glissando 
