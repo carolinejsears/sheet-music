@@ -149,7 +149,7 @@
       %%%%%%%%%%%%%%%%%
       %Outro
       %bars 144-147
-      r4 fis,8\upbow d4.\downbow~|d4 fis8 d4.~ |d4 fis8 d4.~ |d4 fis8 d4.~ |
+      r4 fis,8\upbow\mf d4.\downbow~|d4 fis8 d4.~ |d4 fis8 d4.~ |d4 fis8 d4.~ |
       %bars 148-151
       d4.\> d4.~| d4. d~|d4. d4.~| d4. d~|
       %bars 152-155
