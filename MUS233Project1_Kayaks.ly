@@ -18,7 +18,7 @@
       %A section
       \time 6/8
       \key bes \major
-      \tempo 4. = 50 
+      \tempo "Largo" 4. = 50
       %bars1-8
        r4.^\markup "no vibrato" bes4.\downbow~\pp| bes4. bes4.~| bes4. bes~| bes bes~\<^\markup "Gradually add vibrato"|
        bes4. bes4.~| bes4. bes~| bes4. bes4.~| bes bes~\!\mf |
@@ -29,7 +29,7 @@
        d8 (c b) f'8.\accent ees16 d8 | g4. a4. | bes8. (a16 g8) bes4 (f8) | bes2.\fermata
       %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
       %B Section
-      \tempo 4 = 150
+      \tempo "Vivace" 4 = 150
       \time 5/4
       %bars 21-24
       \tuplet 3/2 {f8\downbow\f (ees d)} \tuplet 3/2 {f\downbow (ees d)}  \tuplet 3/2 {f\downbow (ees d)} r2 |
@@ -66,7 +66,7 @@
       %D Section
       \time 6/4
       \key a \minor
-      \tempo 4 = 100
+      \tempo "Moderato" 4 = 100
       %bars 61- 64
       a8^"arco, sul tasto"\downbow\f [(f)] a\downbow [(b a f)] a2.\upbow |a8 [(f)] a [(b a f)] a2. | 
       a8 [(f)] a [(b a f)] a2. |a8 [(f)] a [(b a f)] a2. |
@@ -76,14 +76,14 @@
         r2. c8\staccato\mf [c\staccato] c\staccato r8 r4 |
       %bars 69-72
       \time 6/8
-       \tempo 4. = 50
+       \tempo "Largo" 4. = 50
       d8 (c b) a (c b)| g2.| d'8.\downbow c16 (b a) c8. b16 (a8)| g2. | e8\downbow (d c) g'8. f16 (e8)| e4. f |g8.\downbow f16 (e8) d4 g8 |e2.\fermata |
      %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
       %B' Section 
       %bars 73-76
        \key f \major
        \time 5/4
-       \tempo 4 =150
+       \tempo "Vivace" 4 =150
       r2. f4\tenuto\downbow\f f4\downbow\tenuto |r2. f4\tenuto f4\tenuto |
       r2. g4\tenuto g4\tenuto |r2. a4\tenuto a4\tenuto |
       %bars 77-80
@@ -124,7 +124,7 @@
       %D' Section (climax)
       \time 6/4
       \key a \minor
-      \tempo 4 = 100
+      \tempo "Moderato" 4 = 100
       %bars 121-124
       a8^"arco, sul tasto"\downbow [(f)] a\downbow [(b a f)] a2.\upbow |
       a8\staccato [f\staccato] a [(b a f)] a2. | 
@@ -140,7 +140,7 @@
        a fis)] a2. r4 b8 cis |
        \key d \major
        \time 6/8
-       \tempo 4. = 50
+       \tempo "Largo" 4. = 50
        d4. a' |
        %bars 136-139
        e8 (d cis) b (d cis) |a4.~a4 cis8 | e8. (d16 cis b) d8. (cis16 b8) | cis4.~cis4 d8 |
@@ -165,7 +165,7 @@
       %A section
       \time 6/8
       \key bes \major
-      \tempo 4. = 50
+      \tempo "Largo" 4. = 50
       %bars 1-8
       f2.\downbow\pp |f |f |f4.\downbow~f4 d8\upbow\< |
       f2.\downbow|f4.\downbow~f4 d8\upbow |f2.\downbow|f4.~f4 d8\!\mf |
@@ -176,7 +176,7 @@
       bes8 (a g) bes4. | b4. c4. | d8. (c16 bes8) g4 (a8) |bes2.\fermata|
       %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
       %B section
-      \tempo 4 = 150
+      \tempo "Vivace" 4 = 150
       \time 5/4
       %bars 21-24
       r2. bes,4\tenuto\downbow\f bes4\downbow\tenuto |r2. bes4\tenuto bes4\tenuto |
@@ -207,7 +207,7 @@
       %D Section (tense)
       \time 6/4
       \key a \minor
-      \tempo 4 = 100
+      \tempo "Moderato" 4 = 100
       %bars 61-64
       e2.^"arco, sul tasto"\f e2. | f2. f2. | gis2. gis2. | a a |
       %bars 65-68
@@ -217,14 +217,14 @@
        c8\staccato\mf [c8\staccato] c8\staccato r8 r4 r2. |
        %bars 69-72
       \time 6/8
-      \tempo 4. = 50
+      \tempo "Largo"4. = 50
        g2. | d'8.\downbow e16 (f g) e4 d8 | c2. | d8.\downbow e16 (f a) f4 d8 | g8 (f e) e (f g)| b4. d | c8. b16 (a8) f4 b8 |c2.\fermata |
        %%%%%%%%%%%%%%%%%%%%
        %B' Section 
        %bars 73-76
        \key f \major
        \time 5/4
-       \tempo 4 =150
+       \tempo "Vivace" 4 =150
        \tuplet 3/2 {c,8\downbow\f (bes a)} \tuplet 3/2 {c\downbow (bes a)}  \tuplet 3/2 {c\downbow (bes a)} r2 |
        \tuplet 3/2 {c8(bes a)} \tuplet 3/2 {c (bes a)}  \tuplet 3/2 {c (bes a)} r2 |
        \tuplet 3/2 {c,8 (d e)} \tuplet 3/2 {c (d e)}  \tuplet 3/2 {c (d e)} r2 |
@@ -261,7 +261,7 @@
       %D' Section (climax)
       \time 6/4
       \key a \minor
-      \tempo 4 = 100
+      \tempo "Moderato" 4 = 100
       %bars 121-124
       d8^"arco, sul tasto" (c) d4. c8 d2. | f2. f2. |d8(c) d4. c8 d2. | a a |
       %bars 125-128
@@ -277,7 +277,7 @@
       a8 [(fis)] a [(cis a fis)] a2. | 
       \key d \major
       \time 6/8
-      \tempo 4. = 50
+      \tempo "Largo" 4. = 50
       <d a>4. fis |
       %bars 136-139
       d4.~d4 e8 | a8. (fis16 g16 a) e4 (d8) |a4.~a4 fis'8 |e8. (fis16 g16 b) a4 (e8) |
