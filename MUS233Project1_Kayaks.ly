@@ -167,7 +167,7 @@
       \key bes \major
       \tempo "Largo" 4. = 50
       %bars 1-8
-      f2.\downbow\pp |f |f |f4.\downbow~f4 d8\upbow\< |
+      f2.\downbow\pp^\markup "no vibrato" |f |f |f4.\downbow~f4 d8\upbow\<^\markup "gradually add vibrato" |
       f2.\downbow|f4.\downbow~f4 d8\upbow |f2.\downbow|f4.~f4 d8\!\mf |
       %bars 9-16
       f4.~f4 d8 |f4.~f4 d8 |f4.~f4 d8 |f4.~f4 d8 |
