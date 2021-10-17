@@ -70,7 +70,7 @@
       a8^"arco, sul ponticello"\downbow\f [(f)] a\downbow [(b a f)] a2.\upbow |a8 [(f)] a [(b a f)] a2. | 
       a8 [(f)] a [(b a f)] a2. |a8 [(f)] a [(b a f)] a2. |
       %bars 65-68
-      \override Glissando.style = #'zigzag
+      \once \override Glissando.style = #'zigzag
        c1.\glissando^\markup "Play slide with tremolo"\> | c,\!\mp |
         r2. a'8\staccato^\markup "ord." [a\staccato] a\staccato r8 r4 |
         r2. c8\staccato\mf [c\staccato] c\staccato r8 r4 |
@@ -131,6 +131,7 @@
       a8\staccato [f\staccato] r [b (a f)] a2. |
       a8\staccato [f\staccato] r4  a8 (f) a2. |
       %bars 125-128
+      \once \override Glissando.style = #'zigzag
        c1.\glissando^\markup "play slide with tremolo"\> | c,\!\mp | 
       %bars 129-132
       r1. |r |r |r |
