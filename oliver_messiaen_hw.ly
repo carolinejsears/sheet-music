@@ -1,6 +1,10 @@
 \header {
   title = "HW 10/20/21, Oliver Messiaen"
   composer = "Caroline Sears"
+  tagline = ##f
+}
+\paper {
+  #(set-paper-size "ansi a")
 }
 palindromes = \relative c' {
     d4
@@ -12,7 +16,7 @@ isorhythm = \relative c' {
         }
 
 \score {
-  \new Staff \with { instrumentName = "Violin" }
+  \new Staff \with { instrumentName = "Flute" }
   \palindromes
 
   %\layout {}
@@ -21,7 +25,7 @@ isorhythm = \relative c' {
 
 \score {
 
-  \new Staff \with { instrumentName = "Violin" }
+  \new Staff \with { instrumentName = "Clarinet" }
   \isorhythm
 
   \layout {}
