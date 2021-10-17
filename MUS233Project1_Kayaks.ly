@@ -20,7 +20,7 @@
       \key bes \major
       \tempo "Largo" 4. = 50
       %bars1-8
-       r4.^\markup "no vibrato" bes4.\downbow~\pp| bes4. bes4.~| bes4. bes~| bes bes~\<^\markup "Gradually add vibrato"|
+       r4.^\markup "no vibrato" bes4.\downbow~\pp| bes4. bes4.~| bes4. bes~| bes bes~\<^\markup "gradually add vibrato"|
        bes4. bes4.~| bes4. bes~| bes4. bes4.~| bes bes~\!\mf |
        %bars 9-16
        bes4 d8\upbow bes4.\downbow~|bes4 d8 bes4.~|bes4 d8 bes4.~ |bes4 d8 bes4.|
@@ -68,7 +68,7 @@
       \key a \minor
       \tempo "Moderato" 4 = 100
       %bars 61- 64
-      a8^"arco, sul tasto"\downbow\f [(f)] a\downbow [(b a f)] a2.\upbow |a8 [(f)] a [(b a f)] a2. | 
+      a8^"arco, sul ponticello"\downbow\f [(f)] a\downbow [(b a f)] a2.\upbow |a8 [(f)] a [(b a f)] a2. | 
       a8 [(f)] a [(b a f)] a2. |a8 [(f)] a [(b a f)] a2. |
       %bars 65-68
        c1.\glissando^\markup "Play slide with tremolo"\> | c,\!\mp |
@@ -126,12 +126,12 @@
       \key a \minor
       \tempo "Moderato" 4 = 100
       %bars 121-124
-      a8^"arco, sul tasto"\downbow [(f)] a\downbow [(b a f)] a2.\upbow |
+      a8^"arco, sul ponticello"\downbow [(f)] a\downbow [(b a f)] a2.\upbow |
       a8\staccato [f\staccato] a [(b a f)] a2. | 
       a8\staccato [f\staccato] r [b (a f)] a2. |
       a8\staccato [f\staccato] r4  a8 (f) a2. |
       %bars 125-128
-       c1.\glissando^\markup "Play slide with tremolo"\> | c,\!\mp | 
+       c1.\glissando^\markup "play slide with tremolo"\> | c,\!\mp | 
       %bars 129-132
       r1. |r |r |r |
       %bars 132-135
@@ -179,7 +179,7 @@
       \tempo "Vivace" 4 = 150
       \time 5/4
       %bars 21-24
-      r2. bes,4\tenuto\downbow\f bes4\downbow\tenuto |r2. bes4\tenuto bes4\tenuto |
+      r2.^\markup"sul tasto" bes,4 \tenuto\downbow\f bes4\downbow\tenuto |r2. bes4\tenuto bes4\tenuto |
       r2. bes4\tenuto bes4\tenuto |r2. bes4\tenuto bes4\tenuto |
       %bars 25-28
       \numericTimeSignature \time 4/4
@@ -209,7 +209,7 @@
       \key a \minor
       \tempo "Moderato" 4 = 100
       %bars 61-64
-      e2.^"arco, sul tasto"\f e2. | f2. f2. | gis2. gis2. | a a |
+      e2.^"arco, sul ponticello"\f e2. | f2. f2. | gis2. gis2. | a a |
       %bars 65-68
       \override Glissando.style = #'zigzag
       c1.\glissando^\markup "Play slide with tremolo"\> | c,\!\mp |
@@ -231,7 +231,7 @@
        \tuplet 3/2 {c8 (d e)} \tuplet 3/2 {c (d e)}  \tuplet 3/2 {c(d e)} r2 |
       %bars 77-80
       \time 4/4
-       f4.\downbow\ff g8\upbow g2\downbow | f4. g8 f2 | f4. g8 g2 | f4. g8 f2 |
+       f4.^\markup"sul tasto" \downbow\ff g8\upbow g2\downbow | f4. g8 f2 | f4. g8 g2 | f4. g8 f2 |
        %bars 81-84
       \time 5/4
       r2.\f f4. g8 | r2. f4. f8 |r2. f4. g8 |r2. f4. f8 |
@@ -263,9 +263,9 @@
       \key a \minor
       \tempo "Moderato" 4 = 100
       %bars 121-124
-      d8^"arco, sul tasto" (c) d4. c8 d2. | f2. f2. |d8(c) d4. c8 d2. | a a |
+      d8^"arco, sul ponticello" (c) d4. c8 d2. | f2. f2. |d8(c) d4. c8 d2. | a a |
       %bars 125-128
-      c1.\glissando^\markup "Play slide with tremolo"\> | c,\!\mp | 
+      c1.\glissando^\markup "play slide with tremolo"\> | c,\!\mp | 
       %bars 129-131
       e8^"ord."\downbow\pp [(c)] e\downbow [(fis e c)] e2.\upbow |
       e8\< [(c)] e[(fis e c)] e2. |
