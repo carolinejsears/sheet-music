@@ -15,6 +15,7 @@
   \new StaffGroup <<
     \new Staff \with { instrumentName = "Violin" }
       \relative c'' {
+      \set Staff.midiInstrument = "violin"
       %A section
       \time 6/8
       \key bes \major
@@ -162,6 +163,7 @@
 %cello code
     \new Staff \with { instrumentName = "Cello" }
       \relative c' { 
+      \set Staff.midiInstrument = "cello"
       \clef "bass"
       %A section
       \time 6/8
