@@ -38,7 +38,6 @@
       \tuplet 3/2 {f8 (ees d)} \tuplet 3/2 {f (ees d)}  \tuplet 3/2 {f (ees d)} r2 |
       % bars 25-28
       \numericTimeSignature \time 4/4
-      \override Glissando.style = #'zigzag
       \tuplet 3/2 {f,8\upbow (a bes)} d4\downbow\glissando \tuplet 3/2 {f,8\upbow (a bes)} d4\downbow\glissando 
       f,1\downbow\startTrillSpan|
       \tuplet 3/2 {f8\stopTrillSpan\upbow (a bes)} d4\downbow\glissando \tuplet 3/2 {f,8\upbow (a bes)} d4\downbow\glissando 
@@ -71,6 +70,7 @@
       a8^"arco, sul ponticello"\downbow\f [(f)] a\downbow [(b a f)] a2.\upbow |a8 [(f)] a [(b a f)] a2. | 
       a8 [(f)] a [(b a f)] a2. |a8 [(f)] a [(b a f)] a2. |
       %bars 65-68
+      \override Glissando.style = #'zigzag
        c1.\glissando^\markup "Play slide with tremolo"\> | c,\!\mp |
         r2. a'8\staccato^\markup "ord." [a\staccato] a\staccato r8 r4 |
         r2. c8\staccato\mf [c\staccato] c\staccato r8 r4 |
