@@ -30,11 +30,22 @@ palindromes = \relative c' {
 
 rhythm = \relative c' {
         \set Staff.midiInstrument = "violin"
-        c4
+        \time 3/4
+        c4 c c8. c16 | c4 r4 c8. c16 | c2 c4 |
         }
 pitches =\relative c' {
         \set Staff.midiInstrument = "violin"
-        f4
+        gis4 d' a
+        }
+isorhythm =\relative c''' {
+        \set Staff.midiInstrument = "violin"
+        \time 3/4
+        \tempo "Andante" 4= 80
+        gis4^\markup{\italic{"Unsettling"}}\f d a8. gis'16 | d4 r a8. gis16 | d'2 a4\> | 
+        gis2 d4\!\pp~|d4 a'4. gis8 | d2 r4 | r4 a'4. gis8 | d'2.~ |d4 a2 |
+        gis4\staccato d\staccato a'8.\staccato gis16\staccato| d'4 r4 a8. gis16 |
+        d2\< a'4 | gis'\!\f d a'8. gis16 | d4 r4 a'8.\staccato gis16\staccato | d2\> a4\!\ppp\fermata^\markup {\italic{"hold fermata until you run out of breath, gasp audibly"}} \bar "|."
+
         }
 
 %%%%%%%%%%%%%%%%%%%%%%%% Score Blocks %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -50,8 +61,8 @@ pitches =\relative c' {
       }
   \palindromes
 
-  \layout {}
-  \midi {}
+  %\layout {}
+  %\midi {}
 }
 
 
@@ -91,7 +102,7 @@ pitches =\relative c' {
           }
         }
       }
-  \pitches
-  %\layout {}
-  %\midi {}
+  \isorhythm
+  \layout {}
+  \midi {}
 }
