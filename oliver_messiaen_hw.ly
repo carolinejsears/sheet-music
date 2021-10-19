@@ -61,8 +61,8 @@ isorhythm =\relative c''' {
       }
   \palindromes
 
-  %\layout {}
-  %\midi {}
+  \layout {}
+  \midi {}
 }
 
 
@@ -103,6 +103,6 @@ isorhythm =\relative c''' {
         }
       }
   \isorhythm
-  \layout {}
-  \midi {}
+  %\layout {}
+  %\midi {}
 }
