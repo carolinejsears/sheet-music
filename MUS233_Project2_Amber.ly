@@ -1,10 +1,10 @@
 %%%%%%%%%%%%%%%%%%%% Header + Paper Dimensions %%%%%%%%%%%%%%%%%%%%
 \header {
   title = "Title TBD"
-    subtitle = "For Violin and Cello Duo"
+    subtitle = "For Soprano and Piano"
     dedication = "MUS 233"
     composer = "Caroline Sears"
-    arranger = "October 18, 2021"
+    arranger = "November 15, 2021"
     tagline = ##f
 
 }
@@ -13,8 +13,8 @@
   #(define top-margin (* 0.75 in))
 }
 
-%%%%%%%%%%%%%%%%%%%%%%%%% Musical Content %%%%%%%%%%%%%%%%%%%%%%%%%%
-theMelody = \relative c' {
+%%%%%%%%%%%%%%%%%%%% Musical/Lyrical Content %%%%%%%%%%%%%%%%%%%%%%%%%%
+theVocals = \relative c' {
     \set Staff.midiInstrument = "flute"
     c4
   }
@@ -23,26 +23,28 @@ theMelody = \relative c' {
 
 %theChords =
 
-righth =\relative c' {
+righthand =\relative c' {
     \set Staff.midiInstrument = "piano"
     c4
   }
 
-lefth = \relative c' {
+lefthand = \relative c' {
     \set Staff.midiInstrument = "piano"
+    \clef "bass"
     c4
   }
 
+%%%%%%%%%%%%%%%%%%%%%%% Score Setup %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \score {
 \new StaffGroup <<
   \new Staff \with {instrumentName = "Soprano" 
     shortInstrumentName = #"Sop. "}
-  \theMelody
+  \theVocals
   \new PianoStaff \with { instrumentName = "Piano" 
     shortInstrumentName = #"Pno. "}
   <<
-    \new Staff = "upper" \righth
-    \new Staff = "lower" \lefth
+    \new Staff = "upper" \righthand
+    \new Staff = "lower" \lefthand
   >>
 >>
 
