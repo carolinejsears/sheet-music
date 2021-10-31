@@ -12,7 +12,7 @@
     \relative c {
     \key c \major
      \clef "bass"
-     fis^\markup{"(M3)"} ais^\markup{"(m3)"} g^\markup{"(5)"} cis,^\markup{"(M2)"} dis^\markup{"(M2)"}  cis^\markup{"(4)"} fis^\markup{"(m2)"} g \bar "|."
+     fis^\markup{"(M3)"} ais^\markup{"(aug2)"} g^\markup{"(5)"} cis,^\markup{"(M2)"} dis^\markup{"(M2)"}  cis^\markup{"(4)"} fis^\markup{"(m2)"} g \bar "|."
     }
   
   \layout {}
@@ -28,7 +28,7 @@
     \relative c {
     \key c \major
      \clef "bass"
-     fis^\markup{"(M3)"} ais^\markup{"(m3)"} g^\markup{"(5)"} cis,^\markup{"(M2)"} dis^\markup{"(M2)"}  cis^\markup{"(4)"} fis^\markup{"(m2)"} g \bar "|."
+     fis^\markup{"(m6)"} ais,^\markup{"(dim7)"} g'^\markup{"(5)"} cis,^\markup{"(M2)"} dis^\markup{"(M2)"}  cis^\markup{"(4)"} fis^\markup{"(m2)"} g \bar "|."
     }
 
 
@@ -36,7 +36,7 @@
     \relative c {
     \key c \major
      \clef "bass"
-     fis^\markup{"(M3)"} ais^\markup{"(m3)"} g^\markup{"(5)"} cis,^\markup{"(M2)"} dis^\markup{"(M2)"}  cis^\markup{"(4)"} fis^\markup{"(m2)"} g \bar "|."
+     g^\markup{"(m2)"} fis^\markup{"(4)"} cis^\markup{"(M2)"} dis^\markup{"(M2)"} cis^\markup{"(5)"} g^\markup{"(m3)"} ais^\markup{"(M3)"} fis \bar "|."
     }
   \new Staff \with { instrumentName = "RI0" } 
     \relative c {
