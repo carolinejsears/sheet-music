@@ -27,7 +27,10 @@ theNotes = \relative c'' {
     %% Verse 1 %%
     c4\staccato^\markup{"Go wild on the vibrato for all non-staccato notes"} bes4\staccato  a8\accent g8 f16\accent (g8.) | bes4\staccato  a\staccato g16\accent (a16) g8 c,16\accent (d16) c8~ |
     c2 r2 | r1 | c'4\staccato bes4\staccato  e,16 (f16 e8)  d8\staccato c8\staccato | g'4\staccato bes8 (a) g8\staccato f8\staccato r8 a8\staccato |
-    r8 a8 (f) a16 (f16 g2)~ | g2 r2 
+    r8 a8 (f) a16 (f16 g2)~ | g2 r2 |
+    r4 d4\staccato c4\staccato a\accent |r8 g'8 f d16 (c16)~c4 d4\staccato | r8 g8 f d16 (c16)~c8 d8 c8 a~ |a2 r2 |
+    r4 g'4\staccato f4\staccato d4 | 
+
 
     %% Verse 2 %%
 
@@ -46,6 +49,12 @@ theWords =  \lyricmode {
       sweet trees o- ver flow ing
       I won't let you- ou trap me
       in your pre- cious sto-o-ones
+      un- pre- cious mem- o- ry my
+      mem- o- ry col- lect- ing
+      dust like a mosquito or beetle
+      stuck in your home
+      
+
   }
 
 %%%%%% PIANO PART %%%%%%%%%%
