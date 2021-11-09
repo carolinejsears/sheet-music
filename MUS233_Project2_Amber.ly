@@ -1,6 +1,6 @@
 %%%%%%%%%%%%%%%%%%%% Header + Paper Dimensions %%%%%%%%%%%%%%%%%%%%
 \header {
-  title = "Title TBD"
+  title = "Amber"
     subtitle = "For Soprano and Piano"
     dedication = "MUS 233"
     composer = "Caroline Sears"
@@ -14,22 +14,49 @@
 }
 
 %%%%%%%%%%%%%%%%%%%% Musical/Lyrical Content %%%%%%%%%%%%%%%%%%%%%%%%%%
-theVocals = \relative c' {
+
+%%%%% VOICE PART %%%%%%%%%%%
+theNotes = \relative c'' {
     \set Staff.midiInstrument = "flute"
-    c4
+    \key f \major % C mixolydian
+    \numericTimeSignature \time 4/4
+    \tempo "Laid Back" 4 = 75 
+
+    %%Intro %%
+
+    %% Verse 1 %%
+    c4\staccato bes4\staccato 
+    %% Verse 2 %%
+
+    %% Breakdown %%
+
+    %% Verse 3? %%
+
+    %% End %%
+    
   }
 
-%theWords =
+theWords =  \lyricmode {
 
-%theChords =
+      %% Verse 1%%%
+      am- ber broken from
+      sweet trees overflowing
+      I won't let you trap me
+      in your shiny stones
+  }
 
+%%%%%% PIANO PART %%%%%%%%%%
 righthand =\relative c' {
     \set Staff.midiInstrument = "piano"
+    \key f \major
+    \numericTimeSignature \time 4/4
     c4
   }
 
 lefthand = \relative c' {
     \set Staff.midiInstrument = "piano"
+    \key f \major
+    \numericTimeSignature \time 4/4
     \clef "bass"
     c4
   }
@@ -39,7 +66,9 @@ lefthand = \relative c' {
 \new StaffGroup <<
   \new Staff \with {instrumentName = "Soprano" 
     shortInstrumentName = #"Sop. "}
-  \theVocals
+  \new Voice = vocals \theNotes
+  \new Lyrics \lyricsto vocals \theWords
+
   \new PianoStaff \with { instrumentName = "Piano" 
     shortInstrumentName = #"Pno. "}
   <<
