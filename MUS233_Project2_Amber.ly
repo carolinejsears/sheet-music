@@ -25,7 +25,8 @@ theNotes = \relative c'' {
     %%Intro %%
 
     %% Verse 1 %%
-    c4\staccato bes4\staccato 
+    c4\staccato^\markup{"Go wild on the vibrato for all non-staccato notes"} bes4\staccato  a8\accent g8 f16\accent (g8.) | bes4\staccato  a\staccato g16\accent (a16) g8 c,16\accent (d16) c8~ |
+    c2 r2 | c'4\staccato bes4\staccato  a4\staccato  e16 (f16 e4) | g4\staccato 
     %% Verse 2 %%
 
     %% Breakdown %%
@@ -39,8 +40,8 @@ theNotes = \relative c'' {
 theWords =  \lyricmode {
 
       %% Verse 1%%%
-      am- ber broken from
-      sweet trees overflowing
+      am- ber bro- ken from
+      sweet trees o- ver flow ing
       I won't let you trap me
       in your shiny stones
   }
@@ -50,7 +51,7 @@ righthand =\relative c' {
     \set Staff.midiInstrument = "piano"
     \key f \major
     \numericTimeSignature \time 4/4
-    c4
+    r1
   }
 
 lefthand = \relative c' {
@@ -58,7 +59,7 @@ lefthand = \relative c' {
     \key f \major
     \numericTimeSignature \time 4/4
     \clef "bass"
-    c4
+    r1
   }
 
 %%%%%%%%%%%%%%%%%%%%%%% Score Setup %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -68,6 +69,7 @@ lefthand = \relative c' {
     shortInstrumentName = #"Sop. "}
   \new Voice = vocals \theNotes
   \new Lyrics \lyricsto vocals \theWords
+  
 
   \new PianoStaff \with { instrumentName = "Piano" 
     shortInstrumentName = #"Pno. "}
