@@ -44,7 +44,7 @@ theWords =  \lyricmode {
       %% Verse 1%%%
       am- ber bro- ken from
       sweet trees o- ver flow ing
-      I won't let you trap me
+      I won't let you- ou trap me
       in your pre- cious sto-o-ones
   }
 
