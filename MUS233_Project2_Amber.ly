@@ -26,7 +26,9 @@ theNotes = \relative c'' {
 
     %% Verse 1 %%
     c4\staccato^\markup{"Go wild on the vibrato for all non-staccato notes"} bes4\staccato  a8\accent g8 f16\accent (g8.) | bes4\staccato  a\staccato g16\accent (a16) g8 c,16\accent (d16) c8~ |
-    c2 r2 | c'4\staccato bes4\staccato  a4\staccato  e16 (f16 e4) | g4\staccato 
+    c2 r2 | r1 | c'4\staccato bes4\staccato  e,16 (f16 e8)  d8\staccato c8\staccato | g'4\staccato bes8 (a) g8\staccato f8\staccato r8 a8\staccato |
+    r8 a8 (f) a16 (f16 g2)~ | g2 r2 
+
     %% Verse 2 %%
 
     %% Breakdown %%
@@ -43,7 +45,7 @@ theWords =  \lyricmode {
       am- ber bro- ken from
       sweet trees o- ver flow ing
       I won't let you trap me
-      in your shiny stones
+      in your pre- cious sto-o-ones
   }
 
 %%%%%% PIANO PART %%%%%%%%%%
