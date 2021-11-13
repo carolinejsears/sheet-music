@@ -20,18 +20,25 @@ theNotes = \relative c'' {
     \set Staff.midiInstrument = "flute"
     \key f \major % C mixolydian
     \numericTimeSignature \time 4/4
-    \tempo "Laid Back" 4 = 75 
+    \tempo "Laid Back" 4 = 95
 
     %%Intro %%
+    r1 | r1 |r1 | r1 |
+    e,4\staccato\mf r2 r8 d8\accent~ |d8 r8 r2. |e4\staccato r2 r8 d8\accent~ |d8 r8 r2. 
+    e'4\staccato\f r2 r8 d8\accent~ |d8 r8 r2. |e4\staccato r2 r8 d8\accent~ |d8 r8 r2. 
+    d,4\accent\mf\< r4 d4\accent r4| d4\accent r4 d4\accent a'8\staccato bes\staccato |
+
 
     %% Verse 1 %%
-    c4\staccato^\markup{"Go wild on the vibrato for all non-staccato notes-note to self remove this markup"} bes4\staccato  a8\accent g8 f16\accent (g8.) | bes4\staccato  a\staccato g16\accent (a16) g8 c,16\accent (d16) c8~ |
+    c4\staccato\!\f bes4\staccato  a8\accent g8 f16\accent (g8.) | bes4\staccato  a\staccato g16\accent (a16) g8 c,16\accent (d16) c8~ |
     c2 r2 | r1 | c'4\staccato bes4\staccato  e,16 (f16 e8)  d8\staccato c8\staccato | g'4\staccato bes8 (a) g8\staccato f8\staccato r8 a8\staccato |
     r8 a8 (a) a16 (f16 g2)~ | g2 r2 |
     r4 d4\staccato c4\staccato a\accent |r8 g'8 f d16 (c16)~c4 d4\staccato | r8 g8 f d16 (c16)~c8 d8 c8 a~ |a2 r2 |
-    r4 g'4\staccato f4\staccato d4\tenuto | r4 f8 (g8\accent~g8 c4) r8 | r4 g8 f8\accent~f8 (g4) r8 | f8\staccato d\staccato f\staccato d\staccato r8 a'4(bes16  a16 | 
-    g f8.~f4) r2 | r1 |r1| r1 |
-    c'4\staccato a\staccato e8\accent (f8) g4\staccato | c8\accent (bes) a8\staccato a8\staccato r8 a\accent
+    r4 g'4\staccato f4\staccato d4\tenuto | r4 f8 (g8\accent~g8 c4) r8 | r4 g8 f8\accent~f8 (g4) r8 | r4 f8\staccato d\staccato f\staccato d\staccato r8 a'8(~a8 bes16  a16 
+    g f8.~f4)  r4| r1 |r1| r1 |
+    c'4\staccato a\staccato e8\accent (f8) g4\staccato | c8\accent (bes) a8\staccato a8\staccato r8 a\accent r8 d,8 |
+    e8 (f) g8\staccato a8\staccato  d,8 a'8\accent r8 c8| bes4\tenuto c8 bes8\tenuto~bes8 d8 c4\tenuto| a16 (bes) c4. r4. c8|
+    bes4\tenuto c8 bes8\staccato r8 d4\staccato e,8 (d8) d8 (c4) r2 | r1 |
 
 
     %% Verse 2 %%
@@ -45,7 +52,10 @@ theNotes = \relative c'' {
   }
 
 theWords =  \lyricmode {
-
+      %% Intro %%%
+      oo oo oo oo
+      ah ah ah ah
+      oh oh oh oh oh oh
       %% Verse 1%%%
       am- ber bro- ken from
       sweet trees o- ver flow ing
@@ -57,7 +67,9 @@ theWords =  \lyricmode {
       dead for cen- tu- ries
       my strength took ten million
       years to make 
-
+      I'm all jewel noth- ing fake
+      am- ber I am more than they say
+      am- ber I'm a hard sun ray 
 
   }
 
@@ -66,15 +78,30 @@ righthand =\relative c' {
     \set Staff.midiInstrument = "piano"
     \key f \major
     \numericTimeSignature \time 4/4
-    r1
+    <bes c e g>4\mp\staccato r2 r8 <bes d f>8\accent~|<bes d f>8 r8 r2. |
+    <bes c e g>4\staccato r2 r8 <bes d f>8\accent~|<bes d f>8 r8 r2. |
+    <bes c e g>4\staccato r2 r8 <bes d f>8\accent~|<bes d f>8 r8 r2. |
+    <bes c e g>4\staccato r2 r8 <bes d f>8\accent~|<bes d f>8 r8 r2. |
+    <bes c e g>4\staccato r2 r8 <bes d f>8\accent~|<bes d f>8 r8 r2. |
+    <bes c e g>4\staccato r2 r8 <bes d f>8\accent~|<bes d f>8 r8 r2. |
+    bes4\staccato r4 bes4\staccato r4 | bes4\staccato r4 bes4\staccato r4 | 
+    
   }
 
-lefthand = \relative c' {
+lefthand = \relative c {
     \set Staff.midiInstrument = "piano"
     \key f \major
     \numericTimeSignature \time 4/4
     \clef "bass"
-    r1
+    c4\staccato r2r8 bes8\accent~|bes8 r8 r2. |
+    c4\staccato r2r8 bes8\accent~|bes8 r8 r2. |
+    c4\staccato r2r8 bes8\accent~|bes8 r8 r2. |
+    c4\staccato r2r8 bes8\accent~|bes8 r8 r2. |
+    c4\staccato r2r8 bes8\accent~|bes8 r8 r2. |
+    c4\staccato r2r8 bes8\accent~|bes8 r8 r2. |
+    <bes f>4\staccato r4 <bes f>4\staccato r4 |
+
+    
   }
 
 %%%%%%%%%%%%%%%%%%%%%%% Score Setup %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
