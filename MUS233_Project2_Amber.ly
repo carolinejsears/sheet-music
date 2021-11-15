@@ -21,6 +21,7 @@ theNotes = \relative c'' {
     \key f \major % C mixolydian
     \numericTimeSignature \time 4/4
     \tempo "Laid Back" 4 = 95
+    \dynamicUp
 
     %%Intro %%
     r1 | r1 |r1 | r1 |
