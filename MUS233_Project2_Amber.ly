@@ -20,17 +20,18 @@ theNotes = \relative c'' {
     \set Staff.midiInstrument = "flute"
     \key f \major % C mixolydian
     \numericTimeSignature \time 4/4
-    \tempo "Laid Back" 4 = 95
+    \tempo "Driving" 4 = 120
     \dynamicUp
 
     %%Intro %%
-    r1 | r1 |r1 | r1 |
+    r1 | r1 |r1 | r1 | r1 | r1 | r1 | r1 | r1 | r1 | r1 | r1 |
     e,4\staccato\mf r2 r8 d8\accent~ |d8 r8 r2. |e4\staccato r2 r8 d8\accent~ |d8 r8 r2. 
     e'4\staccato\f r2 r8 d8\accent~ |d8 r8 r2. |e4\staccato r2 r8 d8\accent~ |d8 r8 r2. 
-    d,4\accent\mf\< r4 d4\accent r4| d4\accent r4 d4\accent a'8\staccato bes\staccato |
+    d,4\accent\mf\< r4 d4\accent r4| d4\accent  g4\staccato a4\staccato bes\staccato |
 
 
     %% Verse 1 %%
+    \tempo "Laid Back, a little faster than half time" 4 = 70
     c4\staccato\!\f bes4\staccato  a8\accent g8 f16\accent (g8.) | bes4\staccato  a\staccato g16\accent (a16) g8 c,16\accent (d16) c8~ |
     c2 r2 | r1 | c'4\staccato bes4\staccato  e,16 (f16 e8)  d8\staccato c8\staccato | g'4\staccato bes8 (a) g8\staccato f8\staccato r8 a8\staccato |
     r8 a8 (a) a16 (f16 g2)~ | g2 r2 |
@@ -79,13 +80,19 @@ righthand =\relative c' {
     \set Staff.midiInstrument = "piano"
     \key f \major
     \numericTimeSignature \time 4/4
-    <bes c e g>4\mp\staccato r2 r8 <bes d f>8\accent~|<bes d f>8 r8 r2. |
+    <bes c e g>4\staccato\mf r2 \tuplet 3/2 {c4 (cis8)} | <bes d f>4\staccato r2.|
+    <bes c e g>4\staccato r2 \tuplet 3/2 {c4 (cis8)} | <bes d f>4\staccato r2.|
+    <bes c e g>4\staccato r4 <bes c e g>4\staccato r4|
+    <g'' bes c>4\staccato\< bes\staccato a (g) |
+    <bes, c e g>4\staccato\!\f r2 r8 <bes d f>8\accent~|<bes d f>8 r8 r2. |
+    <bes c e g>4\staccato r2 r8 <bes d f>8\accent~|<bes d f>8 r8 r2. |
+    <bes c e g>4\staccato r4 <bes c e g>4\staccato r4|
+    <g' bes c>4\> (bes a g) |
+    <bes, c e g>4\!\mp\staccato r2 r8 <bes d f>8\accent~|<bes d f>8 r8 r2. |
     <bes c e g>4\staccato r2 r8 <bes d f>8\accent~|<bes d f>8 r8 r2. |
     <bes c e g>4\staccato r2 r8 <bes d f>8\accent~|<bes d f>8 r8 r2. |
     <bes c e g>4\staccato r2 r8 <bes d f>8\accent~|<bes d f>8 r8 r2. |
-    <bes c e g>4\staccato r2 r8 <bes d f>8\accent~|<bes d f>8 r8 r2. |
-    <bes c e g>4\staccato r2 r8 <bes d f>8\accent~|<bes d f>8 r8 r2. |
-    bes4\staccato r4 bes4\staccato r4 | bes4\staccato r4 bes4\staccato r4 | 
+    bes4\staccato r4 bes4\staccato r4 | bes4\staccato r2. | 
     
   }
 
@@ -94,12 +101,18 @@ lefthand = \relative c {
     \key f \major
     \numericTimeSignature \time 4/4
     \clef "bass"
-    c4\staccato r2r8 bes8\accent~|bes8 r8 r2. |
-    c4\staccato r2r8 bes8\accent~|bes8 r8 r2. |
-    c4\staccato r2r8 bes8\accent~|bes8 r8 r2. |
-    c4\staccato r2r8 bes8\accent~|bes8 r8 r2. |
-    c4\staccato r2r8 bes8\accent~|bes8 r8 r2. |
-    c4\staccato r2r8 bes8\accent~|bes8 r8 r2. |
+    c4\staccato r2.|bes4\staccato r2. |
+    c4\staccato r2.|bes4\staccato r2. |
+    c4\staccato r4 bes4\staccato r4|
+    e4\staccato r2.|
+    c4\staccato r2 r8 bes8\accent~|bes8 r8 r2. |
+    c4\staccato r2 r8 bes8\accent~|bes8 r8 r2. |
+    c4\staccato r4 bes4\staccato r4|
+    e1|
+    c4\staccato r2 r8 bes8\accent~|bes8 r8 r2. |
+    c4\staccato r2 r8 bes8\accent~|bes8 r8 r2. |
+    c4\staccato r2 r8 bes8\accent~|bes8 r8 r2. |
+    c4\staccato r2 r8 bes8\accent~|bes8 r8 r2. |
     <bes f>4\staccato r4 <bes f>4\staccato r4 |
 
     
