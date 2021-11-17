@@ -117,8 +117,8 @@ lefthand = \relative c {
     c4\staccato r2.|bes4\staccato r2. |
     c4\staccato r4 bes4\staccato r4|
     e4\staccato r2.|
-    c4\staccato r2 r8 bes8\accent~|bes8 r8 r2. |
-    c4\staccato r2 r8 bes8\accent~|bes8 r8 r2. |
+    c4\staccato r2 r8 bes8\accent|<bes bes,>8 r8 r2. |
+    c'4\staccato r2 r8 bes8\accent|<bes bes,>8 r8 r2. |
     c4\staccato r4 bes4\staccato r4|
     e1|
     c4\staccato r2 r8 bes8\accent~|bes8 r8 r2. |
