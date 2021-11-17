@@ -99,9 +99,9 @@ righthand =\relative c' {
     
     %%%% VERSE 1 %%%%%%%%
     \tempo "Laid Back, half time" 4 = 60
-    <f a c>4\staccato <f a bes>\staccato <d f a>2\staccato | <bes d f>4\staccato <a c e>4\staccato  <c e g>2 |
+    <f a c>4\staccato <f a bes>\staccato <d f a>2 | <bes d f>4\staccato <a c e>4\staccato  <c e g>2 |
     <g' bes c>8\staccato  bes  a g r8 <g bes c>8\staccato a g | <g' bes c>8\staccato  bes  a g <g a>8\staccato <g a>8\staccato r4|
-    <f a c>4\staccato <f a bes>\staccato <d f a>2\staccato | <bes d f>4\staccato <a c e>4\staccato  <c e g>2 |
+    <f a c>4\staccato <f a bes>\staccato <d f a>2 | <bes d f>4\staccato <a c e>4\staccato  <c e g>2 |
     <g bes c>8\staccato  bes  a g r8 <g bes c>8\staccato a g | <g' bes c>8\staccato  bes  a g <g a>8\staccato <g a>8\staccato r4|
   }
 
@@ -130,10 +130,10 @@ lefthand = \relative c {
 
     %%%%% VERSE 1 %%%%%%%%%%
     \tempo "Laid Back, half time" 4 = 60
-    <f bes>4\staccato <f bes>4\staccato <d a'>2\staccato | bes'4\staccato a4\staccato <c c'>2| 
+    <f bes>4\staccato <f bes>4\staccato <d a'>2 | bes'4\staccato a4\staccato <c c'>2| 
     <c' e>4\staccato <c e>\staccato r8 <c e>\accent <c e>4\staccato  |
      <c e>4\staccato <c e>\staccato <c e>8\staccato <c e>8\staccato r4 |
-     <f, bes>4\staccato <f bes>4\staccato <d a'>2\staccato | bes4\staccato a4\staccato <c c'>2|
+     <f, bes>4\staccato <f bes>4\staccato <d a'>2 | bes4\staccato a4\staccato <c c'>2|
      <c' e>4\staccato <c e>\staccato r8 <c e>\accent <c e>4\staccato  |
      <c e>4\staccato <c e>\staccato <c e>8\staccato <c e>8\staccato r4 |
 
