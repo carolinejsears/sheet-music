@@ -31,16 +31,22 @@ theNotes = \relative c'' {
 
 
     %% Verse 1 %%
+
+    %bar 23%
     \tempo "Laid Back, half time" 4 = 60
     c4\staccato\!\f bes4\staccato  a8\accent g8 f16\accent (g8.) | bes4\staccato  a\staccato g16\accent (a16) g8 c,16\accent (d16) c8~ |
-    c2 r2 | r1 | c'4\staccato bes4\staccato  e,16 (f16 e8)  d8\staccato c8\staccato | g'4\staccato bes8 (a) g8\staccato f8\staccato r8 a8\staccato |
-    r8 a8 (a) a16 (f16 g2)~ | g2 r2 |
-    r4 d4\staccato c4\staccato a\accent |r8 g'8 f d16 (c16)~c4 d4\staccato | r8 g8 f d16 (c16)~c8 d8 c8 a~ |a2 r2 |
-    r4 g'4\staccato f4\staccato d4\tenuto | r4 f8 (g8\accent~g8 c4) r8 | r4 g8 f8\accent~f8 (g4) r8 | r4 f8\staccato d\staccato f\staccato d\staccato r8 a'8(~a8 bes16  a16 
+    c2 r2 | r1 |
+    %bar 27%
+     c'4\staccato bes4\staccato  e,16 (f16 e8)  d8\staccato c8\staccato | g'4\staccato bes8 (a) g8\staccato f8\staccato r8 a8\staccato |
+    r8 a8 (a) a16 (f16 g2~ | g2) r2 |
+    %bar 31%
+    r4 d4\staccato c4\staccato a\accent |r8 g'8 f d16 (c16~c4) d4\staccato | r8 g8 f d16 (c16~c8) d8 c8 a~ |a2 r2 |
+    %bar 35%
+    r4 d4\staccato c4\staccato a4\tenuto | r4 f'8 (g8\accent~g8 c4) r8 | r4 g8 f8\accent~f8 (g4) r8 | r4 f8\staccato d\staccato f\staccato d\staccato r8 a'8(~a8 bes16  a16 
     g f8.~f4)  r4| r1 |r1| r1 |
     c'4\staccato a\staccato e8\accent (f8) g4\staccato | c8\accent (bes) a8\staccato a8\staccato r8 a\accent r8 d,8 |
     e8 (f) g8\staccato a8\staccato  d,8 a'8\accent r8 c8| bes4\tenuto c8 bes8\tenuto~bes8 d8 c4\tenuto| a16 (bes) c4. r4. c8|
-    bes4\tenuto c8 bes8\staccato r8 d4\staccato e,8 (d8) d8 (c4) r2 | r1 |
+    bes4\tenuto c8 bes8\staccato r8 d4\staccato a8 (g8) g8 (f4) r2 | r1 |
 
 
     %% Verse 2 %%
@@ -99,10 +105,19 @@ righthand =\relative c' {
     
     %%%% VERSE 1 %%%%%%%%
     \tempo "Laid Back, half time" 4 = 60
+
+    %bar 23%
     <f a c>4\staccato <f a bes>\staccato <d f a>2 | <bes d f>4\staccato <a c e>4\staccato  <c e g>2 |
     <g' bes c>8\staccato  bes  a g r8 <g bes c>8\staccato a g | <g' bes c>8\staccato  bes  a g <g a>8\staccato <g a>8\staccato r4|
+    %bar 27%
     <f a c>4\staccato <f a bes>\staccato <d f a>2 | <bes d f>4\staccato <a c e>4\staccato  <c e g>2 |
     <g bes c>8\staccato  bes  a g r8 <g bes c>8\staccato a g | <g' bes c>8\staccato  bes  a g <g a>8\staccato <g a>8\staccato r4|
+    %bar 31%
+    r4 <bes, d f>4\staccato <a c d f>4\staccato <a c e> | r8 <a c e g>\staccato r4 <a c e g>2 |  r8 <a c e g>\staccato r4 <a c e g>2 | 
+    %bar 34%
+    a8 (bes c) a\staccato r8 a'\staccato e\accent c\staccato |r4 <bes d f>4\staccato <a c d f>4\staccato <a c e> |
+
+
   }
 
 lefthand = \relative c {
@@ -117,26 +132,33 @@ lefthand = \relative c {
     c4\staccato r2.|bes4\staccato r2. |
     c4\staccato r4 bes4\staccato r4|
     e4\staccato r2.|
-    c4\staccato r2 r8 bes8\accent|<bes bes,>8 r8 r2. |
-    c'4\staccato r2 r8 bes8\accent|<bes bes,>8 r8 r2. |
+    c4\staccato r2 r8 bes8~\accent|<bes bes,>8 r8 r2. |
+    c4\staccato r2 r8 bes8~\accent|<bes bes,>8 r8 r2. |
     c4\staccato r4 bes4\staccato r4|
     e1|
-    c4\staccato r2 r8 bes8\accent~|bes8 r8 r2. |
-    c4\staccato r2 r8 bes8\accent~|bes8 r8 r2. |
-    c4\staccato r2 r8 bes8\accent~|bes8 r8 r2. |
-    c4\staccato r2 r8 bes8\accent~|bes8 r8 r2. |
+    c4\staccato r2 r8 bes8~\accent|<bes bes,>8 r8 r2. |
+    c4\staccato r2 r8 bes8~\accent|<bes bes,>8 r8 r2. |
+    c4\staccato r2 r8 bes8~\accent|<bes bes,>8 r8 r2. |
+    c4\staccato r2 r8 bes8~\accent|<bes bes,>8 r8 r2. |
     <bes f>4\staccato r4 <bes f>4\staccato r4 |
     <bes f>4\staccato^\markup{"decel. - - - - - -"} g4 (a bes) |
 
     %%%%% VERSE 1 %%%%%%%%%%
     \tempo "Laid Back, half time" 4 = 60
+
+    %bar 23%
     <f bes>4\staccato <f bes>4\staccato <d a'>2 | bes'4\staccato a4\staccato <c c'>2| 
     <c' e>4\staccato <c e>\staccato r8 <c e>\accent <c e>4\staccato  |
      <c e>4\staccato <c e>\staccato <c e>8\staccato <c e>8\staccato r4 |
+     %bar 27%
      <f, bes>4\staccato <f bes>4\staccato <d a'>2 | bes4\staccato a4\staccato <c c'>2|
      <c' e>4\staccato <c e>\staccato r8 <c e>\accent <c e>4\staccato  |
      <c e>4\staccato <c e>\staccato <c e>8\staccato <c e>8\staccato r4 |
-
+     %bar 31%
+      r4 bes,4\staccato d\staccato a\staccato | r8 a8\staccato r4 a2 |r8 a8\staccato r4 a2 |
+      %bar 34%
+      <a c>\2 r8 <a e>8\staccato r4 | r4 bes4\staccato d\staccato a\staccato |
+      r8 <d' f >4~<d f>2 | r8 <f a>4~<f a>2
     
   }
 
