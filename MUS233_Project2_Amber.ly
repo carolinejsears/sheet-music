@@ -74,8 +74,8 @@ theWords =  \lyricmode {
       dust like a mosquito or beetle
       dead for cen- tu- ries
       my strength took ten million
-      years to make 
-      I'm all jewel noth- ing fake
+      years to find
+      I'm just own- ing what's mine
       am- ber I am more than they say
       am- ber I'm a hard sun ray 
 
@@ -117,7 +117,7 @@ righthand =\relative c' {
     %bar 34%
     a8 (bes c) a\staccato r8 a'\staccato e\accent c\staccato |r4 <bes d f>4\staccato <a c d f>4\staccato <a c e> |
     r4 r8 <c e>8~<c e>2 | r4 r8 <e g>8~<e g>2 | r4 <a, c f>4\staccato <a c f>4\staccato r8 <a c f>8~| <a c f>2 r8 f'8 des c\staccato|
-    r8 a4.
+    r8 a4. r8 f'8 des c\staccato | r8 a4. r8 f'8 d c\staccato
 
 
   }
