@@ -56,11 +56,11 @@ theNotes = \relative c'' {
     c2 r2 | r1 |
     %bar 54
     \key g \major
-    d'8\accent (a8)  b4 c8 b8 g16\accent (a8.) | c8\accent (b8) b4 a16 (b16) a8 d,16 (e16) d8~ |
+    d'8\accent (c8)  b4 c8 b8 g16\accent (a8.) | c8\accent (b8) b4 a16 (b16) a8 d,16 (e16) d8~ |
     d2 r2 | r1 |
     \key a \major
     %bar 58
-    e'8\accent (b8)  cis4 d8 cis8 a16\accent (b8.) | d8\accent (cis8) cis4 b16 (cis16) b8 e,16 (fis16) e8~ |
+    e'8\accent (d8)  cis4 d8 cis8 a16\accent (b8.) | d8\accent (cis8) cis4 b16 (cis16) b8 e,16 (fis16) e8~ |
     e2 r2 | r1 |
     %bar 62
     d8 (fis gis b)~b8 cis4.|b1\fermata|
@@ -229,12 +229,12 @@ lefthand = \relative c {
   \new Lyrics \lyricsto vocals \theWords
   
 
-  %\new PianoStaff \with { instrumentName = "Piano" 
+  \new PianoStaff \with { instrumentName = "Piano" 
     %shortInstrumentName = #"Pno. "
-    %}
+    }
   <<
-   % \new Staff = "upper" \righthand
-   % \new Staff = "lower" \lefthand
+    \new Staff = "upper" \righthand
+    \new Staff = "lower" \lefthand
   >>
 >>
 
