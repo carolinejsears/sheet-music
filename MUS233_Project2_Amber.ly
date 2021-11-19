@@ -51,6 +51,19 @@ theNotes = \relative c'' {
     e8 (f) g8\staccato a8\staccato  d,8 a'8\accent r8 c8| bes4\tenuto c8 bes8\tenuto~bes8 d8 c4\tenuto| a16 (bes) c4. r4. c8|
     %bar 48
     bes4\tenuto c8 bes8\staccato r8 d4\staccato a8 (g8) g8 (f4) r2 | r1 |
+    %bar 50
+    c8\accent (bes8)  a4 bes8 a8 f16\accent (g8.) | bes8\accent (a8) a g16 (a16) g8 c,16 (d16) c8~ |
+    c2 r2 | r1 |
+    %bar 54
+    c8\accent (bes8)  a4 bes8 a8 f16\accent (g8.) | bes8\accent (a8) a g16 (a16) g8 c,16 (d16) c8~ |
+    c2 r2 | r1 |
+    %bar 58
+    c8\accent (bes8)  a4 bes8 a8 f16\accent (g8.) | bes8\accent (a8) a g16 (a16) g8 c,16 (d16) c8~ |
+    c2 r2 | r1 |
+    %bar 62
+    d8 (fis gis b)~b8 cis4.|b1\fermata|
+
+
 
 
 
@@ -121,6 +134,8 @@ righthand =\relative c' {
     <bes c e g>4\staccato r2 r8 <bes d f>8\accent~|<bes d f>8 r8 r2. |
     bes4\staccato r4 bes4\staccato r4 | bes4\staccato r2. | 
     
+
+    
     %%%% VERSE 1 %%%%%%%%
     \tempo "Laid Back, half time" 4 = 60
 
@@ -141,6 +156,8 @@ righthand =\relative c' {
     %bar45
     <a c f>4\staccato <a c f>4\staccato r8<a c f>4.| <g d>4\accent r8 <g d>\accent~<g d>8 <a c>4. |
     bes8 <f c>4.~<f c>2 |<g d>4\accent r8 <g d>\staccato r8 <f a>4.~| <f a>8 <f a c>4. <f a c>2 |
+    %bar 50
+    \tuplet 3/2 {<bes d f>4 (<bes d f>4 <bes d f>4)} \tuplet 3/2 { <bes c e g>4 (<bes c e g>4 <bes c e g>4)} |
 
 
 
@@ -196,7 +213,7 @@ lefthand = \relative c {
       <g bes d>4\accent r8 <g bes d>8\accent~<g bes d>8 a8 <a c e>4 | f8 <f a c>4.~<f a c>2 | <g bes d>4\accent r8 <g bes d>8\staccato r8 <bes d >4.~|
       <bes d >8 <f a>4. <f a>2 |
       %bar 50
-      \tuplet 3/2 {d4 d d} \tuplet 3/2 {c4 c4 c} | f4
+      \tuplet 3/2 {d4 (d d)} \tuplet 3/2 {c4 (c4 c)} | f4
     
   }
 
