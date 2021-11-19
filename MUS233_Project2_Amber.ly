@@ -52,13 +52,13 @@ theNotes = \relative c'' {
     %bar 48
     bes4\tenuto c8 bes8\staccato r8 d4\staccato a8 (g8) g8 (f4) r2 | r1 |
     %bar 50
-    c8\accent (bes8)  a4 bes8 a8 f16\accent (g8.) | bes8\accent (a8) a g16 (a16) g8 c,16 (d16) c8~ |
+    c'8\accent (bes8)  a4 bes8 a8 f16\accent (g8.) | bes8\accent (a8) a4 g16 (a16) g8 c,16 (d16) c8~ |
     c2 r2 | r1 |
     %bar 54
-    c8\accent (bes8)  a4 bes8 a8 f16\accent (g8.) | bes8\accent (a8) a g16 (a16) g8 c,16 (d16) c8~ |
-    c2 r2 | r1 |
+    d'8\accent (a8)  b4 c8 b8 g16\accent (a8.) | c8\accent (b8) b4 a16 (b16) a8 d,16 (e16) d8~ |
+    d2 r2 | r1 |
     %bar 58
-    c8\accent (bes8)  a4 bes8 a8 f16\accent (g8.) | bes8\accent (a8) a g16 (a16) g8 c,16 (d16) c8~ |
+    c8\accent (bes8)  a4 bes8 a8 f16\accent (g8.) | bes8\accent (a8) a4 g16 (a16) g8 c,16 (d16) c8~ |
     c2 r2 | r1 |
     %bar 62
     d8 (fis gis b)~b8 cis4.|b1\fermata|
@@ -85,7 +85,7 @@ theWords =  \lyricmode {
       oh oh oh oh oh oh
       %% Verse 1%%%
       am- ber bro- ken from
-      sweet trees o- ver flow ing
+      sweet trees o- ver flow- ing
       I won't let you- _ou  trap me
       in your pre- cious stones_
       un- pre- cious mem- o- ry my
@@ -99,15 +99,15 @@ theWords =  \lyricmode {
       am- ber I'm a hard sun ray 
 
       am- ber bro- ken from
-      sweet trees o- ver flow ing
+      sweet trees o- ver flow- ing
 
       am- ber bro- ken from
-      sweet trees o- ver flow ing
+      sweet trees o- ver flow- ing
 
       am- ber bro- ken from
-      sweet trees o- ver flow ing
+      sweet trees o- ver flow- ing
 
-      o- - - o- ver flow -ing
+      over- flow- ing
 
 
 
@@ -227,12 +227,12 @@ lefthand = \relative c {
   \new Lyrics \lyricsto vocals \theWords
   
 
-  \new PianoStaff \with { instrumentName = "Piano" 
+  %\new PianoStaff \with { instrumentName = "Piano" 
     %shortInstrumentName = #"Pno. "
-    }
+    %}
   <<
-    \new Staff = "upper" \righthand
-    \new Staff = "lower" \lefthand
+   % \new Staff = "upper" \righthand
+   % \new Staff = "lower" \lefthand
   >>
 >>
 
