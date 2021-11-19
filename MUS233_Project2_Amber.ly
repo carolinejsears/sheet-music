@@ -163,10 +163,14 @@ righthand =\relative c' {
     %bar 51
     <f a c>8 a8 <f a bes>8 a8 <d, f a>8 f8 g8 f | <bes d f>8 c8 <a c e>4 <c e g>2 |
     <c g'>8 e8 <d f>8 e8 <g, b d > e8 <a c f>4 | <d fis a>4. <d fis a>8~<d fis a>4 <d fis a>4 |
+    %bar 54
+    \key g \major
+    <g b d>8 b8 <g b c>8 g8 <e, g b>8 g8 a8 g | <c e g>8 d8 <b d fis>4 <d fis a>2 |
+    <d a'>8 fis8 <e g>8 fis8 <a, cis e > fis8 <b d g>4 | <e gis b>4. <e gis b>8~<e gis b>4 <e gis b>4 |
 
-
-
-
+    \key a \major 
+    <g b d>8 b8 <g b c>8 g8 <e, g b>8 g8 a8 g | <c e g>8 d8 <b d fis>4 <d fis a>2 |
+    <d a'>8 fis8 <e g>8 fis8 <a, cis e > fis8 <b d g>4 | <e gis b>4. <e gis b>8~<e gis b>4 <e gis b>4 |
 
 
 
@@ -231,7 +235,7 @@ lefthand = \relative c {
       %bar 59
       \key a \major
       <a, d>4  < a d>4 <fis cis' >2 | d'4 cis4 <e e'>2 |
-      <e gis>4 <e gis>4 <g fis>4 <cis a>4| <e gis>4. <e gis>8~<e gis>4 <e gis> |
+      <e gis>4 <e gis>4 <g fis>4 <cis a>4|\tuplet 3/2 {d4 (d d)} \tuplet 3/2 {e4 (e4 e)}  |
 
     
   }
