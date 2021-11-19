@@ -235,7 +235,7 @@ lefthand = \relative c {
       %bar 59
       \key a \major
       <a, d>4  < a d>4 <fis cis' >2 | d'4 cis4 <e e'>2 |
-      <e gis>4 <e gis>4 <g fis>4 <cis a>4|\tuplet 3/2 {d4 (d d)} \tuplet 3/2 {e4 (e4 e)}  |
+      <e gis>4 <e gis>4 <g fis>4 <fis b>4|\tuplet 3/2 {d4 (d d)} \tuplet 3/2 {e4 (e4 e)}  |
 
     
   }
