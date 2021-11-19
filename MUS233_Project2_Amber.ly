@@ -223,17 +223,19 @@ lefthand = \relative c {
       \tuplet 3/2 {d4 (d d)} \tuplet 3/2 {c4 (c4 c)} |
       %bar 51
       <f, bes>4  < f bes>4 <d a' >2 | bes'4 a4 <c c'>2 |
+      <c, e>4 <c, e>4 <g d>4 <a f>4| <d fis>4. <d fis>8~<d fis>4 <d fis>4|
+
     
   }
 
 %%%%%%%%%%%%%%%%%%%%%%% Score Setup %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \score {
 \new StaffGroup <<
-  %\new Staff \with {instrumentName = "Soprano" 
+  \new Staff \with {instrumentName = "Soprano" 
     %shortInstrumentName = #"Sop. "
    % }
-  %\new Voice = vocals \theNotes
-  %\new Lyrics \lyricsto vocals \theWords
+  \new Voice = vocals \theNotes
+  \new Lyrics \lyricsto vocals \theWords
   
 
   \new PianoStaff \with { instrumentName = "Piano" 
