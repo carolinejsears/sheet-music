@@ -135,8 +135,6 @@ righthand =\relative c' {
     <bes c e g>4\staccato r2 r8 <bes d f>8\accent~|<bes d f>8 r8 r2. |
     <bes c e g>4\staccato r2 r8 <bes d f>8\accent~|<bes d f>8 r8 r2. |
     bes4\staccato r4 bes4\staccato r4 | bes4\staccato r2. | 
-
-    r4. d8 f2 | <gis b>1\fermata |
     
 
     
@@ -240,7 +238,7 @@ lefthand = \relative c {
       \key a \major
       <a, d>4  < a d>4 <fis cis' >2 | d'4 cis4 <e e'>2 |
       <e gis>4 <e gis>4 <g fis>4 <fis b>4|\tuplet 3/2 {d4 (d d)} \tuplet 3/2 {e4 (e4 e)}  |
-
+      r4. d8 f2 | <gis b>1\fermata |
     
   }
 
