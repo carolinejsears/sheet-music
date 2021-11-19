@@ -85,6 +85,19 @@ theWords =  \lyricmode {
       am- ber I am more than they say
       am- ber I'm a hard sun ray 
 
+      am- ber bro- ken from
+      sweet trees o- ver flow ing
+
+      am- ber bro- ken from
+      sweet trees o- ver flow ing
+
+      am- ber bro- ken from
+      sweet trees o- ver flow ing
+
+      o- - - o- ver flow -ing
+
+
+
   }
 
 %%%%%% PIANO PART %%%%%%%%%%
@@ -181,7 +194,7 @@ lefthand = \relative c {
       <c f>4\staccato <c f>4\staccato r8 <c f>4. |
       %bar 46
       <g bes d>4\accent r8 <g bes d>8\accent~<g bes d>8 a8 <a c e>4 | f8 <f a c>4.~<f a c>2 | <g bes d>4\accent r8 <g bes d>8\staccato r8 <bes d >4.~|
-      <bes d >8 <f a>4. r8 <f a>4. |
+      <bes d >8 <f a>4. <f a>2 |
     
   }
 
