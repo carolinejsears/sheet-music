@@ -117,7 +117,7 @@ righthand =\relative c' {
     %bar 34%
     a8 (bes c) a\staccato r8 a'\staccato e\accent c\staccato |r4 <bes d f>4\staccato <a c d f>4\staccato <a c e> |
     r4 r8 <c e>8~<c e>2 | r4 r8 <e g>8~<e g>2 | r4 <a, c f>4\staccato <a c f>4\staccato r8 <a c f>8~| <a c f>2 r8 f'8 des c\staccato|
-    r8 a4. r8 f'8 des c\staccato | r8 a4. r8 f'8 d c\staccato
+    r8 a4. r8 f'8 des c\staccato | r8 a4. r8 f'8 d c\staccato | r8 <a c f>4. <a c f>4 <a c f>4 |
 
 
   }
@@ -161,7 +161,8 @@ lefthand = \relative c {
       %bar 34%
       <a c>\2 r8 <a e>8\staccato r4 | r4 bes4\staccato d\staccato a\staccato |
       r8 <d' f>4\staccato <d f>8~ <d f>2 | r8 <f a>4\staccato <f a>8~<f a>2 | r4 <bes, d f>4\staccato <bes des f>4\staccato r8 <bes d f>8~|
-      <bes d f>1 |
+      <bes d f>1 | r8 <bes d f>4. r8 <bes d f>4. |  r8 <bes d f>4. r8 <bes d f>4. |r8 <bes d f>4. r8 <bes d f>4. |
+      
     
   }
 
