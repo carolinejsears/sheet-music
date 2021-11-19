@@ -170,7 +170,7 @@ righthand =\relative c' {
 
     \key a \major 
     <a cis e>8 cis8 <a cis d>8 a8 <fis, a cis>8 a8 b8 a | <d fis a>8 e8 <cis e gis>4 <e gis b>2 |
-    <e b'>8 gis8 <fis a>8 gis8 <b, d fis > gis'8 <cis e a>4 |\tuplet 3/2 {<d fis a>4 (<d fis a>4 <d fis a>4)} \tuplet 3/2 { <e gis b>4 (<e gis b>4 <e gis b>4)} |
+    <e b'>8 gis8 <fis a>8 gis8 <b, d fis > gis'8 <cis, e a>4 |\tuplet 3/2 {<d fis a>4 (<d fis a>4 <d fis a>4)} \tuplet 3/2 { <e gis b>4 (<e gis b>4 <e gis b>4)} |
     r4. d8 f2 | <gis b>1\fermata |
     
 
