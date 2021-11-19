@@ -160,6 +160,8 @@ righthand =\relative c' {
     bes8 <f c>4.~<f c>2 |<g d>4\accent r8 <g d>\staccato r8 <f a>4.~| <f a>8 <f a c>4. <f a c>2 |
     %bar 50
     \tuplet 3/2 {<bes d f>4 (<bes d f>4 <bes d f>4)} \tuplet 3/2 { <bes c e g>4 (<bes c e g>4 <bes c e g>4)} |
+    %bar 51
+    <f a c>8 a8 <f a bes>8 a8 <d, f a>8 f8 g8 f |
 
 
 
@@ -215,18 +217,20 @@ lefthand = \relative c {
       <g bes d>4\accent r8 <g bes d>8\accent~<g bes d>8 a8 <a c e>4 | f8 <f a c>4.~<f a c>2 | <g bes d>4\accent r8 <g bes d>8\staccato r8 <bes d >4.~|
       <bes d >8 <f a>4. <f a>2 |
       %bar 50
-      \tuplet 3/2 {d4 (d d)} \tuplet 3/2 {c4 (c4 c)} | f4
+      \tuplet 3/2 {d4 (d d)} \tuplet 3/2 {c4 (c4 c)} |
+      %bar 51
+      <f, bes>4  < f bes>4 <d a' >2 | bes'4 a4 <c c'>2 |
     
   }
 
 %%%%%%%%%%%%%%%%%%%%%%% Score Setup %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \score {
 \new StaffGroup <<
-  \new Staff \with {instrumentName = "Soprano" 
+  %\new Staff \with {instrumentName = "Soprano" 
     %shortInstrumentName = #"Sop. "
-    }
-  \new Voice = vocals \theNotes
-  \new Lyrics \lyricsto vocals \theWords
+   % }
+  %\new Voice = vocals \theNotes
+  %\new Lyrics \lyricsto vocals \theWords
   
 
   \new PianoStaff \with { instrumentName = "Piano" 
