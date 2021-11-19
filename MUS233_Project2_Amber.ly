@@ -117,7 +117,7 @@ righthand =\relative c' {
     a8 (bes c) a\staccato r8 a'\staccato e\accent c\staccato |r4 <bes d f>4\staccato <a c d f>4\staccato <a c e> |
     r4 r8 <c e>8~<c e>2 | r4 r8 <e g>8~<e g>2 | r4 <a, c f>4\staccato <a c f>4\staccato r8 <a c f>8~| <a c f>2 r8 f'8 des c\staccato|
     r8 a4. r8 f'8 des c\staccato | r8 a4. r8 f'8 d c\staccato | r8 <a c f>4. <a c f>8\staccato <a c f>4.\accent  |
-    <a c f>4\staccato <a c f>4\staccato
+    <a c f>4\staccato <a c f>4\staccato r4. f16 a,16 |<a c f>4\staccato <a c f>4\staccato r4. f16 a,16 
 
 
   }
