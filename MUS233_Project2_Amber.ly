@@ -166,7 +166,7 @@ righthand =\relative c' {
     %bar 55
     \key g \major
     <g b d>8 b8 <g b c>8 g8 <e, g b>8 g8 a8 g | <c e g>8 d8 <b d fis>4 <d fis a>2 |
-    <d a'>8 fis8 <e g>8 fis8 <a, cis e > fis8 <b d g>4 | <e gis b>8 <e gis b>8 <e gis b>8 <e gis b>8 <e gis b>8~<e gis b>8 <e gis b>8 <e gis b>8|
+    <d a'>8 fis8 <e g>8 fis8 <a, cis e > fis8 <b d g>4 | <e gis b>8 <e gis b>8 <e gis b>8 <e gis b>8~<e gis b>8<e gis b>8 <e gis b>8 <e gis b>8|
 
     \key a \major 
     <a cis e>8 cis8 <a cis d>8 a8 <fis, a cis>8 a8 b8 a | <d fis a>8 e8 <cis e gis>4 <e gis b>2 |
