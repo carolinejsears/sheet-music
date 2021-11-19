@@ -224,6 +224,15 @@ lefthand = \relative c {
       %bar 51
       <f, bes>4  < f bes>4 <d a' >2 | bes'4 a4 <c c'>2 |
       <c e>4 <c e>4 <g d>4 <a f>4| <d fis>4. <d fis>8~<d fis>4 <d fis> |
+      %bar 55
+      \key g \major
+      <g, c>4  < g c>4 <e b' >2 | c'4 b4 <d d'>2 |
+      <d fis>4 <d fis>4 <a e>4 <b g>4| <e gis>4. <e gis>8~<e gis>4 <e gis> |
+      %bar 59
+      \key a \major
+      <a, d>4  < a d>4 <fis cis' >2 | d'4 cis4 <e e'>2 |
+      <e gis>4 <e gis>4 <g fis>4 <cis a>4| <e gis>4. <e gis>8~<e gis>4 <e gis> |
+
     
   }
 
