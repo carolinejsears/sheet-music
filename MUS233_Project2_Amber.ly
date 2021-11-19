@@ -140,7 +140,7 @@ righthand =\relative c' {
     <a c f>4\staccato <a c f>4\staccato <a c f>2 |<a c f>4\staccato <a c f>4\staccato r8<a c f>4.| 
     %bar45
     <a c f>4\staccato <a c f>4\staccato r8<a c f>4.| <g d>4\accent r8 <g d>\accent~<g d>8 <a c>4. |
-    bes8 <f c>4.~<f c> |<g d>4\accent r8 <g d>\staccato r8 <f a>4.~| <f a>8 <f a c>4. <f a c>2 |
+    bes8 <f c>4.~<f c>2 |<g d>4\accent r8 <g d>\staccato r8 <f a>4.~| <f a>8 <f a c>4. <f a c>2 |
 
 
 
@@ -195,6 +195,8 @@ lefthand = \relative c {
       %bar 46
       <g bes d>4\accent r8 <g bes d>8\accent~<g bes d>8 a8 <a c e>4 | f8 <f a c>4.~<f a c>2 | <g bes d>4\accent r8 <g bes d>8\staccato r8 <bes d >4.~|
       <bes d >8 <f a>4. <f a>2 |
+      %bar 50
+      \tuplet 3/2 {d4 d d} \tuplet 3/2 {c4 c4 c} | f4
     
   }
 
