@@ -189,13 +189,15 @@ lefthand = \relative c {
 \score {
 \new StaffGroup <<
   \new Staff \with {instrumentName = "Soprano" 
-    shortInstrumentName = #"Sop. "}
+    %shortInstrumentName = #"Sop. "
+    }
   \new Voice = vocals \theNotes
   \new Lyrics \lyricsto vocals \theWords
   
 
   \new PianoStaff \with { instrumentName = "Piano" 
-    shortInstrumentName = #"Pno. "}
+    %shortInstrumentName = #"Pno. "
+    }
   <<
     \new Staff = "upper" \righthand
     \new Staff = "lower" \lefthand
