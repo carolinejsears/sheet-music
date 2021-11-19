@@ -53,6 +53,8 @@ theNotes = \relative c'' {
     bes4\tenuto c8 bes8\staccato r8 d4\staccato a8 (g8) g8 (f4) r2 | r1 |
 
 
+
+
     %% Verse 2 %%
 
     %% Breakdown %%
@@ -122,9 +124,9 @@ righthand =\relative c' {
     r4 r8 <c e>8~<c e>2 | r4 r8 <e g>8~<e g>2 | r4 <a, c f>4\staccato <a c f>4\staccato r8 <a c f>8~| <a c f>2 r8 f'8 des c\staccato|
     %bar 40
     r8 a4. r8 f'8 des c\staccato | r8 a4. r8 f'8 d c\staccato | r8 <a c f>4. <a c f>8\staccato <a c f>4.\accent  |
-    <a c f>4\staccato <a c f>4\staccato r4. f16 a16 |<a c f>4\staccato <a c f>4\staccato r4. f16 a16 | 
+    <a c f>4\staccato <a c f>4\staccato <a c f>2 |<a c f>4\staccato <a c f>4\staccato r8<a c f>4.| 
     %bar45
-    <a c e>4\staccato <a c e>4\staccato r4. <a c e>8\staccato |
+    <a c f>4\staccato <a c f>4\staccato r8<a c f>4.|
 
 
 
