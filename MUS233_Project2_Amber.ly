@@ -11,7 +11,7 @@
 \paper {
   #(set-paper-size "ansi a")
   #(define top-margin (* 0.75 in))
-  #(horizontal-shift (* 1 in))
+  horizontal-shift = 10 mm
 }
 
 \layout {
@@ -249,14 +249,14 @@ lefthand = \relative c {
 \score {
 \new StaffGroup <<
   \new Staff \with {instrumentName = "Soprano" 
-    %shortInstrumentName = #"Sop. "
+    shortInstrumentName = #"Sop. "
     }
   \new Voice = vocals \theNotes
   \new Lyrics \lyricsto vocals \theWords
   
 
   \new PianoStaff \with { instrumentName = "Piano" 
-    %shortInstrumentName = #"Pno. "
+    shortInstrumentName = #"Pno. "
     }
   <<
     \new Staff = "upper" \righthand
