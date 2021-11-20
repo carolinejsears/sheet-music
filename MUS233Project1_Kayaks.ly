@@ -7,9 +7,17 @@
 
       % The following fields are centered at the bottom
     tagline = ##f
+}
 
+\paper {
+  #(set-paper-size "ansi a")
+  #(define top-margin (* 0.5 in))
+  %horizontal-shift = 6\mm
+  min-systems-per-page = 6
+  print-first-page-number = ##t
+}
 
-} %make this composition feel like a journey
+ %make this composition feel like a journey
 \score {
 % violin code
   \new StaffGroup <<
