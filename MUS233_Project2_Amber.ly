@@ -207,7 +207,7 @@ lefthand = \relative c {
       r4 bes,4\staccato d\staccato a\staccato | r8 a8\staccato r4 a2 |r8 a8\staccato r4 a2 |
       %bar 34%
       <a' c>\2 r8 <a e>8\staccato r4 | r4 bes4\staccato d\staccato a\staccato |
-      r8 <d\< f>4\staccato <d\!\f f>8~ <d f>2 | r8 <f a>4\staccato <f a>8~<f a>2 |
+      r8 <d\< f>4\staccato <d f>8~ <d f\!\f>2 | r8 <f a>4\staccato <f a>8~<f a>2 |
       %bar 38
       r4 <bes, d f>4\staccato <bes des f>4\staccato r8 <bes d f>8~|
       <bes d f>1 | r8 <bes d f>4. r8 <bes d f>4. |  r8 <bes d f>4. r8 <bes d f>4. |r8 <bes d f>4. r8 <bes d f>4. |
