@@ -32,7 +32,7 @@
        r4.^\markup "no vibrato" bes4.\downbow~\pp| bes4. bes4.~| bes4. bes~| bes bes~\<^\markup "gradually add vibrato"|
        bes4. bes4.~| bes4. bes~| bes4. bes4.~| bes bes~\!\mf |
        %bars 9-16
-       bes4 d8\upbow bes4.\downbow^\markup{\italic{"(sempre)"}}~|bes4 d8 bes4.~|bes4 d8 bes4.~ |bes4 d8 bes4.|
+       bes4 d8\upbow bes4.\downbow^\markup{\italic{"(sempre - bowings)"}}~|bes4 d8 bes4.~|bes4 d8 bes4.~ |bes4 d8 bes4.|
        c8\downbow (bes a) g (bes a) | f4.~f4 bes8| c8. (bes16 a g) bes8. (a16 g8) | f4.~f4 bes8|
        %bars 17-20
        d8 (c b) f'8.\accent ees16 d8 | g4. a4. | bes8. (a16 g8) bes4 (f8) | bes2.\fermata
@@ -145,8 +145,8 @@
       %bars 129-132
       r1. |r |r |r |
       %bars 132-135
-      r1 a8^"ord."\mf\downbow ([fis]) a\downbow^\markup{\italic{"(sempre)"}} [(cis |
-      a fis)] a2.\upbow a8 ([fis]) a [(cis |
+      r1 a8^"ord."\mf\downbow ([fis]) a\downbow\ [(cis |
+      a fis)] a2.\upbow ^\markup{\italic{"(sempre)"}}a8 ([fis]) a [(cis |
        a fis)] a2. r4 b8 cis |
        \key d \major
        \time 6/8
