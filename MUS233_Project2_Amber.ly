@@ -132,10 +132,10 @@ righthand =\relative c' {
 
     %bar 23%
     <f a c>4\staccato\!\f <f a bes>\staccato <d f a>2 | <bes d f>4\staccato <a c e>4\staccato  <c e g>2 |
-    <g' bes c>8\staccato  bes  a g r8 <g bes c>8\staccato a g | <g' bes c>8\staccato  bes  a g r8 <g bes c>8\staccato a g |
+    <g' bes c>8\staccato  bes  a g r8 <g bes c>16\accent bes16 a8 g |<g' bes c>8\staccato  bes  a g r8 <g bes c>16\accent bes16 a8 g |
     %bar 27%
     <f a c>4\staccato <f a bes>\staccato <d f a>2 | <bes d f>4\staccato <a c e>4\staccato  <c e g>2 |
-    <g bes c>8\staccato  bes  a g r8 <g bes c>8\staccato a g | <g' bes c>8\staccato  bes  a g \tuplet 3/2 {<g a>4 <g a>4 <g a>4 } |
+    <g' bes c>8\staccato  bes  a g r8 <g bes c>16\accent bes16 a8 g | <g' bes c>8\staccato  bes  a g \tuplet 3/2 {<g a>4 <g a>4 <g a>4 } |
     %bar 31%
     r4 <bes, d f>4\staccato <a c d f>4\staccato <a c e> | r8 <a c e g>\staccato r4 <a c e g>2 |  r8 <a c e g>\staccato r4 <a c e g>2 | 
     %bar 34%
