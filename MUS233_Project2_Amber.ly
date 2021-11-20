@@ -148,19 +148,19 @@ righthand =\relative c' {
     <a c f>4\>\staccato <a c f>4\staccato <a c f>2\!\mf |<a c f>4\staccato <a c f>4\staccato r8<a c f>4.| 
     %bar45
     <a c f>4\<\staccato <a c f>4\staccato r8<a c f>4.\!\f| <g d>4\accent r8 <g d>\accent~<g d>8 <a c>4. |
-    bes8 <f c>4.~<f c>2 |<g d>4\accent r8 <g d>\staccato r8 <f a>4.~| <f a>8 <f a c>4. <f a c>2 |
+    bes8 <f c>4.~<f c>2 |<g d>4\accent r8 <g d>\staccato r8 <f a>4.~| <f a>8 <f a c>4. <f a c>2\> |
     %bar 50
-    \tuplet 3/2 {<bes\mp d f>4 (<bes d f>4 <bes d f>4)} \tuplet 3/2 { <bes c e g>4 (<bes c e g>4 <bes c e g>4)} |
+    \tuplet 3/2 {<bes\mp d f>4 (<bes d f>4 <bes d f>4)} \tuplet 3/2 { <bes c e g>4 (<bes c e g>4 <bes c e g>4)}\!\mp |
     %bar 51
     <f a c>8 a8 <f a bes>8 a8 <d, f a>8 f8 g8 f | <bes d f>8 c8 <a c e>4 <c e g>2 |
-    <c g'>8 e8 <d f>8 e8 <g, b d > e'8 <a, c f>4 | <d fis a>8 <d fis a>8 <d fis a>8 <d fis a>8~<d fis a>8 <d fis a>8 <d fis a>8 <d fis a>8 |
+    <c g'>8 e8 <d f>8 e8 <g, b d > e'8 <a, c f>4 | <d fis a>8 <d fis a>8 <d fis a>8 <d fis a>8~<d fis a>8 <d fis a>8\< <d fis a>8 <d fis a>8 |
     %bar 55
     \key g \major
-    <g b d>8 b8 <g b c>8 g8 <e, g b>8 g8 a8 g | <c e g>8 d8 <b d fis>4 <d fis a>2 |
-    <d a'>8 fis8 <e g>8 fis8 <a, cis e > fis'8 <b, d g>4 | <e gis b>8 <e gis b>8 <e gis b>8 <e gis b>8~<e gis b>8<e gis b>8 <e gis b>8 <e gis b>8|
+    <g b d>8\!\mf b8 <g b c>8 g8 <e, g b>8 g8 a8 g | <c e g>8 d8 <b d fis>4 <d fis a>2 |
+    <d a'>8 fis8 <e g>8 fis8 <a, cis e > fis'8 <b, d g>4 | <e gis b>8 <e gis b>8 <e gis b>8 <e gis b>8~<e gis b>8<e gis b>8\< <e gis b>8 <e gis b>8|
 
     \key a \major 
-    <a cis e>8 cis8 <a cis d>8 a8 <fis, a cis>8 a8 b8 a | <d fis a>8 e8 <cis e gis>4 <e gis b>2 |
+    <a cis e>8\!\f cis8 <a cis d>8 a8 <fis, a cis>8 a8 b8 a | <d fis a>8 e8 <cis e gis>4 <e gis b>2 |
     <e b'>8 gis8 <fis a>8 gis8 <b, d fis > gis'8 <cis, e a>4 |\tuplet 3/2 {<d fis a>4 (<d fis a>4 <d fis a>4)} \tuplet 3/2 { <e gis b>4 (<e gis b>4 <e gis b>4)} |
     r4. d8 (f2) | <gis b>1\fermata \bar "|."
     
