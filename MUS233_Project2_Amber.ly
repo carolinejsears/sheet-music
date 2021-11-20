@@ -40,14 +40,14 @@ theNotes = \relative c'' {
      c'4\staccato bes4\staccato  e,16 (f16 e8)  d8\staccato c8\staccato | g'4\staccato bes8 (a) g8\staccato f8\staccato r8 a8\staccato |
     r8 a8 (a) a16 (f16 g2~ | g2) r2 |
     %bar 31%
-    r4 d4\staccato c4\staccato a\accent |r8 g'8 f d16 (c16~c4) d4\staccato | r8 g8 f d16 (c16~c8) d8 c8 a~ |a2 r2 |
+    r4 d4\mp\staccato c4\staccato a\accent |r8 g'8 f d16 (c16~c4) d4\staccato | r8 g8 f d16 (c16~c8) d8 c8 a~ |a2 r2 |
     %bar 35%
-    r4 d4\staccato c4\staccato a4\tenuto | r4 f'8 (g8\accent~g8 c4) r8 | r4 g8 f8\accent~f8 (g4) r8 | r4 f8\staccato d\staccato f\staccato d\staccato r8 a'8(~a8 bes16  a16 
+    r4 d4\staccato c4\staccato a4\tenuto | r4 f'8\< (g8\accent~g8 c4\!\f) r8 | r4 g8 f8\>\accent~f8 (g4\!\mf) r8 | r4 f8\staccato\< d\staccato f\staccato d\staccato r8 a'8\!\f(~a8 bes16  a16 
     g f8.~f4)  r4|
     %bar40
      r1 |r1| r1 |
      %bar 43
-    c'4\staccato a\staccato e8\accent (f8) g4\staccato | c8\accent (bes) a8\staccato a8\staccato r8 a\accent r8 d,8 |
+    c'4\staccato\mf a\staccato e8\accent (f8) g4\staccato | c8\accent (bes) a8\staccato a8\staccato r8 a\accent r8 d,8 |
     e8 (f) g8\staccato a8\staccato  d,8 a'8\accent r8 c8| bes4\tenuto c8 bes8\tenuto~bes8 d8 c4\tenuto| a16 (bes) c4. r4. c8|
     %bar 48
     bes4\tenuto c8 bes8\staccato r8 d4\staccato a8 (g8) g8 (f4) r2 | r1 |
@@ -135,7 +135,7 @@ righthand =\relative c' {
     <g' bes c>8\staccato  bes  a g r8 <g bes c>16\accent bes16 a8 g |<g' bes c>8\staccato  bes  a g r8 <g bes c>16\accent bes16 a8 g |
     %bar 27%
     <f a c>4\staccato <f a bes>\staccato <d f a>2 | <bes d f>4\staccato <a c e>4\staccato  <c e g>2 |
-    <g bes c>8\staccato  bes  a g r8 <g bes c>16\accent bes16 a8 g | <g' bes c>8\staccato  bes  a g r8 a\staccato e\accent c\staccato |
+    <g bes c>8\staccato  bes  a g r8 <g bes c>16\accent bes16 a8 g | <g' bes c>8\>\staccato  bes  a g r8 a\staccato e\accent c\!\mp\staccato |
     %bar 31%
     r4 <bes d f>4\staccato <a c d f>4\staccato <a c e> | r8 <a c e g>\staccato r4 <a c e g>2 |  r8 <a c e g>\staccato r4 <a c e g>2 | 
     %bar 34%
