@@ -32,7 +32,7 @@
        r4.^\markup "no vibrato" bes4.\downbow~\pp| bes4. bes4.~| bes4. bes~| bes bes~\<^\markup "gradually add vibrato"|
        bes4. bes4.~| bes4. bes~| bes4. bes4.~| bes bes~\!\mf |
        %bars 9-16
-       bes4 d8\upbow bes4.\downbow~|bes4 d8 bes4.~|bes4 d8 bes4.~ |bes4 d8 bes4.|
+       bes4 d8\upbow bes4.\downbow^\markup{\italic{"(sempre)"}}~|bes4 d8 bes4.~|bes4 d8 bes4.~ |bes4 d8 bes4.|
        c8\downbow (bes a) g (bes a) | f4.~f4 bes8| c8. (bes16 a g) bes8. (a16 g8) | f4.~f4 bes8|
        %bars 17-20
        d8 (c b) f'8.\accent ees16 d8 | g4. a4. | bes8. (a16 g8) bes4 (f8) | bes2.\fermata
@@ -41,7 +41,7 @@
       \tempo "Vivace" 4 = 150
       \time 5/4
       %bars 21-24
-      \tuplet 3/2 {f8\downbow\f^\markup{\italic{"like a squawking bird"}} (ees d)} \tuplet 3/2 {f\downbow (ees d)}  \tuplet 3/2 {f\downbow (ees d)} r2 |
+      \tuplet 3/2 {f8\downbow\f^\markup{\italic{"like a squawking bird"}} (ees d)} \tuplet 3/2 {f\downbow (ees d)}  \tuplet 3/2 {f\downbow (ees d)}^\markup{\italic{"(sempre)"}} r2 |
       \tuplet 3/2 {f8 (ees d)} \tuplet 3/2 {f (ees d)}  \tuplet 3/2 {f (ees d)} r2 |
       \tuplet 3/2 {f'8 (ees d)} \tuplet 3/2 {f (ees d)}  \tuplet 3/2 {f (ees d)} r2 |
       \tuplet 3/2 {f8 (ees d)} \tuplet 3/2 {f (ees d)}  \tuplet 3/2 {f (ees d)} r2 |
@@ -76,7 +76,7 @@
       \key a \minor
       \tempo "Moderato" 4 = 100
       %bars 61- 64
-      a8^"arco, sul ponticello"\downbow\f [(f)] a\downbow [(b a f)] a2.\upbow |a8 [(f)] a [(b a f)] a2. | 
+      a8^"arco, sul ponticello"\downbow\f [(f)] a\downbow [(b a f)] a2.\upbow^\markup{\italic{"(sempre)"}} |a8 [(f)] a [(b a f)] a2. | 
       a8 [(f)] a [(b a f)] a2. |a8 [(f)] a [(b a f)] a2. |
       %bars 65-68
       \once \override Glissando.style = #'zigzag
@@ -100,7 +100,7 @@
       d1\startTrillSpan\mp | d1 | c1 | c1 |
       %bars 81-84
       \time 5/4
-      \tuplet 3/2 {bes8\stopTrillSpan\downbow\f(a g)} \tuplet 3/2 {bes\downbow (a g)}  \tuplet 3/2 {bes\downbow (a g)} r2 |
+      \tuplet 3/2 {bes8\stopTrillSpan\downbow\f(a g)} \tuplet 3/2 {bes\downbow (a g)}  \tuplet 3/2 {bes\downbow (a g)}^\markup{\italic{"(sempre)"}} r2 |
       \tuplet 3/2 {bes8(a g)} \tuplet 3/2 {bes8(a g)}  \tuplet 3/2 {bes8(a g)} r2 |
       \tuplet 3/2 {bes8(c d)} \tuplet 3/2 {bes8(c d)}  \tuplet 3/2 {bes8(c d)} r2 |
       \tuplet 3/2 {bes8(c d)} \tuplet 3/2 {bes8(c d)}  \tuplet 3/2 {bes8(c d)} r2 |
@@ -145,7 +145,7 @@
       %bars 129-132
       r1. |r |r |r |
       %bars 132-135
-      r1 a8^"ord."\mf\downbow ([fis]) a\downbow [(cis |
+      r1 a8^"ord."\mf\downbow ([fis]) a\downbow^\markup{\italic{"(sempre)"}} [(cis |
       a fis)] a2.\upbow a8 ([fis]) a [(cis |
        a fis)] a2. r4 b8 cis |
        \key d \major
@@ -179,7 +179,7 @@
       \tempo "Largo" 4. = 50
       %bars 1-8
       f2.\downbow\pp^\markup "no vibrato" |f |f |f4.\downbow~f4 d8\upbow\<^\markup "gradually add vibrato" |
-      f2.\downbow|f4.\downbow~f4 d8\upbow |f2.\downbow|f4.~f4 d8\!\mf |
+      f2.\downbow|f4.\downbow~f4 d8\upbow |f2.\downbow^\markup{\italic{"(sempre)"}}|f4.~f4 d8\!\mf |
       %bars 9-16
       f4.~f4 d8 |f4.~f4 d8 |f4.~f4 d8 |f4.~f4 d8 |
       f4.~f4 d8 | c8. (d16 ees16 f) d4 (c8) |f,4.~f4 d'8 |c8. (d16 ees16 g) f4 (c8) |
@@ -236,13 +236,13 @@
        \key f \major
        \time 5/4
        \tempo "Vivace" 4 =150
-       \tuplet 3/2 {c,8\downbow\f (bes a)} \tuplet 3/2 {c\downbow (bes a)}  \tuplet 3/2 {c\downbow (bes a)} r2 |
+       \tuplet 3/2 {c,8\downbow\f (bes a)}^\markup{\italic{"like a croaking frog"}} \tuplet 3/2 {c\downbow (bes a)}  \tuplet 3/2 {c\downbow (bes a)}^\markup{\italic{"(sempre)"}} r2 |
        \tuplet 3/2 {c8(bes a)} \tuplet 3/2 {c (bes a)}  \tuplet 3/2 {c (bes a)} r2 |
        \tuplet 3/2 {c,8 (d e)} \tuplet 3/2 {c (d e)}  \tuplet 3/2 {c (d e)} r2 |
        \tuplet 3/2 {c8 (d e)} \tuplet 3/2 {c (d e)}  \tuplet 3/2 {c(d e)} r2 |
       %bars 77-80
       \time 4/4
-       f4.^\markup{\italic{"like a croaking frog"}} \downbow\ff g8\upbow g2\downbow | f4. g8 f2 | f4. g8 g2 | f4. g8 f2 |
+       f4. \downbow\ff g8\upbow g2\downbow^\markup{\italic{"(sempre)"}}| f4. g8 f2 | f4. g8 g2 | f4. g8 f2 |
        %bars 81-84
       \time 5/4
       r2.\f f4. g8 | r2. f4. f8 |r2. f4. g8 |r2. f4. f8 |
@@ -278,7 +278,7 @@
       %bars 125-128
       c1.\glissando^\markup "play slide with tremolo"\> | c,\!\mp | 
       %bars 129-131
-      e8^"ord."\downbow\pp [(c)] e\downbow [(fis e c)] e2.\upbow |
+      e8^"ord."\downbow\pp [(c)] e\downbow [(fis e c)] e2.\upbow^\markup{\italic{"(sempre)"}} |
       e8\< [(c)] e[(fis e c)] e2. |
       a8 [(f)] a [(b a f)] a2. | 
       a8 [(fis)] a [(b a fis)] a2. | 
