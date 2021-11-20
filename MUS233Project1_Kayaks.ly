@@ -33,7 +33,7 @@
       \tempo "Vivace" 4 = 150
       \time 5/4
       %bars 21-24
-      \tuplet 3/2 {f8\downbow\f (ees d)} \tuplet 3/2 {f\downbow (ees d)}  \tuplet 3/2 {f\downbow (ees d)} r2 |
+      \tuplet 3/2 {f8\downbow\f^\markup{"like a squawking bird"} (ees d)} \tuplet 3/2 {f\downbow (ees d)}  \tuplet 3/2 {f\downbow (ees d)} r2 |
       \tuplet 3/2 {f8 (ees d)} \tuplet 3/2 {f (ees d)}  \tuplet 3/2 {f (ees d)} r2 |
       \tuplet 3/2 {f'8 (ees d)} \tuplet 3/2 {f (ees d)}  \tuplet 3/2 {f (ees d)} r2 |
       \tuplet 3/2 {f8 (ees d)} \tuplet 3/2 {f (ees d)}  \tuplet 3/2 {f (ees d)} r2 |
@@ -155,7 +155,7 @@
       %bars 148-151
       d4.\> d4.~| d4. d~|d4. d4.~| d4. d~|
       %bars 152-155
-      d4. d4.~| d4. d~|d4.\!\pp r4.|d2.\mf\fermata\downbow \bar "|."
+      d4.^\markup "no vibrato" d4.~| d4. d~|d4.\!\pp r4.|d2.\mf\fermata\downbow \bar "|."
       }
     
 
@@ -182,7 +182,7 @@
       \tempo "Vivace" 4 = 150
       \time 5/4
       %bars 21-24
-      r2.^\markup"sul tasto" bes,4 \tenuto\downbow\f bes4\downbow\tenuto |r2. bes4\tenuto bes4\tenuto |
+      r2. bes,4 \tenuto\downbow\f bes4\downbow\tenuto |r2. bes4\tenuto bes4\tenuto |
       r2. bes4\tenuto bes4\tenuto |r2. bes4\tenuto bes4\tenuto |
       %bars 25-28
       \numericTimeSignature \time 4/4
@@ -293,7 +293,7 @@
       %bars 148-151
       |a4.\>~a4 fis8| a4.~a4 fis8| a4.~a4 fis8| a4.~a4 fis8 |
       %bars 152-155
-      a2. |a |a\!\pp |<d a'>\mf\downbow\fermata \bar "|."
+      a2.^\markup "no vibrato" |a |a\!\pp |<d a'>\mf\downbow\fermata \bar "|."
       }
   >>
   \layout { }
