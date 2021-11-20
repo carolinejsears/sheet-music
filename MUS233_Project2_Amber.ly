@@ -20,7 +20,7 @@ theNotes = \relative c'' {
     \set Staff.midiInstrument = "flute"
     \key f \major % C mixolydian
     \numericTimeSignature \time 4/4
-    \tempo "Driving" 4 = 120
+    \tempo "Allegro" 4 = 120
     \dynamicUp
 
     %%Intro %%
@@ -33,7 +33,7 @@ theNotes = \relative c'' {
     %% Verse 1 %%
 
     %bar 23%
-    \tempo "Laid Back, half time" 4 = 60
+    \tempo "Largo" 4 = 60
     c4\staccato\!\f bes4\staccato  a8\accent g8 f16\accent (g8.) | bes4\staccato  a\staccato g16\accent (a16) g8 c,16\accent (d16) c8~ |
     c2 r2 | r1 |
     %bar 27%
@@ -110,7 +110,7 @@ righthand =\relative c' {
     \numericTimeSignature \time 4/4
 
     %%%%%%%% INTRO %%%%%%%%
-    \tempo "Driving" 4 = 120
+    \tempo "Allegro" 4 = 120
     <bes c e g>4\staccato\p r2 \tuplet 3/2 {c4 (cis8)} | <bes d f>4\staccato r2.|
     <bes c e g>4\staccato r2 \tuplet 3/2 {c4 (cis8)} | <bes d f>4\staccato r2.|
     <bes c e g>4\staccato r4 <bes c e g>4\staccato r4|
@@ -128,7 +128,7 @@ righthand =\relative c' {
 
     
     %%%% VERSE 1 %%%%%%%%
-    \tempo "Laid Back, half time" 4 = 60
+    \tempo "Largo" 4 = 60
 
     %bar 23%
     <f a c>4\staccato\!\f <f a bes>\staccato <d f a>2 | <bes d f>4\staccato <a c e>4\staccato  <c e g>2 |
@@ -173,7 +173,7 @@ lefthand = \relative c {
     \clef "bass"
 
     %%%%%%%% INTRO %%%%%%%%
-    \tempo "Driving" 4 = 120
+    \tempo "Allegro" 4 = 120
     c4\staccato r2.|bes4\staccato r2. |
     c4\staccato r2.|bes4\staccato r2. |
     c4\staccato r4 bes4\staccato r4|
@@ -190,7 +190,7 @@ lefthand = \relative c {
     <bes f>4\staccato^\markup{"decel. - - - - - -"} g4 (a bes) |
 
     %%%%% VERSE 1 %%%%%%%%%%
-    \tempo "Laid Back, half time" 4 = 60
+    \tempo "Largo" 4 = 60
 
     %bar 23%
     <f bes>4\staccato <f bes>4\staccato <d a'>2 | bes'4\staccato a4\staccato <c c'>2| 
