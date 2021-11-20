@@ -13,6 +13,7 @@
   #(define top-margin (* 0.75 in))
   horizontal-shift = 6\mm
   min-systems-per-page = 4
+  print-first-page-number = True
 }
 
 \layout {
