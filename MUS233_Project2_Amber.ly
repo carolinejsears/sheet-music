@@ -13,6 +13,14 @@
   #(define top-margin (* 0.75 in))
 }
 
+\layout {
+  indent = 2\cm
+  \context {
+    \StaffGroup
+    \override StaffGrouper.staff-staff-spacing.basic-distance = #4
+  }
+}
+
 %%%%%%%%%%%%%%%%%%%% Musical/Lyrical Content %%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %%%%% VOICE PART %%%%%%%%%%%
