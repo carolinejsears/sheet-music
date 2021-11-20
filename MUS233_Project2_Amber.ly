@@ -195,7 +195,7 @@ lefthand = \relative c {
     %bar 23%
     <f bes>4\staccato <f bes>4\staccato <d a'>2 | bes'4\staccato a4\staccato <c c'>2| 
     <c' e>4\staccato <c e>\staccato r8 <c e>\accent <c e>4\staccato  |
-    <c' e>4\staccato <c e>\staccato r8 <c e>\accent <c e>4\staccato |
+    <c e>4\staccato <c e>\staccato r8 <c e>\accent <c e>4\staccato |
      %bar 27%
      <f, bes>4\staccato <f bes>4\staccato <d a'>2 | bes4\staccato a4\staccato <c c'>2|
      <c' e>4\staccato <c e>\staccato r8 <c e>\accent <c e>4\staccato  |
