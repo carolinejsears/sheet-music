@@ -53,11 +53,11 @@ theNotes = \relative c'' {
     %bar 48
     bes4\tenuto c8 bes8\staccato r8 d4\tenuto a8 (g8) g8 (f4) r2 | r1 |
     %bar 50
-    c'8\mp\accent^\markup{\italic{"Legato"}} (bes8)  a4 bes8 a8 f16\accent (g8.) | bes8\\accent (a8) a4 g16 (a16) g8 c,16 (d16) c8~ |
+    c'8\mp\accent^\markup{\italic{"Legato"}} (bes8)  a4 bes8 a8 f16\accent (g8.) | bes8\accent (a8) a4 g16 (a16) g8 c,16 (d16) c8~ |
     c2 r2 | r1 |
     %bar 54
     \key g \major
-    d'8\accent (c8)  b4 c8 b8 g16\accent (a8.) | c8\mf\accent (b8) b4 a16 (b16) a8 d,16 (e16) d8~ |
+    d'8\accent\mf (c8)  b4 c8 b8 g16\accent (a8.) | c8\accent (b8) b4 a16 (b16) a8 d,16 (e16) d8~ |
     d2 r2 | r1 |
     \key a \major
     %bar 58
