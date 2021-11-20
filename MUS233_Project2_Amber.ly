@@ -135,7 +135,7 @@ righthand =\relative c' {
     <g' bes c>8\staccato  bes  a g r8 <g bes c>16\accent bes16 a8 g |<g' bes c>8\staccato  bes  a g r8 <g bes c>16\accent bes16 a8 g |
     %bar 27%
     <f a c>4\staccato <f a bes>\staccato <d f a>2 | <bes d f>4\staccato <a c e>4\staccato  <c e g>2 |
-    <g bes c>8\staccato  bes  a g r8 <g bes c>16\accent bes16 a8 g | <g' bes c>8\staccato  bes  a g \tuplet 3/2 {<g a>4 <g a>4 <g a>4 } |
+    <g bes c>8\staccato  bes  a g r8 <g bes c>16\accent bes16 a8 g | <g' bes c>8\staccato  bes  a g r8 a'\staccato e\accent c\staccato |
     %bar 31%
     r4 <bes, d f>4\staccato <a c d f>4\staccato <a c e> | r8 <a c e g>\staccato r4 <a c e g>2 |  r8 <a c e g>\staccato r4 <a c e g>2 | 
     %bar 34%
@@ -199,7 +199,7 @@ lefthand = \relative c {
      %bar 27%
      <f, bes>4\staccato <f bes>4\staccato <d a'>2 | bes4\staccato a4\staccato <c c'>2|
      <c' e>4\staccato <c e>\staccato r8 <c e>\accent <c e>4\staccato  |
-     <c e>4\staccato <c e>\staccato \tuplet 3/2 {<c e>4 <c e>4 <c e>4}  |
+     <c e>4\staccato <c e>\staccato r8 <a e>8\staccato r4 |
      %bar 31%
       r4 bes,4\staccato d\staccato a\staccato | r8 a8\staccato r4 a2 |r8 a8\staccato r4 a2 |
       %bar 34%
