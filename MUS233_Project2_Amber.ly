@@ -86,7 +86,7 @@ theWords =  \lyricmode {
       my strength took ten million
       years to find
       I'm just own- ing what's mine
-      am- ber I am more than they say
+      am- ber I see a bright new day
       am- ber I'm a hard sun ray 
 
       am- ber bro- ken from
@@ -160,7 +160,7 @@ righthand =\relative c' {
     \key a \major 
     <a cis e>8 cis8 <a cis d>8 a8 <fis, a cis>8 a8 b8 a | <d fis a>8 e8 <cis e gis>4 <e gis b>2 |
     <e b'>8 gis8 <fis a>8 gis8 <b, d fis > gis'8 <cis, e a>4 |\tuplet 3/2 {<d fis a>4 (<d fis a>4 <d fis a>4)} \tuplet 3/2 { <e gis b>4 (<e gis b>4 <e gis b>4)} |
-    r4. d8 f2 | <gis b>1\fermata \bar ".|"
+    r4. d8 (f2) | <gis b>1\fermata \bar ".|"
     
 
 
