@@ -42,6 +42,7 @@ theNotes = \relative c'' {
     %bar 31%
     r4 d4\mp\staccato c4\staccato a\accent |r8 g'8 f d16 (c16~c4) d4\staccato | r8 g8 f d16 (c16~c8) d8 c8 a~ |a2 r2 |
     %bar 35%
+    \override Hairpin.to-barline = ##f
     r4 d4\staccato c4\staccato a4\tenuto | r4 f'8\< (g8\accent~g8 c4\!\f) r8 | r4 g8 f8\>\accent~f8 (g4\!\mf) r8 | r4 f8\staccato\< d\staccato f\staccato d\staccato r8 a'8\!\f(~a8 bes16  a16 
     g f8.~f4)  r4|
     %bar40
