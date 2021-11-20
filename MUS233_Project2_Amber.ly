@@ -50,20 +50,20 @@ theNotes = \relative c'' {
     c'4\staccato\mf a\staccato e8\accent (f8) g4\staccato | c8\accent (bes) a8\staccato a8\staccato r8 a\accent r8 d,8\f |
     e8 (f) g8\staccato a8\staccato  d,8 a'8\accent r8 c8| bes4\tenuto c8 bes8\tenuto~bes8 d8 c4\tenuto| a16 (bes) c4. r4. c8|
     %bar 48
-    bes4\tenuto c8 bes8\staccato r8 d4\staccato a8 (g8) g8 (f4) r2 | r1 |
+    bes4\tenuto c8 bes8\staccato r8 d4\tenuto a8 (g8) g8 (f4) r2 | r1 |
     %bar 50
-    c'8\accent^\markup{\italic{"Legato"}} (bes8)  a4 bes8 a8 f16\accent (g8.) | bes8\accent (a8) a4 g16 (a16) g8 c,16 (d16) c8~ |
+    c'8\accent^\markup{\italic{"Legato"}} (bes8)  a4 bes8 a8 f16\accent (g8.) | bes8\mp\accent (a8) a4 g16 (a16) g8 c,16 (d16) c8~ |
     c2 r2 | r1 |
     %bar 54
     \key g \major
-    d'8\accent (c8)  b4 c8 b8 g16\accent (a8.) | c8\accent (b8) b4 a16 (b16) a8 d,16 (e16) d8~ |
+    d'8\accent (c8)  b4 c8 b8 g16\accent (a8.) | c8\mf\accent (b8) b4 a16 (b16) a8 d,16 (e16) d8~ |
     d2 r2 | r1 |
     \key a \major
     %bar 58
-    e'8\accent (d8)  cis4 d8 cis8 a16\accent (b8.) | d8\accent (cis8) cis4 b16 (cis16) b8 e,16 (fis16) e8~ |
+    e'8\f\accent (d8)  cis4 d8 cis8 a16\accent (b8.) | d8\accent (cis8) cis4 b16 (cis16) b8 e,16 (fis16) e8~ |
     e2 r2 | r1 |
     %bar 62
-    d8 (fis gis b~b8) cis4.|b1\fermata \bar ".|"
+    d8\mp\< (fis gis b~b8\!\mf\>) cis4.|b1\!\fermata \bar ".|"
 
 
     
@@ -148,7 +148,7 @@ righthand =\relative c' {
     <a c f>4\staccato <a c f>4\staccato r8<a c f>4.| <g d>4\accent r8 <g d>\accent~<g d>8 <a c>4. |
     bes8 <f c>4.~<f c>2 |<g d>4\accent r8 <g d>\staccato r8 <f a>4.~| <f a>8 <f a c>4. <f a c>2 |
     %bar 50
-    \tuplet 3/2 {<bes d f>4 (<bes d f>4 <bes d f>4)} \tuplet 3/2 { <bes c e g>4 (<bes c e g>4 <bes c e g>4)} |
+    \tuplet 3/2 {<bes\mp d f>4 (<bes d f>4 <bes d f>4)} \tuplet 3/2 { <bes c e g>4 (<bes c e g>4 <bes c e g>4)} |
     %bar 51
     <f a c>8 a8 <f a bes>8 a8 <d, f a>8 f8 g8 f | <bes d f>8 c8 <a c e>4 <c e g>2 |
     <c g'>8 e8 <d f>8 e8 <g, b d > e'8 <a, c f>4 | <d fis a>8 <d fis a>8 <d fis a>8 <d fis a>8~<d fis a>8 <d fis a>8 <d fis a>8 <d fis a>8 |
