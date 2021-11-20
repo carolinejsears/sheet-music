@@ -37,7 +37,7 @@ theNotes = \relative c'' {
     r1 | r1 |r1 | r1 | r1 | r1 | r1 | r1 | r1 | r1 | r1 | r1 |
     e,4\staccato\mf r2 r8 d8\accent~ |d8 r8 r2. |e4\staccato r2 r8 d8\accent~ |d8 r8 r2. 
     e'4\staccato r2 r8 d8\accent~ |d8 r8 r2. |e4\staccato r2 r8 d8\accent~ |d8 r8 r2. 
-    d,4\accent\< r4 d4\accent r4| d4\accent^\markup{"decel. - - - - - -"}  g4\staccato a4\staccato bes\staccato |
+    d,4\accent\< r4 d4\accent r4| d4\accent^\markup{"decel. - - - - - - - - - -"}  g4\staccato a4\staccato bes\staccato |
 
 
     %% Verse 1 %%
@@ -200,7 +200,7 @@ lefthand = \relative c {
     c4\staccato r2 r8 bes8~\accent|<bes bes,>8 r8 r2. |
     c4\staccato r2 r8 bes8~\accent|<bes bes,>8 r8 r2. |
     <bes f>4\staccato r4 <bes f>4\staccato r4 |
-    <bes f>4\staccato^\markup{"decel. - - - - - -"} g4 (a bes) |
+    <bes f>4\staccato^\markup{"decel. - - - - - - - - - -"} g4 (a bes) |
 
     %%%%% VERSE 1 %%%%%%%%%%
     \tempo "Largo" 4 = 60
