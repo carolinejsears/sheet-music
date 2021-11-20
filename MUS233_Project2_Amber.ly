@@ -250,7 +250,7 @@ lefthand = \relative c {
 \score {
 \new StaffGroup <<
   \new Staff \with {instrumentName = "Soprano" 
-    shortInstrumentName = #"Sop. "
+    shortInstrumentName = #"\override #'(font-size . 4)Sop. "
     }
   \new Voice = vocals \theNotes
   \new Lyrics \lyricsto vocals \theWords
