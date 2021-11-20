@@ -63,6 +63,7 @@ theNotes = \relative c'' {
     e'8\f\accent (d8)  cis4 d8 cis8 a16\accent (b8.) | d8\accent (cis8) cis4 b16 (cis16) b8 e,16 (fis16) e8~ |
     e2 r2 | r1 |
     %bar 62
+    \override Hairpin.to-barline = ##f
     d8\mp\< (fis gis b~b8) cis4.\!\mf\>|b1\!\fermata \bar ".|"
 
 
