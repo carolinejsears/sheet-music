@@ -53,7 +53,7 @@ theNotes = \relative c'' {
     %bar 48
     bes4\tenuto c8 bes8\staccato r8 d4\tenuto a8 (g8) g8 (f4) r2 | r1 |
     %bar 50
-    c'8\accent^\markup{\italic{"Legato"}} (bes8)  a4 bes8 a8 f16\accent (g8.) | bes8\mp\accent (a8) a4 g16 (a16) g8 c,16 (d16) c8~ |
+    c'8\mp\accent^\markup{\italic{"Legato"}} (bes8)  a4 bes8 a8 f16\accent (g8.) | bes8\\accent (a8) a4 g16 (a16) g8 c,16 (d16) c8~ |
     c2 r2 | r1 |
     %bar 54
     \key g \major
@@ -145,9 +145,9 @@ righthand =\relative c' {
     r4 r8 <c e>8~<c e>2 | r4 r8 <e g>8~<e g>2 | r4 <a, c f>4\<\staccato <a c f>4\staccato r8 <a c f>8\!\f~| <a c f>2 r8 f'8 des c\staccato|
     %bar 40
     r8 a4. r8 f'8 des c\staccato | r8 a4. r8 f'8 d c\staccato | r8 <a c f>4. <a c f>8\staccato <a c f>4.\accent  |
-    <a c f>4\staccato <a c f>4\staccato <a c f>2 |<a c f>4\staccato <a c f>4\staccato r8<a c f>4.| 
+    <a c f>4\>\staccato <a c f>4\staccato <a c f>2\!\mf |<a c f>4\staccato <a c f>4\staccato r8<a c f>4.| 
     %bar45
-    <a c f>4\staccato <a c f>4\staccato r8<a c f>4.| <g d>4\accent r8 <g d>\accent~<g d>8 <a c>4. |
+    <a c f>4\<\staccato <a c f>4\staccato r8<a c f>4.\!\f| <g d>4\accent r8 <g d>\accent~<g d>8 <a c>4. |
     bes8 <f c>4.~<f c>2 |<g d>4\accent r8 <g d>\staccato r8 <f a>4.~| <f a>8 <f a c>4. <f a c>2 |
     %bar 50
     \tuplet 3/2 {<bes\mp d f>4 (<bes d f>4 <bes d f>4)} \tuplet 3/2 { <bes c e g>4 (<bes c e g>4 <bes c e g>4)} |
