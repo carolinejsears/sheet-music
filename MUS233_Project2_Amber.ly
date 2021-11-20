@@ -64,7 +64,7 @@ theNotes = \relative c'' {
     e2 r2 | r1 |
     %bar 62
     \override Hairpin.to-barline = ##f
-    d8\mp\< (fis gis b~b8) cis4.\!\mf\>|b1\!\fermata \bar ".|"
+    d8\mp\< (fis gis b~b8) cis4.\!\mf\>|b1\!\fermata \bar "|."
 
 
     
@@ -161,7 +161,7 @@ righthand =\relative c' {
     \key a \major 
     <a cis e>8 cis8 <a cis d>8 a8 <fis, a cis>8 a8 b8 a | <d fis a>8 e8 <cis e gis>4 <e gis b>2 |
     <e b'>8 gis8 <fis a>8 gis8 <b, d fis > gis'8 <cis, e a>4 |\tuplet 3/2 {<d fis a>4 (<d fis a>4 <d fis a>4)} \tuplet 3/2 { <e gis b>4 (<e gis b>4 <e gis b>4)} |
-    r4. d8 (f2) | <gis b>1\fermata \bar ".|"
+    r4. d8 (f2) | <gis b>1\fermata \bar "|."
     
 
 
@@ -229,7 +229,7 @@ lefthand = \relative c {
       <a, d>4  < a d>4 <fis cis' >2 | d'4 cis4 <e e'>2 |
       <e gis>4 <e gis>4 <fis b>4 <a cis>4|\tuplet 3/2 {d,4 (d d)} \tuplet 3/2 {e4 (e4 e)}  |
      \clef "treble"
-      d'8 ( fis a4~a2 ) | <a cis e>1\fermata \bar ".|"
+      d'8 ( fis a4~a2 ) | <a cis e>1\fermata \bar "|."
     
   }
 
