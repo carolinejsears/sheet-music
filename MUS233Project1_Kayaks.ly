@@ -234,7 +234,7 @@
        \tuplet 3/2 {c8 (d e)} \tuplet 3/2 {c (d e)}  \tuplet 3/2 {c(d e)} r2 |
       %bars 77-80
       \time 4/4
-       f4.^\markup{"like a croaking frog"} \downbow\ff g8\upbow g2\downbow | f4. g8 f2 | f4. g8 g2 | f4. g8 f2 |
+       f4.^\markup{\italic{"like a croaking frog"}} \downbow\ff g8\upbow g2\downbow | f4. g8 f2 | f4. g8 g2 | f4. g8 f2 |
        %bars 81-84
       \time 5/4
       r2.\f f4. g8 | r2. f4. f8 |r2. f4. g8 |r2. f4. f8 |
