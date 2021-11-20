@@ -12,6 +12,7 @@
   #(set-paper-size "ansi a")
   #(define top-margin (* 0.75 in))
   horizontal-shift = 5\mm
+  min-systems-per-page = 4
 }
 
 \layout {
