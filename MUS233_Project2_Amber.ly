@@ -47,7 +47,7 @@ theNotes = \relative c'' {
     %bar40
      r1 |r1| r1 |
      %bar 43
-    c'4\staccato\mf a\staccato e8\accent (f8) g4\staccato | c8\accent (bes) a8\staccato a8\staccato r8 a\accent r8 d,8 |
+    c'4\staccato\mf a\staccato e8\accent (f8) g4\staccato | c8\accent (bes) a8\staccato a8\staccato r8 a\accent r8 d,8\f |
     e8 (f) g8\staccato a8\staccato  d,8 a'8\accent r8 c8| bes4\tenuto c8 bes8\tenuto~bes8 d8 c4\tenuto| a16 (bes) c4. r4. c8|
     %bar 48
     bes4\tenuto c8 bes8\staccato r8 d4\staccato a8 (g8) g8 (f4) r2 | r1 |
