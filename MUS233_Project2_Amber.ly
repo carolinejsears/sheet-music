@@ -11,11 +11,11 @@
 \paper {
   #(set-paper-size "ansi a")
   #(define top-margin (* 0.75 in))
-  horizontal-shift = 5 mm
+  #horizontal-shift = 5\mm
 }
 
 \layout {
-  indent = 2\cm
+  indent = 1.5\cm
   \context {
     \StaffGroup
     \override StaffGrouper.staff-staff-spacing.basic-distance = #4
