@@ -3,14 +3,14 @@
   title = "Amber"
     subtitle = "For Soprano and Piano"
     dedication = "MUS 233"
-    composer = "Caroline Sears"
+    composer = "Music and Lyrics by Caroline Sears"
     arranger = "November 20, 2021"
     tagline = ##f
 
 }
 \paper {
   #(set-paper-size "ansi a")
-  #(define top-margin (* 0.75 in))
+  #(define top-margin (* 0.5 in))
   horizontal-shift = 6\mm
   min-systems-per-page = 4
   print-first-page-number = ##t
@@ -163,7 +163,7 @@ righthand =\relative c' {
     %bar 50
     \tuplet 3/2 {<bes\mp d f>4 (<bes d f>4 <bes d f>4)} \tuplet 3/2 { <bes c e g>4 (<bes c e g>4 <bes c e g>4)}\!\mp |
     %bar 51
-    <f a c>8 a8 <f a bes>8 a8 <d, f a>8 f8 g8 f | <bes d f>8 c8 <a c e>4 <c e g>2 |
+    <f a c>8 (a8 <f a bes>8 a8) <d, f a>8 (f8 g8 f) | <bes d f>8 c8 <a c e>4 <c e g>2 |
     <c g'>8 e8 <d f>8 e8 <g, b d > e'8 <a, c f>4 | <d fis a>8 <d fis a>8 <d fis a>8 <d fis a>8~<d fis a>8 <d fis a>8\< <d fis a>8 <d fis a>8 |
     %bar 55
     \key g \major
