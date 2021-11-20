@@ -231,6 +231,7 @@ lefthand = \relative c {
       <a, d>4  < a d>4 <fis cis' >2 | d'4 cis4 <e e'>2 |
       <e gis>4 <e gis>4 <fis b>4 <a cis>4|\tuplet 3/2 {d,4 (d d)} \tuplet 3/2 {e4 (e4 e)}  |
      \clef "treble"
+     \override Hairpin.to-barline = ##f
       d'8\< ( fis a4~a2\!\mf\> ) | <a cis e>1\!\mp\fermata \bar "|."
     
   }
