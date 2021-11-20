@@ -26,8 +26,8 @@ theNotes = \relative c'' {
     %%Intro %%
     r1 | r1 |r1 | r1 | r1 | r1 | r1 | r1 | r1 | r1 | r1 | r1 |
     e,4\staccato\mf r2 r8 d8\accent~ |d8 r8 r2. |e4\staccato r2 r8 d8\accent~ |d8 r8 r2. 
-    e'4\staccato\f r2 r8 d8\accent~ |d8 r8 r2. |e4\staccato r2 r8 d8\accent~ |d8 r8 r2. 
-    d,4\accent\mf\< r4 d4\accent r4| d4\accent^\markup{"decel. - - - - - -"}  g4\staccato a4\staccato bes\staccato |
+    e'4\staccato r2 r8 d8\accent~ |d8 r8 r2. |e4\staccato r2 r8 d8\accent~ |d8 r8 r2. 
+    d,4\accent\< r4 d4\accent r4| d4\accent^\markup{"decel. - - - - - -"}  g4\staccato a4\staccato bes\staccato |
 
 
     %% Verse 1 %%
@@ -111,19 +111,19 @@ righthand =\relative c' {
 
     %%%%%%%% INTRO %%%%%%%%
     \tempo "Driving" 4 = 120
-    <bes c e g>4\staccato\mf r2 \tuplet 3/2 {c4 (cis8)} | <bes d f>4\staccato r2.|
+    <bes c e g>4\staccato\p r2 \tuplet 3/2 {c4 (cis8)} | <bes d f>4\staccato r2.|
     <bes c e g>4\staccato r2 \tuplet 3/2 {c4 (cis8)} | <bes d f>4\staccato r2.|
     <bes c e g>4\staccato r4 <bes c e g>4\staccato r4|
     <g'' bes c>4\staccato\< bes\staccato a (g) |
-    <bes, c e g>4\staccato\!\f r2 r8 <bes d f>8\accent~|<bes d f>8 r8 r2. |
+    <bes, c e g>4\staccato\!\mp r2 r8 <bes d f>8\accent~|<bes d f>8 r8 r2. |
     <bes c e g>4\staccato r2 r8 <bes d f>8\accent~|<bes d f>8 r8 r2. |
     <bes c e g>4\staccato r4 <bes c e g>4\staccato r4|
-    <g' bes c>4\> (bes a g) |
-    <bes, c e g>4\!\mp\staccato r2 r8 <bes d f>8\accent~|<bes d f>8 r8 r2. |
+    <g' bes c>4\< (bes a g) |
+    <bes, c e g>4\!\mf\staccato r2 r8 <bes d f>8\accent~|<bes d f>8 r8 r2. |
     <bes c e g>4\staccato r2 r8 <bes d f>8\accent~|<bes d f>8 r8 r2. |
     <bes c e g>4\staccato r2 r8 <bes d f>8\accent~|<bes d f>8 r8 r2. |
     <bes c e g>4\staccato r2 r8 <bes d f>8\accent~|<bes d f>8 r8 r2. |
-    bes4\staccato r4 bes4\staccato r4 | bes4\staccato r2. | 
+    bes4\staccato\< r4 bes4\staccato r4 | bes4\staccato r2. | 
     
 
     
@@ -131,8 +131,8 @@ righthand =\relative c' {
     \tempo "Laid Back, half time" 4 = 60
 
     %bar 23%
-    <f a c>4\staccato <f a bes>\staccato <d f a>2 | <bes d f>4\staccato <a c e>4\staccato  <c e g>2 |
-    <g' bes c>8\staccato  bes  a g r8 <g bes c>8\staccato a g | <g' bes c>8\staccato  bes  a g <g a>8\staccato <g a>8\staccato r4|
+    <f a c>4\staccato\!\f <f a bes>\staccato <d f a>2 | <bes d f>4\staccato <a c e>4\staccato  <c e g>2 |
+    <g' bes c>8\staccato  bes  a g r8 <g bes c>8\staccato a g | <g' bes c>8\staccato  bes  a g r8 <g bes c>8\staccato a g |
     %bar 27%
     <f a c>4\staccato <f a bes>\staccato <d f a>2 | <bes d f>4\staccato <a c e>4\staccato  <c e g>2 |
     <g bes c>8\staccato  bes  a g r8 <g bes c>8\staccato a g | <g' bes c>8\staccato  bes  a g \tuplet 3/2 {<g a>4 <g a>4 <g a>4 } |
