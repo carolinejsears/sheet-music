@@ -151,7 +151,7 @@ righthand =\relative c' {
     \tuplet 3/2 {<bes d f>4 (<bes d f>4 <bes d f>4)} \tuplet 3/2 { <bes c e g>4 (<bes c e g>4 <bes c e g>4)} |
     %bar 51
     <f a c>8 a8 <f a bes>8 a8 <d, f a>8 f8 g8 f | <bes d f>8 c8 <a c e>4 <c e g>2 |
-    <c g'>8 e8 <d f>8 e8 <g, b d > e'8 <a c f>4 | <d fis a>8 <d fis a>8 <d fis a>8 <d fis a>8~<d fis a>8 <d fis a>8 <d fis a>8 <d fis a>8 |
+    <c g'>8 e8 <d f>8 e8 <g, b d > e'8 <a, c f>4 | <d fis a>8 <d fis a>8 <d fis a>8 <d fis a>8~<d fis a>8 <d fis a>8 <d fis a>8 <d fis a>8 |
     %bar 55
     \key g \major
     <g b d>8 b8 <g b c>8 g8 <e, g b>8 g8 a8 g | <c e g>8 d8 <b d fis>4 <d fis a>2 |
