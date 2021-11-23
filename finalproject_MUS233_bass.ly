@@ -20,13 +20,13 @@
     piece= "Etude 1"
     }
   \new Staff  {
-    \relative c{ 
+    \relative c,{ 
     \key e \minor
     \tempo "Largo" 4= 60
  
     \time 3/4
      \clef "bass"
-     e4 \bar "|."
+     e4 (g a) | b2.~ |b2. | e,4 (g fis) | a2.~ |a2. | e'4 (g a) | b2.~|b2. |\bar "|."
     
   
     %\layout {}
