@@ -20,25 +20,24 @@
     piece= "Etude 1"
     }
   \new Staff  {
-    \relative c,{ 
+    \relative c{ 
     \key e \minor
     \tempo "Largo" 4= 60
- 
     \time 3/4
      \clef "bass"
      %A section
-      b'8 (a) b (e) a, (g) | e2 g4 | e2 d'4 |
-      c8 (b) c (e)  c (b) | a2 b4| a2 g4 | e2 g4| e2.|
+      b'16 (c b a) b4. c8 |b4. a8 b (c)| e16 (d c b) c4. d8 | c4. b8 c (d) |
+      fis4. e16 d16 c4~|c8 d16 c16 b4. e,16 g16 | a4.
+
       
-       
-       \bar "|."
-    
-  
-      \layout {}
-      \midi {}
+      \bar "|."  
+      }
+      }
+    %\layout {}
+    %\midi {}
     }
-  }
-}
+  
+
 \score {
   \header {
     piece = "Etude 2"
@@ -49,13 +48,15 @@
     \tempo "Andante" 4= 80
      \clef "bass"
      \numericTimeSignature \time 4/4
-    { ees \bar "|."
+    { bes4\staccato r8 f8\staccato bes4\staccato r8 f8\staccato | c'8\staccato bes\staccato aes\staccato f\staccato bes4\staccato r8 bes8\staccato|
+    ees4\staccato r8 bes8\staccato ees4\staccato r8 bes8\staccato | 
+    \bar "|."
     
     }
   }
 
-  %\layout {}
-  %\midi {}
+  \layout {}
+  \midi {}
 }
 
 \score {
@@ -87,14 +88,7 @@
     \tempo "Allegro" 4 = 120
      \clef "bass"
      \time 5/4
-    { d e4 (g a) | b2.~ |b2. |
-      e,4 (g fis) | a2.~ |a2. |
-      e'4 (g a) | b2.~|b2. |
-       e,4 (g fis) | a2.~ |a2. |
-      %B Section
-       e'4. d8 (c4) | b4 (a g)| e'4. d8 (c4) |
-       b2 c4\accent | b2 c4\accent |
-       e,4. g8 a4|
+    { d4
     \bar "|."
     
     }
