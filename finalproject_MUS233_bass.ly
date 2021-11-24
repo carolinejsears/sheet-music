@@ -26,11 +26,16 @@
  
     \time 3/4
      \clef "bass"
-     e4 (g a) | b2.~ |b2. | e,4 (g fis) | a2.~ |a2. | e'4 (g a) | b2.~|b2. |\bar "|."
+     %A section
+      b'8 (a) b (e) a, (g) | e2 g4 | e2 d'4 |
+      c8 (b) c (e)  c (b) | a2 b4| a2 g4 | e2 g4| e2.|
+      
+       
+       \bar "|."
     
   
-    %\layout {}
-    %\midi {}
+      \layout {}
+      \midi {}
     }
   }
 }
@@ -82,11 +87,19 @@
     \tempo "Allegro" 4 = 120
      \clef "bass"
      \time 5/4
-    { d \bar "|."
+    { d e4 (g a) | b2.~ |b2. |
+      e,4 (g fis) | a2.~ |a2. |
+      e'4 (g a) | b2.~|b2. |
+       e,4 (g fis) | a2.~ |a2. |
+      %B Section
+       e'4. d8 (c4) | b4 (a g)| e'4. d8 (c4) |
+       b2 c4\accent | b2 c4\accent |
+       e,4. g8 a4|
+    \bar "|."
     
     }
   }
 
-  \layout {}
-  \midi {}
+  %\layout {}
+  %\midi {}
 }
