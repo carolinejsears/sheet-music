@@ -1,6 +1,6 @@
 %%%%%%%%%%%%%%%%%%%% Header + Paper Dimensions %%%%%%%%%%%%%%%%%%%%
 \header {
-  title = "4? Etudes"
+  title = "4? Etudes (with Attitude)"
     subtitle = "For Solo Upright Bass"
     dedication = "MUS 233"
     composer = "Caroline Sears"
