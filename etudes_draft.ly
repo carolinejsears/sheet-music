@@ -7,7 +7,9 @@
   \relative c' {
   \clef bass
   \key bes \major
+  \slurDown
     \tuplet 3/2{g,4 (bes d)} g8\staccato d8\staccato g4 | \tuplet 3/2{g,4 (bes d)} g8\staccato d8\staccato bes'4 |
+    \slurUp
     \tuplet 3/2{d,4 (g bes)} d8\staccato bes\staccato d\staccato g\staccato | f4. ees8 f4. \clef tenor a8|
     \break
     bes4. f8 ees d8~d8 a'8 | bes4. f8 ees8 d8~d4 | ees8. d16\staccato c8. bes16\staccato bes'8\staccato a\staccato g4 |
@@ -52,7 +54,13 @@
   \relative c {
   \clef bass
   \key bes \major
-    \partial 8 (a8 bes8) g bes c (d) f r8 g8~|g8 a8 (bes) aes (a) g4 d8 (ees8) c
+    \partial 8 (a8 bes8) g bes c (d) f r8 g8~|g8 a8 (bes) aes (a) g4 d8 (ees8) c ees8 f8 (g8) bes8 r8 c8\accent~|
+    \break
+    c4 \tuplet 3/2 {g8 bes ees} f4\staccato r8 
+    \clef tenor
+    a8
+    (bes8) a8 (g8) f8 (ees) d8\staccato r8 a'\staccato | r8 g \tuplet 3/2{e8 (ees8) dis} d8\tenuto c8\accent r4 |
+    
 
     }
 
