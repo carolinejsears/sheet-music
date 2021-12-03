@@ -10,7 +10,7 @@
   \slurDown
     \tuplet 3/2{g,4 (bes d)} g8\staccato d8\staccato g4 | \tuplet 3/2{g,4 (bes d)} g8\staccato d8\staccato bes'4 |
     \slurUp
-    \tuplet 3/2{d,4 (g bes)} d8\staccato bes\staccato d\staccato g\staccato | f4. ees8 f4. \clef tenor a8|
+    \tuplet 3/2{d,4 (g bes)} d8\staccato bes\staccato d\staccato \clef tenor  g\staccato | f4. ees8 f4. a8|
     \break
     bes4. f8 ees d8~d8 a'8 | bes4. f8 ees8 d8~d4 | ees8. d16\staccato c8. bes16\staccato bes'8\staccato a\staccato g4 |
     \clef bass ees8. d16\staccato c8. bes16\staccato c8 aes8 g4 |
@@ -23,9 +23,27 @@
     c2 \tuplet 3/2{bes4 (g f)} |d2 f8. g16 a8. f16 | bes1\fermata \bar "|."
   }
 
+  %\layout {}
+  %\midi {}
+}
+
+\score {
+  \relative c {
+  \clef bass
+  \key bes \major
+  \tuplet 3/2{g4 (bes d)} g8 d8 g8. d16| g8. d16 bes4~bes4 c8. bes16 | 
+  \tuplet 3/2{ees4 (g c)} bes8 c8 d8. c16| f4. ees8 f4. \clef tenor a8 |
+  \break
+   bes8. a16 g8. f16 ees4. g8 | a8. g16 f8. ees16 d2 |
+   g8. aes16 g8. f16 des8\staccato bes\staccato des4 | g8. f16 ees8. des16 ees4\tenuto bes\tenuto |
+   \break
+
+  }
+
   \layout {}
   \midi {}
 }
+
 
 \score {
   \relative c' {
@@ -46,8 +64,8 @@
 
     }
 
-  \layout {}
-  \midi {}
+  %\layout {}
+  %\midi {}
 }
 
 \score {
@@ -64,6 +82,6 @@
 
     }
 
-  \layout {}
-  \midi {}
+  %\layout {}
+  %\midi {}
 }
