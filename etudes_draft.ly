@@ -16,7 +16,7 @@
     \clef bass ees8. d16\staccato c8. bes16\staccato c8 aes8 g4 |
     \break
      \tuplet 3/2{aes4 (c ees)} f8\staccato c\staccato f4|
-    \tuplet 3/2{g,4 (bes d)} e2 | ees8. d16\staccato c8. bes16\staccato f8\staccato g\staccato c4 |
+    \tuplet 3/2{g,4 (b d)} e2 | ees8. d16\staccato c8. bes16\staccato f8\staccato g\staccato c4 |
     f,8. g16 f8. c'16 \tuplet 3/2{a4 (f g)} | 
     \break
     bes2 \tuplet 3/2{bes4 (d c)} |
@@ -60,7 +60,7 @@
     \clef tenor
     a8
     (bes8) a8 (g8) f8 (ees) d8\staccato r8 a'\staccato | r8 g \tuplet 3/2{e8 (ees8) dis} d8\tenuto c8\accent r4 |
-    
+
 
     }
 
