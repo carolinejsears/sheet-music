@@ -1,7 +1,9 @@
 \header {
-  tagline = ##f
+  tagline = ##f 
+  %just to get rid of the tacky tagline
 }
 
+%______________________setting up the paper size and universal layout_______________
 \paper {
   #(set-paper-size "half letter")
   #(define top-margin (* 0.75 in))
@@ -17,8 +19,10 @@
   }
 }
 
+%________________The chord progression_______________________
+
 theChords = \chordmode {
-  \once \omit r8 g1:m7 g1:m7 c:m7 f:7
+  g1:m7 g1:m7 c:m7 f:7
   bes:maj7 bes:maj7 bes:m7 ees:7
   aes:maj7 g:6 c:m7 f:7
   bes:maj7 bes:maj7 a:m7.5- d:7
@@ -26,7 +30,7 @@ theChords = \chordmode {
 
 }
 
-
+%________________Etude 1_____________________________
 
 \bookpart {
   \header {
@@ -63,6 +67,8 @@ theChords = \chordmode {
   \midi {}
 }
 }
+
+%_________________Etude 2_________________________
 
 \bookpart {
   \header {
@@ -102,18 +108,13 @@ theChords = \chordmode {
 }
 }
 
-\bookpart {
-  \header {
-   piece = \markup { \fontsize #2 "Etude 3" }
-   opus = \markup { \italic "(Swing eighth notes)" }
-  }
-\score {
-  \relative c {
-  %Etude 4
+
+Notesthree = \relative c {
+  %Etude 3
   \clef bass
   \key bes \major
   \numericTimeSignature \time 4/4
-  \tempo "Easy Medium" 4 = 100
+  \tempo "Medium Easy" 4 = 100
   bes2^\markup{"arco"} g8 bes8~bes4 | d4\staccato bes8 g'8~g2 | ees2 c8 ees8~ees4 |
   \break
   f8 g8 c8 f,8 f'4 \clef tenor g8 a8 |
@@ -132,19 +133,28 @@ theChords = \chordmode {
 
   }
 
+%____________________Etude 3_________________
+
+\bookpart {
+  \header {
+   piece = \markup { \fontsize #2 "Etude 3" }
+   opus = \markup { \italic "(Swing eighth notes)" }
+  }
+\score {
+  <<
+    \new ChordNames {
+      %\set chordChanges = ##t
+      \theChords
+    }
+    \new Staff \Notesthree
+  >>
+
   %\layout {}
   %\midi {}
 }
 }
 
-theChordsfour = \chordmode {
-  g1:m7 g1:m7 c:m7 f:7
-  bes:maj7 bes:maj7 bes:m7 ees:7
-  aes:maj7 g:6 c:m7 f:7
-  bes:maj7 bes:maj7 a:m7.5- d:7
-  g:m7
 
-}
 
 Notesfour = \relative c' {
   %Etude 4
@@ -180,7 +190,7 @@ Notesfour = \relative c' {
   <<
     \new ChordNames {
       %\set chordChanges = ##t
-      \theChordsfour
+      \theChords
     }
     \new Staff \Notesfour
   >>
