@@ -31,7 +31,7 @@ theChords = \chordmode {
 \bookpart {
   \header {
    piece = \markup { \fontsize #2 "Etude 1" }
-   opus = \markup { \italic "\"Classical\"" }
+   opus = \markup { \italic "(Straight eighth notes)" }
   }
 \score {
   \relative c' {
@@ -67,7 +67,7 @@ theChords = \chordmode {
 \bookpart {
   \header {
    piece = \markup { \fontsize #2 "Etude 2" }
-   opus = \markup { \italic "\"Classical-ish\"" }
+   opus = \markup { \italic "(Straight eighth notes)" }
   }
 \score {
   \relative c {
@@ -105,7 +105,7 @@ theChords = \chordmode {
 \bookpart {
   \header {
    piece = \markup { \fontsize #2 "Etude 3" }
-   opus = \markup { \italic "\"Jazzical\"" }
+   opus = \markup { \italic "(Swing eighth notes)" }
   }
 \score {
   \relative c {
@@ -114,7 +114,7 @@ theChords = \chordmode {
   \key bes \major
   \numericTimeSignature \time 4/4
   \tempo "Easy Medium" 4 = 100
-  bes2^\markup{"arco"}^\markup{\italic "swing eighth notes"} g8 bes8~bes4 | d4\staccato bes8 g'8~g2 | ees2 c8 ees8~ees4 |
+  bes2^\markup{"arco"} g8 bes8~bes4 | d4\staccato bes8 g'8~g2 | ees2 c8 ees8~ees4 |
   \break
   f8 g8 c8 f,8 f'4 \clef tenor g8 a8 |
   bes4\tenuto a8 g8 f8 ees8~ees4 | a4\tenuto g8 f8 ees8 d8~d4 | 
@@ -137,14 +137,16 @@ theChords = \chordmode {
 }
 }
 
+theChordsfour = \chordmode {
+  g1:m7 g1:m7 c:m7 f:7
+  bes:maj7 bes:maj7 bes:m7 ees:7
+  aes:maj7 g:6 c:m7 f:7
+  bes:maj7 bes:maj7 a:m7.5- d:7
+  g:m7
 
-\bookpart {
-  \header {
-   piece = \markup { \fontsize #2 "Etude 4" }
-   opus = \markup { \italic "\"Jazzing it up\"" }
-  }
-\score {
-  \relative c' {
+}
+
+Notesfour = \relative c' {
   %Etude 4
   \clef bass
   \key bes \major
@@ -168,6 +170,21 @@ theChords = \chordmode {
    
 
     }
+
+\bookpart {
+  \header {
+   piece = \markup { \fontsize #2 "Etude 4" }
+   opus = \markup { \italic "\"Jazzing it up\"" }
+  }
+\score {
+  <<
+    \new ChordNames {
+      %\set chordChanges = ##t
+      \theChordsfour
+    }
+    \new Staff \Notesfour
+  >>
+
 
   %\layout {}
   %\midi {}
