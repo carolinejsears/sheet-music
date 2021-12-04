@@ -157,7 +157,10 @@ Notesfour = \relative c' {
   \key bes \major
   \tempo "Medium Fast" 4 = 120
    \numericTimeSignature \time 4/4
-  bes,8\mf^\markup{"jazz pizz."} g8 bes8 d8 f4 d8 g~|g4 d8 g8~g2 | ees8 c8 ees g8 bes4 g8 c8~|
+  bes,8
+  \once \override Score.FootnoteItem.annotation-line = ##f
+    b-\footnote \markup \tiny "*" #'(0.25 . -0.01)
+      \markup { \super "*" \italic " Editorial" } \mf^\markup{"jazz pizz."} g8 bes8 d8 f4 d8 g~|g4 d8 g8~g2 | ees8 c8 ees g8 bes4 g8 c8~|
   \break
    c4 bes8 f'8~f4. \clef tenor bes8~|
   bes8 a8 g f ees d8~d8 a'8~|a8 g8 f8 ees8 f8 d8~d4 |
