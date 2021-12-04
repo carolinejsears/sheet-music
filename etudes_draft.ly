@@ -17,6 +17,17 @@
   }
 }
 
+theChords = \chordmode {
+  \once \omit r8 g1:m7 g1:m7 c:m7 f:7
+  bes:maj7 bes:maj7 bes:m7 ees:7
+  aes:maj7 g:6 c:m7 f:7
+  bes:maj7 bes:maj7 a:m7.5- d:7
+  g:m7
+
+}
+
+
+
 \bookpart {
   \header {
    piece = \markup { \fontsize #2 "Etude 1" }
@@ -66,7 +77,7 @@
   \tempo "Andante" 4 = 75
   \numericTimeSignature \time 4/4
   \slurDown
-  \tuplet 3/2{g4 (bes d)} g8 d8 g8. d16| g8. d16 bes4~bes4 c8. bes16 | 
+  \tuplet 3/2{g4^\markup{"arco"} (bes d)} g8 d8 g8. d16| g8. d16 bes4~bes4 c8. bes16 | 
   \slurUp
   \tuplet 3/2{ees4 (g c)} bes8 c8 d8. c16|
   \break
@@ -103,7 +114,7 @@
   \key bes \major
   \numericTimeSignature \time 4/4
   \tempo "Easy Medium" 4 = 100
-  bes2^\markup{\italic "swing eighth notes"} g8 bes8~bes4 | d4\staccato bes8 g'8~g2 | ees2 c8 ees8~ees4 |
+  bes2^\markup{"arco"}^\markup{\italic "swing eighth notes"} g8 bes8~bes4 | d4\staccato bes8 g'8~g2 | ees2 c8 ees8~ees4 |
   \break
   f8 g8 c8 f,8 f'4 \clef tenor g8 a8 |
   bes4\tenuto a8 g8 f8 ees8~ees4 | a4\tenuto g8 f8 ees8 d8~d4 | 
@@ -114,7 +125,7 @@
    \clef bass d2~d4 e8 g,8 |
   ees'4 f8 bes,8 c8 bes8 g8 ges8 | f4 g8 (f8) d'8 (bes) aes (a) |
   \break
-  bes2~bes4 g8 f8 | d4\staccato f\staccato  d4\staccato r4 | a4\staccato ees'\staccato c\staccato  r4 |
+  bes2~bes4 g8^\markup{"pizz."} f8 | d4\staccato f\staccato  d4\staccato r4 | a4\staccato ees'\staccato c\staccato  r4 |
   d8 a8 d8 ees8 f4 fis4 |
   g1\fermata \bar "|."
 
@@ -139,7 +150,7 @@
   \key bes \major
   \tempo "Medium Fast" 4 = 120
    \numericTimeSignature \time 4/4
-  bes,8^\markup{\italic "swing eighth notes"} g8 bes8 d8 f4 d8 g~|g4 d8 g8~g2 | ees8 c8 ees g8 bes4 g8 c8~|
+  bes,8^\markup{"jazz pizz."}^\markup{\italic "swing eighth notes"} g8 bes8 d8 f4 d8 g~|g4 d8 g8~g2 | ees8 c8 ees g8 bes4 g8 c8~|
   \break
    c4 bes8 f'8~f4. \clef tenor bes8~|
   bes8 a8 g f ees d8~d8 a'8~|a8 g8 f8 ees8 f8 d8~d4 |
@@ -164,19 +175,14 @@
 }
 
 
-\bookpart {
-  \header {
-   piece = \markup { \fontsize #2 "Etude 5" }
-   opus = \markup { \italic "\"Jazz\"" }
-  }
-\score {
-  \relative c {
+
+Notesfive =  \relative c {
   %Etude 5
   \clef bass
   \key bes \major
   \numericTimeSignature \time 4/4
   \tempo "Medium-Up Swing" 4 = 140
-    \partial 8 (a8^\markup{\italic "swing eighth notes"} bes8) g bes c (d) f r8 g8~|g8 a8 (bes) aes (a) g4 d8 (ees8) c ees8 f8 (g8) bes8 r8 c8\accent~|
+    \partial 8 (a8^\markup{"jazz pizz."}^\markup{\italic "swing eighth notes"} bes8) g bes c (d) f r8 g8~|g8 a8 (bes) aes (a) g4 d8 (ees8) c ees8 f8 (g8) bes8 r8 c8\accent~|
     \break
     c4 \tuplet 3/2 {g8 bes ees} f4\staccato r8 
     \clef tenor
@@ -194,8 +200,34 @@
     \break
     a4 f'8 (ees8) g (a)~a8 ees (d8) c8 (bes8) a\staccato bes4.\accent fis8 
     g1 \bar "|."
-
     }
+
+theChordsfive = \chordmode {
+  \once \omit r8 g1:m7 g1:m7 c:m7 f:7
+  bes:maj7 bes:maj7 bes:m7 ees:7
+  aes:maj7 g:6 c:m7 f:7
+  bes:maj7 bes:maj7 a:m7.5- d:7
+  g:m7
+
+}
+
+
+\bookpart {
+  \header {
+   piece = \markup { \fontsize #2 "Etude 5" }
+   opus = \markup { \italic "\"Jazz\"" }
+  }
+
+
+
+\score {
+  <<
+    \new ChordNames {
+      %\set chordChanges = ##t
+      \theChordsfive
+    }
+    \new Staff \Notesfive
+  >>
 
   %\layout {}
   %\midi {}
