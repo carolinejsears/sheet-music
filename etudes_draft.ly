@@ -31,14 +31,19 @@
   \relative c {
   \clef bass
   \key bes \major
+  \slurDown
   \tuplet 3/2{g4 (bes d)} g8 d8 g8. d16| g8. d16 bes4~bes4 c8. bes16 | 
+  \slurUp
   \tuplet 3/2{ees4 (g c)} bes8 c8 d8. c16| f4. ees8 f4. \clef tenor a8 |
   \break
    bes8. a16 g8. f16 ees4. g8 | a8. g16 f8. ees16 d2 |
    g8. aes16 g8. f16 des8\staccato bes\staccato des4 | g8. f16 ees8. des16 ees4\tenuto bes\tenuto |
    \break
    \tuplet 3/2{aes4 (c ees)} f8\staccato c8\staccato f4 | \clef bass \tuplet 3/2{g,4 (b d)} e2 |
-   ees8. d16\staccato
+   ees8. d16\staccato c8\staccato bes\staccato g16 (bes16 d8) c4 | f8. ees16 f8\staccato g\staccato f16 (ees16) c8 d8 a8 |
+   \break
+   bes2 \tuplet 3/2{bes4 (d c)} | c4. a8 \tuplet 3/2{bes4 (g f)} d4. c8d8 ees16 f16 g8 a16 ais16 |
+   bes2\fermata \bar "|."
 
 
   }
