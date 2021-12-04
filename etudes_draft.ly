@@ -174,7 +174,7 @@ Notesfour = \relative c' {
 \bookpart {
   \header {
    piece = \markup { \fontsize #2 "Etude 4" }
-   opus = \markup { \italic "\"Jazzing it up\"" }
+   opus = \markup { \italic "(Swing eighth notes)" }
   }
 \score {
   <<
@@ -232,7 +232,7 @@ theChordsfive = \chordmode {
 \bookpart {
   \header {
    piece = \markup { \fontsize #2 "Etude 5" }
-   opus = \markup { \italic "\"Jazz\"" }
+   opus = \markup { \italic "(Swing eighth notes)" }
   }
 
 
