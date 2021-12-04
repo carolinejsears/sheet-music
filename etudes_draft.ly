@@ -63,8 +63,8 @@ theChords = \chordmode {
     c2\> \tuplet 3/2{bes4 (g f\!\pp)} |d2 f8.\< g16 a8. f16 | bes1\!\mp\fermata \bar "|."
   }
 
-  \layout {}
-  \midi {}
+  %\layout {}
+  %\midi {}
 }
 }
 
@@ -83,26 +83,26 @@ theChords = \chordmode {
   \tempo "Andante" 4 = 75
   \numericTimeSignature \time 4/4
   \slurDown
-  \tuplet 3/2{g4^\markup{"arco"} (bes d)} g8 d8 g8. d16| g8. d16 bes4~bes4 c8. bes16 | 
+  \tuplet 3/2{g4\p^\markup{"arco"} (bes \once \stemUp d)} g8\staccato d8\staccato g8. d16| g8. d16 bes4~bes4 c8. bes16 | 
   \slurUp
-  \tuplet 3/2{ees4 (g c)} bes8 c8 d8. c16|
+  \tuplet 3/2{ees4\< (g c)} bes8\staccato c8\staccato d8.\!\mf c16|
   \break
    f4. ees8 f4. \clef tenor a8 |
-   bes8. a16 g8. f16 ees4. g8 | a8. g16 f8. ees16 d2 |
+   bes8.\tenuto a16\accent g8.\tenuto f16\accent ees4. g8 | a8.\tenuto g16\accent f8.\tenuto ees16\accent d2 |
    \break
-   g8. aes16 g8. f16 des8\staccato bes\staccato des4 | g8. f16 ees8. des16 ees4\tenuto bes\tenuto |
+   g8. aes16 g8. f16 des8\staccato bes\staccato des4 | g8.\> f16 ees8. des16 ees4\tenuto bes\tenuto\!\p |
    
    \tuplet 3/2{aes4 (c ees)} f8\staccato c8\staccato f4 |
    \break
-    \clef bass \tuplet 3/2{g,4 (b d)} e2 |
-   ees8. d16\staccato c8\staccato bes\staccato g16 (bes16 d8) c4 | f8. ees16 f8\staccato g\staccato f16 (ees16) c8 d8 a8 |
+   \tuplet 3/2{g,4\< (b d)} e2\!\mf |
+   ees8. d16\staccato c8\staccato bes\staccato g16 (bes16 d8) c4 | f8. ees16 f8\staccato g\>\staccato f16 (ees16) c8 d8 a8\!\p |
    \break
-   bes2 \tuplet 3/2{bes4 (d c)} | c4. a8 \tuplet 3/2{bes4 (g f)} d4. c8d8 ees16 f16 g8 a16 ais16 |
-   bes2\fermata \bar "|."
+   \clef bass bes2 \tuplet 3/2{bes4 (d c)} | c4.\> a8 \tuplet 3/2{bes4 (g f\!\pp)} d4. c8\< d8 ees16 (f16) g8 a16 (ais16) |
+   bes2\!\mp\fermata \bar "|."
   }
 
-  %\layout {}
-  %\midi {}
+  \layout {}
+  \midi {}
 }
 }
 
@@ -113,7 +113,7 @@ Notesthree = \relative c {
   \key bes \major
   \numericTimeSignature \time 4/4
   \tempo "Medium Easy" 4 = 100
-  bes2^\markup{"arco"} g8 bes8~bes4 | d4\staccato bes8 g'8~g2 | ees2 c8 ees8~ees4 |
+  bes2\mp^\markup{"arco"} g8 bes8~bes4 | d4\staccato bes8 g'8~g2 | ees2 c8 ees8~ees4 |
   \break
   f8 g8 c8 f,8 f'4 \clef tenor g8 a8 |
   bes4\tenuto a8 g8 f8 ees8~ees4 | a4\tenuto g8 f8 ees8 d8~d4 | 
