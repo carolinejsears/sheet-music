@@ -99,8 +99,6 @@ theChords = \chordmode {
    \break
    bes2 \tuplet 3/2{bes4 (d c)} | c4. a8 \tuplet 3/2{bes4 (g f)} d4. c8d8 ees16 f16 g8 a16 ais16 |
    bes2\fermata \bar "|."
-
-
   }
 
   %\layout {}
@@ -108,7 +106,7 @@ theChords = \chordmode {
 }
 }
 
-
+%____________________Etude 3_________________
 Notesthree = \relative c {
   %Etude 3
   \clef bass
@@ -129,11 +127,8 @@ Notesthree = \relative c {
   bes2~bes4 g8^\markup{"pizz."} f8 | d4\staccato f\staccato  d4\staccato r4 | a4\staccato ees'\staccato c\staccato  r4 |
   d8 a8 d8 ees8 f4 fis4 |
   g1\fermata \bar "|."
-
-
   }
 
-%____________________Etude 3_________________
 
 \bookpart {
   \header {
@@ -155,7 +150,7 @@ Notesthree = \relative c {
 }
 
 
-
+%_____________________Etude 4_____________________________
 Notesfour = \relative c' {
   %Etude 4
   \clef bass
@@ -177,8 +172,6 @@ Notesfour = \relative c' {
    \break
    a4\staccato ees'\staccato c4\staccato c8 d8~| d2 \tuplet 3/2{r8 d8 ees8} \tuplet 3/2{e8 f fis} |
    g1 \bar "|."
-   
-
     }
 
 \bookpart {
@@ -201,7 +194,7 @@ Notesfour = \relative c' {
 }
 }
 
-
+%_____________________Etude 5____________________________
 
 Notesfive =  \relative c {
   %Etude 5
@@ -235,7 +228,6 @@ theChordsfive = \chordmode {
   aes:maj7 g:6 c:m7 f:7
   bes:maj7 bes:maj7 a:m7.5- d:7
   g:m7
-
 }
 
 
@@ -244,9 +236,6 @@ theChordsfive = \chordmode {
    piece = \markup { \fontsize #2 "Etude 5" }
    opus = \markup { \italic "(Swing eighth notes)" }
   }
-
-
-
 \score {
   <<
     \new ChordNames {
