@@ -45,7 +45,7 @@ theChords = \chordmode {
   \tempo "Andante" 4 = 75
   \numericTimeSignature \time 4/4
   \slurDown
-    \tuplet 3/2{g,4^\markup{"arco"}\p (bes \once \stemUp d)} g8\staccato d8\staccato g4 | \tuplet 3/2{g,4\< (bes \once \stemUp d)} g8\staccato d8\staccato bes'4\!\mf |
+    \tuplet 3/2{g,4^\markup{\italic "arco"}\p (bes \once \stemUp d)} g8\staccato d8\staccato g4 | \tuplet 3/2{g,4\< (bes \once \stemUp d)} g8\staccato d8\staccato bes'4\!\mf |
     \slurUp
     \tuplet 3/2{d,4 (g bes)} d8\staccato bes\staccato d\staccato \clef tenor  g\staccato |
     \break
@@ -83,7 +83,7 @@ theChords = \chordmode {
   \tempo "Andante" 4 = 75
   \numericTimeSignature \time 4/4
   \slurDown
-  \tuplet 3/2{g4\p^\markup{"arco"} (bes \once \stemUp d)} g8\staccato d8\staccato g8. d16| g8. d16 bes4~bes4 c8. bes16 | 
+  \tuplet 3/2{g4\p^\markup{\italic "arco"} (bes \once \stemUp d)} g8\staccato d8\staccato g8. d16| g8. d16 bes4~bes4 c8. bes16 | 
   \slurUp
   \tuplet 3/2{ees4\< (g c)} bes8\staccato c8\staccato d8.\!\mf c16|
   \break
@@ -113,7 +113,10 @@ Notesthree = \relative c {
   \key bes \major
   \numericTimeSignature \time 4/4
   \tempo "Medium Easy" 4 = 100
-  bes2\mp^\markup{"arco"} g8 bes8~bes4 | d4\staccato bes8\tenuto g'8\accent~g2 | ees2 c8\< ees8~ees4 |
+  bes2\mp^\markup{\italic "arco"}
+  \once \override Score.FootnoteItem.annotation-line = ##f
+    \footnote \markup \tiny "*" #'(-0.25 . 6)
+      \markup { \super "*" \fontsize #-1 \italic "Jazz etudes often include written chord symbols outlining the harmony of the piece" } g8 bes8~bes4 | d4\staccato bes8\tenuto g'8\accent~g2 | ees2 c8\< ees8~ees4 |
   \break
   f8 g8 c8 f,8 f'4 \clef tenor g8 a8 |
   bes4\tenuto\!\f a8 g8 f8 ees8~ees4 | a4\tenuto g8 f8 ees8 d8~d4 | 
@@ -124,7 +127,7 @@ Notesthree = \relative c {
    \clef bass d2\!\mp~d4 e8\tenuto g,8 |
   ees'4\accent f8 bes,8 c8 bes8 g8 ges8 | f4 g8 (f8) d'8\> (bes) aes (a) |
   \break
-  bes2\!\p~bes4 g8^\markup{"pizz."} f8 | d4\staccato f\staccato  d4\staccato r4 | a4\staccato ees'\staccato c\staccato  r4 |
+  bes2\!\p~bes4 g8^\markup{\italic "pizz."} f8 | d4\staccato f\staccato  d4\staccato r4 | a4\staccato ees'\staccato c\staccato  r4 |
   d8\< a8 d8 ees8 f4\staccato fis4\staccato |
   g1\!\mf\fermata \bar "|."
   }
@@ -159,8 +162,9 @@ Notesfour = \relative c' {
    \numericTimeSignature \time 4/4
   bes,8
   \once \override Score.FootnoteItem.annotation-line = ##f
-    b-\footnote \markup \tiny "*" #'(0.25 . -0.01)
-      \markup { \super "*" \italic " Editorial" } \mf^\markup{"jazz pizz."} g8 bes8 d8 f4 d8 g~|g4 d8 g8~g2 | ees8 c8 ees g8 bes4 g8 c8~|
+    \footnote \markup \tiny "*" #'(0.25 . 0)
+      \markup { \super "*" \fontsize #-1 \italic "Dynamics are not usually specified in jazz etudes, starting dynamic provided for reference" } \mf^\markup{\italic "jazz pizz."} 
+  g8 bes8 d8 f4 d8 g~|g4 d8 g8~g2 | ees8 c8 ees g8 bes4 g8 c8~|
   \break
    c4 bes8 f'8~f4. \clef tenor bes8~|
   bes8 a8 g f ees d8~d8 a'8~|a8 g8 f8 ees8 f8 d8~d4 |
@@ -205,7 +209,7 @@ Notesfive =  \relative c {
   \key bes \major
   \numericTimeSignature \time 4/4
   \tempo "Medium-Up Swing" 4 = 140
-    \partial 8 (a8\mf^\markup{"jazz pizz."} bes8) g bes c (\once \stemUp d) \once \stemUp f r8 g8~|g8 a8 (bes) aes (a) g4 d8 (ees8) c ees8 f8 (g8) bes8 r8 c8\accent~|
+    \partial 8 (a8\mf^\markup{\italic "jazz pizz."} bes8) g bes c (\once \stemUp d) \once \stemUp f r8 g8~|g8 a8 (bes) aes (a) g4 d8 (ees8) c ees8 f8 (g8) bes8 r8 c8\accent~|
     \break
     c4 \tuplet 3/2 {g8 bes ees} f4\staccato r8 
     \clef tenor
