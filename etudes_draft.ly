@@ -163,7 +163,7 @@ Notesfour = \relative c' {
   bes,8
   \once \override Score.FootnoteItem.annotation-line = ##f
     \footnote \markup \tiny "*" #'(0.25 . 0)
-      \markup { \super "*" \fontsize #-1 \italic "Dynamics are not usually specified in jazz etudes, starting dynamic provided for reference" } \mf^\markup{\italic "jazz pizz."} 
+      \markup { \super "*" \fontsize #-1 \italic "Starting dynamic is a suggestion, dynamics are not often included in jazz etudes" } \mf^\markup{\italic "jazz pizz."} 
   g8 bes8 d8 f4\staccato d8\tenuto g\accent~|g4 d8\tenuto g8\accent~g2 | ees8 c8 ees g8 bes4\staccato g8\tenuto c8\accent~|
   \break
    c4 bes8\tenuto f'8\accent~f4. \clef tenor bes8~|
