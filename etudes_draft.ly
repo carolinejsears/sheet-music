@@ -116,7 +116,7 @@ Notesthree = \relative c {
   bes2\mp^\markup{\italic "arco"}
   \once \override Score.FootnoteItem.annotation-line = ##f
     \footnote \markup \tiny "*" #'(-0.25 . 6)
-      \markup { \super "*" \fontsize #-1 \italic "Jazz etudes often include written chord symbols outlining the harmony of the piece" } g8 bes8~bes4 | d4\staccato bes8\tenuto g'8\accent~g2 | ees2 c8\< ees8~ees4 |
+      \markup { \super "*" \fontsize #-2 \italic "Jazz etudes often include written chord symbols outlining the harmony of the piece" } g8 bes8~bes4 | d4\staccato bes8\tenuto g'8\accent~g2 | ees2 c8\< ees8~ees4 |
   \break
   f8 g8 c8 f,8 f'4 \clef tenor g8 a8 |
   bes4\tenuto\!\f a8 g8 f8 ees8~ees4 | a4\tenuto g8 f8 ees8 d8~d4 | 
@@ -163,7 +163,7 @@ Notesfour = \relative c' {
   bes,8
   \once \override Score.FootnoteItem.annotation-line = ##f
     \footnote \markup \tiny "*" #'(0.25 . 0)
-      \markup { \super "*" \fontsize #-1 \italic "Starting dynamic is a suggestion, dynamics are not often included in jazz etudes" } \mf^\markup{\italic "jazz pizz."} 
+      \markup { \super "*" \fontsize #-2 \italic "Starting dynamic is a suggestion, dynamics are not often included in jazz etudes" } \mf^\markup{\italic "jazz pizz."} 
   g8 bes8 d8 f4\staccato d8\tenuto g\accent~|g4 d8\tenuto g8\accent~g2 | ees8 c8 ees g8 bes4\staccato g8\tenuto c8\accent~|
   \break
    c4 bes8\tenuto f'8\accent~f4. \clef tenor bes8~|
