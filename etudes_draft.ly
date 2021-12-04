@@ -131,15 +131,19 @@
   %Etude 4
   \clef bass
   \key bes \major
-  bes,8 g8 bes8 d8 f4 d8 g~|g4 d8 g8~g2 | ees8 c8 ees g8 bes4 g8 c8~| c4 bes8 f'8~f4. \clef tenor bes8~|
+  bes,8 g8 bes8 d8 f4 d8 g~|g4 d8 g8~g2 | ees8 c8 ees g8 bes4 g8 c8~|
   \break
+   c4 bes8 f'8~f4. \clef tenor bes8~|
   bes8 a8 g f ees d8~d8 a'8~|a8 g8 f8 ees8 f8 d8~d4 |
+  \break
    des4\staccato des4\staccato bes8\tenuto bes8\accent r4 | g'4\staccato g4\tenuto ees8\tenuto ees\accent r8 aes8~|
+   aes4 \tuplet 3/2{g8 f ees} des8\tenuto des8\staccato r4 |
    \break
-   aes4 \tuplet 3/2{g8 f ees} des8\tenuto des8\staccato r4 | g4 \tuplet 3/2{d8 bes d} e2 |
+  g4 \tuplet 3/2{d8 bes d} e2 |
    \clef bass ees4\staccato bes8\staccato d8 (c4) r4 | a8 f8 a8 c8 (d4) d8 bes~ |
    \break
    bes2~bes4 \tuplet 3/2{a8 g8 f8} |d4\staccato f4\staccato d4\staccato \tuplet 3/2{c8 b bes} |
+   \break
    a4\staccato ees'\staccato c4\staccato c8 d8~| d2 \tuplet 3/2{r8 d8 ees8} \tuplet 3/2{e8 f fis} |
    g1 \bar "|."
    
