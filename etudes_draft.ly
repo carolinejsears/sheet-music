@@ -41,7 +41,7 @@
     ees8.\tenuto d16\staccato c8.\tenuto bes16\staccato c8 aes8 g4 |
     \tuplet 3/2{aes4 (c ees)} f8\staccato c\staccato f4|
     \break
-    \tuplet 3/2{g,4 (b d)} e2 | ees8.? d16\staccato c8. bes16\staccato f8\staccato g\staccato c4 |
+    \tuplet 3/2{g,4 (b d)} e2 | ees?8. d16\staccato c8. bes16\staccato f8\staccato g\staccato c4 |
     f,8. g16 f8. c'16 \tuplet 3/2{a4 (f g)} | 
     \break
     \clef bass bes2 \tuplet 3/2{bes4 (d c)} |
