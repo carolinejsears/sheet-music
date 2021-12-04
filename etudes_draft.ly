@@ -5,6 +5,7 @@
 
 \score {
   \relative c' {
+  %Notes for Etude 1
   \clef bass
   \key bes \major
   \slurDown
@@ -29,6 +30,7 @@
 
 \score {
   \relative c {
+  %Etude 2
   \clef bass
   \key bes \major
   \slurDown
@@ -52,9 +54,35 @@
   \midi {}
 }
 
+\score {
+  \relative c {
+  %Etude 4
+  \clef bass
+  \key bes \major
+  bes2 g8 bes8~bes4 | d4\staccato bes8 g'8~g2 | ees2 c8 ees8~ees4 | f8 g8 c8 f,8 f'4 \clef tenor g8 a8 |
+  \break
+  bes4\tenuto a8 g8 f8 ees8~ees4 | a4\tenuto g8 f8 ees8 d8~d4 | 
+  des4\staccato des4\staccato bes2 | ees4\staccato ees4\staccato des4  ees4 |
+  \break
+  aes2~aes4 \tuplet 3/2 {g8 (f8 ees)} | \clef bass d2~d4 e8 g,8 |
+  ees'4 f8 bes,8 c8 bes8 g8 ges8 | f4 g8 (f8) d'8 (bes) aes (a) |
+  \break
+  bes2~bes4 g8 f8 | d4\staccato f\staccato  d4\staccato r4 | a4\staccato ees\staccato c\staccato  r4 |
+  d8 a8 d8 ees8 f4 fis4 |
+  g1\fermata \bar "|."
+
+
+  }
+
+  \layout {}
+  \midi {}
+}
+
+
 
 \score {
   \relative c' {
+  %Etude 4
   \clef bass
   \key bes \major
   bes,8 g8 bes8 d8 f4 d8 g~|g4 d8 g8~g2 | ees8 c8 ees g8 bes4 g8 c8~| c4 bes8 f'8~f4. \clef tenor bes8~|
@@ -78,6 +106,7 @@
 
 \score {
   \relative c {
+  %Etude 5
   \clef bass
   \key bes \major
     \partial 8 (a8 bes8) g bes c (d) f r8 g8~|g8 a8 (bes) aes (a) g4 d8 (ees8) c ees8 f8 (g8) bes8 r8 c8\accent~|
@@ -92,10 +121,10 @@
     g'4 \tuplet 3/2 {fis8 (e) d} e8 g8 a8 b8 | c4\staccato d8\tenuto c8\accent ees8 (d8) c8 (bes8) |
     \break
     a8 f8 a8 c8 (d4) a8 bes8~| bes4 \tuplet 3/2{bes8 a8 g8} f4 \tuplet 3/2{f8 e ees} |
-    d4 d8 bes8 d4 \tuplet 3/2{d8 c8 bes8} | a4 f'8 (ees8) g (a)~a8 ees (d8) c8 (bes8) a\staccato bes4.\accent fis8 
+    d4 d8 bes8 d4 \tuplet 3/2{d8 c8 bes8} |
+    \break
+    a4 f'8 (ees8) g (a)~a8 ees (d8) c8 (bes8) a\staccato bes4.\accent fis8 
     g1 \bar "|."
-
-
 
     }
 
