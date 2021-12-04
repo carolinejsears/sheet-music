@@ -202,7 +202,7 @@ Notesfive =  \relative c {
   \key bes \major
   \numericTimeSignature \time 4/4
   \tempo "Medium-Up Swing" 4 = 140
-    \partial 8 (a8\mf^\markup{"jazz pizz."} bes8) g bes c (d) f r8 g8~|g8 a8 (bes) aes (a) g4 d8 (ees8) c ees8 f8 (g8) bes8 r8 c8\accent~|
+    \partial 8 (a8\mf^\markup{"jazz pizz."} bes8) g bes c (\once \stemUp d) \once \stemUp f r8 g8~|g8 a8 (bes) aes (a) g4 d8 (ees8) c ees8 f8 (g8) bes8 r8 c8\accent~|
     \break
     c4 \tuplet 3/2 {g8 bes ees} f4\staccato r8 
     \clef tenor
