@@ -30,22 +30,22 @@
   \tempo "Andante" 4 = 75
   \numericTimeSignature \time 4/4
   \slurDown
-    \tuplet 3/2{g,4\p (bes \once \stemUp d)} g8\staccato d8\staccato g4 | \tuplet 3/2{g,4\< (bes \once \stemUp d)} g8\staccato d8\staccato bes'4\!\mf |
+    \tuplet 3/2{g,4^\markup{"arco"}\p (bes \once \stemUp d)} g8\staccato d8\staccato g4 | \tuplet 3/2{g,4\< (bes \once \stemUp d)} g8\staccato d8\staccato bes'4\!\mf |
     \slurUp
     \tuplet 3/2{d,4 (g bes)} d8\staccato bes\staccato d\staccato \clef tenor  g\staccato |
     \break
     f4. ees8 f4. a8|
     bes4.\tenuto f8 (ees d8~d8) a'8 | bes4.\tenuto f8 (ees8 d8~d4) | 
     \break
-    ees8.\tenuto d16\staccato c8.\tenuto bes16\staccato bes'8\staccato a\staccato g4 |
-    ees8.\tenuto d16\staccato c8.\tenuto bes16\staccato c8 aes8 g4 |
+    ees8.\tenuto d16\staccato c8.\tenuto bes16\staccato bes8\staccato a\staccato g4 |
+    ees'8.\>\tenuto d16\staccato c8.\tenuto bes16\staccato c8 aes8 g4\!\p |
     \tuplet 3/2{aes4 (c ees)} f8\staccato c\staccato f4|
     \break
-    \tuplet 3/2{g,4 (b d)} e2 | ees?8. d16\staccato c8. bes16\staccato f8\staccato g\staccato c4 |
-    f,8. g16 f8. c'16 \tuplet 3/2{a4 (f g)} | 
+    \tuplet 3/2{g,4\< (b d)} e2\!\mf | ees?8.\tenuto d16\staccato c8.\tenuto bes16\staccato a8\staccato g\staccato c4 |
+    f,8. g16 f8. c'16 a8\staccato\> g8\staccato f4\!\p | 
     \break
     \clef bass bes2 \tuplet 3/2{bes4 (d c)} |
-    c2 \tuplet 3/2{bes4 (g f)} |d2 f8. g16 a8. f16 | bes1\fermata \bar "|."
+    c2\> \tuplet 3/2{bes4 (g f\!\pp)} |d2 f8.\< g16 a8. f16 | bes1\!\mp\fermata \bar "|."
   }
 
   \layout {}
@@ -63,6 +63,7 @@
   %Etude 2
   \clef bass
   \key bes \major
+  \tempo "Andante" 4 = 75
   \numericTimeSignature \time 4/4
   \slurDown
   \tuplet 3/2{g4 (bes d)} g8 d8 g8. d16| g8. d16 bes4~bes4 c8. bes16 | 
@@ -101,7 +102,8 @@
   \clef bass
   \key bes \major
   \numericTimeSignature \time 4/4
-  bes2 g8 bes8~bes4 | d4\staccato bes8 g'8~g2 | ees2 c8 ees8~ees4 |
+  \tempo "Easy Medium" 4 = 100
+  bes2^\markup{\italic "swing eighth notes"} g8 bes8~bes4 | d4\staccato bes8 g'8~g2 | ees2 c8 ees8~ees4 |
   \break
   f8 g8 c8 f,8 f'4 \clef tenor g8 a8 |
   bes4\tenuto a8 g8 f8 ees8~ees4 | a4\tenuto g8 f8 ees8 d8~d4 | 
@@ -135,9 +137,9 @@
   %Etude 4
   \clef bass
   \key bes \major
-  \tempo "Andante" 4 = 80
+  \tempo "Medium Fast" 4 = 120
    \numericTimeSignature \time 4/4
-  bes,8 g8 bes8 d8 f4 d8 g~|g4 d8 g8~g2 | ees8 c8 ees g8 bes4 g8 c8~|
+  bes,8^\markup{\italic "swing eighth notes"} g8 bes8 d8 f4 d8 g~|g4 d8 g8~g2 | ees8 c8 ees g8 bes4 g8 c8~|
   \break
    c4 bes8 f'8~f4. \clef tenor bes8~|
   bes8 a8 g f ees d8~d8 a'8~|a8 g8 f8 ees8 f8 d8~d4 |
@@ -173,7 +175,8 @@
   \clef bass
   \key bes \major
   \numericTimeSignature \time 4/4
-    \partial 8 (a8 bes8) g bes c (d) f r8 g8~|g8 a8 (bes) aes (a) g4 d8 (ees8) c ees8 f8 (g8) bes8 r8 c8\accent~|
+  \tempo "Medium-Up Swing" 4 = 140
+    \partial 8 (a8^\markup{\italic "swing eighth notes"} bes8) g bes c (d) f r8 g8~|g8 a8 (bes) aes (a) g4 d8 (ees8) c ees8 f8 (g8) bes8 r8 c8\accent~|
     \break
     c4 \tuplet 3/2 {g8 bes ees} f4\staccato r8 
     \clef tenor
