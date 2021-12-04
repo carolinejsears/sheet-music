@@ -92,7 +92,8 @@
     g'4 \tuplet 3/2 {fis8 (e) d} e8 g8 a8 b8 | c4\staccato d8\tenuto c8\accent ees8 (d8) c8 (bes8) |
     \break
     a8 f8 a8 c8 (d4) a8 bes8~| bes4 \tuplet 3/2{bes8 a8 g8} f4 \tuplet 3/2{f8 e ees} |
-    d
+    d4 d8 bes8 d4 \tuplet 3/2{d8 c8 bes8} | a4 f'8 (ees8) g (a)~a8 ees (d8) c8 (bes8) a\staccato bes4.\accent fis8 
+    g1 \bar "|."
 
 
 
