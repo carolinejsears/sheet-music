@@ -147,8 +147,8 @@ Notesthree = \relative c {
     \new Staff \Notesthree
   >>
 
-  \layout {}
-  \midi {}
+  %\layout {}
+  %\midi {}
 }
 }
 
@@ -164,9 +164,9 @@ Notesfour = \relative c' {
   \once \override Score.FootnoteItem.annotation-line = ##f
     \footnote \markup \tiny "*" #'(0.25 . 0)
       \markup { \super "*" \fontsize #-1 \italic "Dynamics are not usually specified in jazz etudes, starting dynamic provided for reference" } \mf^\markup{\italic "jazz pizz."} 
-  g8 bes8 d8 f4 d8 g~|g4 d8 g8~g2 | ees8 c8 ees g8 bes4 g8 c8~|
+  g8 bes8 d8 f4\staccato d8\tenuto g\accent~|g4 d8\tenuto g8\accent~g2 | ees8 c8 ees g8 bes4\staccato g8\tenuto c8\accent~|
   \break
-   c4 bes8 f'8~f4. \clef tenor bes8~|
+   c4 bes8\tenuto f'8\accent~f4. \clef tenor bes8~|
   bes8 a8 g f ees d8~d8 a'8~|a8 g8 f8 ees8 f8 d8~d4 |
   \break
    des4\staccato des4\staccato bes8\tenuto bes8\accent r4 | g'4\staccato g4\tenuto ees8\tenuto ees\accent r8 aes8~|
@@ -189,7 +189,7 @@ Notesfour = \relative c' {
 \score {
   <<
     \new ChordNames {
-      %\set chordChanges = ##t
+      \set chordChanges = ##t
       \theChords
     }
     \new Staff \Notesfour
@@ -223,9 +223,9 @@ Notesfive =  \relative c {
     a8 f8 a8 c8 (d4) a8 bes8~|
     \break
     bes4 \tuplet 3/2{bes8 a8 g8} f4 \tuplet 3/2{f8 e ees} |
-    d4 d8 bes8 d4 \tuplet 3/2{d8 c8 bes8} |
+    d4\staccato d8\accent bes8 d4\staccato \tuplet 3/2{d8 c8 bes8} |
     \break
-    a4 f'8 (ees8) g (a)~a8 ees (d8) c8 (bes8) a\staccato bes4.\accent fis8 
+    a4 f'8 (ees8) g (a4) ees8 (d8) c8 (bes8) a\staccato bes4.\accent fis8 
     g1 \bar "|."
     }
 
@@ -246,13 +246,13 @@ theChordsfive = \chordmode {
 \score {
   <<
     \new ChordNames {
-      %\set chordChanges = ##t
+      \set chordChanges = ##t
       \theChordsfive
     }
     \new Staff \Notesfive
   >>
 
-  %\layout {}
-  %\midi {}
+  \layout {}
+  \midi {}
 }
 }
