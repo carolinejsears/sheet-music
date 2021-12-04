@@ -168,12 +168,14 @@
     \clef tenor
     a8
     (bes8) a8 (g8) f8 (ees) d8\staccato r8 a'\staccato | r8 g \tuplet 3/2{e8 (ees8) dis} d8\tenuto c8\accent r4 |
+    \break
     \clef bass des8\tenuto des8\accent r4  c8\tenuto c8\accent r4 | 
-    \break
     bes8\tenuto bes8\accent r4 g4\staccato r8 aes8~| aes4 \tuplet 3/2 {g8 f8 ees} c8\tenuto c8\staccato r4 |
-    g'4 \tuplet 3/2 {fis8 (e) d} e8 g8 a8 b8 | c4\staccato d8\tenuto c8\accent ees8 (d8) c8 (bes8) |
     \break
-    a8 f8 a8 c8 (d4) a8 bes8~| bes4 \tuplet 3/2{bes8 a8 g8} f4 \tuplet 3/2{f8 e ees} |
+    g'4 \tuplet 3/2 {fis8 (e) d} e8 g8 a8 b8 | c4\staccato d8\tenuto c8\accent ees8 (d8) c8 (bes8) |
+    a8 f8 a8 c8 (d4) a8 bes8~|
+    \break
+    bes4 \tuplet 3/2{bes8 a8 g8} f4 \tuplet 3/2{f8 e ees} |
     d4 d8 bes8 d4 \tuplet 3/2{d8 c8 bes8} |
     \break
     a4 f'8 (ees8) g (a)~a8 ees (d8) c8 (bes8) a\staccato bes4.\accent fis8 
