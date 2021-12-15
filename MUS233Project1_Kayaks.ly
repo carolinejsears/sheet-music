@@ -29,10 +29,11 @@
       \key bes \major
       \tempo "Largo" 4. = 50
       %bars1-8
-       r4.^\markup "no vibrato" bes4.\downbow\once \override Score.FootnoteItem.annotation-line = ##f
+       r4.^\markup "no vibrato"
+       \once \override Score.FootnoteItem.annotation-line = ##f
         \footnote \markup \tiny "*" #'(-5 . 1)
         \markup { \super "*" \fontsize #1 \italic "Bowings intended to be played as marked for dramatic effect" }~\pp| bes4. bes4.~| bes4. bes~| bes bes~\<^\markup "gradually add vibrato"|
-       bes4. bes4.~| bes4. bes~| bes4. bes4.~| bes bes~\!\mf |
+       bes4.\downbow bes4. bes4.~| bes4. bes~| bes4. bes4.~| bes bes~\!\mf |
        %bars 9-16
        bes4 d8\upbow bes4.\downbow^\markup{\italic{"(sempre - bowings)"}}~|bes4 d8 bes4.~|bes4 d8 bes4.~ |bes4 d8 bes4.|
        c8\downbow (bes a) g (bes a) | f4.~f4 bes8| c8. (bes16 a g) bes8. (a16 g8) | f4.~f4 bes8|
