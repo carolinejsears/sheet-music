@@ -17,7 +17,7 @@
   print-first-page-number = ##t
 }
 
- %make this composition feel like a journey
+
 \score {
 % violin code
   \new StaffGroup <<
