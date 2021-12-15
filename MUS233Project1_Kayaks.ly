@@ -31,7 +31,7 @@
       %bars1-8
        r4.^\markup "no vibrato" bes4.\downbow\once \override Score.FootnoteItem.annotation-line = ##f
         \footnote \markup \tiny "*" #'(0.25 . 0)
-        \markup { \super "*" \fontsize #2 \italic "Starting dynamic is a suggestion, dynamics are not often included in jazz etudes" }~\pp| bes4. bes4.~| bes4. bes~| bes bes~\<^\markup "gradually add vibrato"|
+        \markup { \super "*" \fontsize #1 \italic "Bowings intended to be played as marked for dramatic effect" }~\pp| bes4. bes4.~| bes4. bes~| bes bes~\<^\markup "gradually add vibrato"|
        bes4. bes4.~| bes4. bes~| bes4. bes4.~| bes bes~\!\mf |
        %bars 9-16
        bes4 d8\upbow bes4.\downbow^\markup{\italic{"(sempre - bowings)"}}~|bes4 d8 bes4.~|bes4 d8 bes4.~ |bes4 d8 bes4.|
